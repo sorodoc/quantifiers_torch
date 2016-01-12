@@ -15,10 +15,10 @@ local function train(images, images_q)
     local N = math.ceil(images:size(2) / g_params.batchsize)
     local cost = 0
     local y = torch.ones(1)
-    local input = torch.CudaTensor(g_params.batchsize, g_params.edim)
+    local input = torch.CudaTensor(g_params.batchsize, g_params.vector_size)
     local target = torch.CudaTensor(g_params.batchsize)
-    local context = torch.CudaTensor(g_params.batchsize, g_params.memsize, g_params.edim)
-    local time = torch.CudaTensor(g_params.batchsize, g_params.memsize, g_params.edim)
+    local context = torch.CudaTensor(g_params.batchsize, g_params.memsize, g_params.vector_size)
+    local time = torch.CudaTensor(g_params.batchsize, g_params.memsize, g_params.vector_size)
     for t = 1, g_params.memsize do
         time:select(2, t):fill(1)
     end
@@ -50,10 +50,10 @@ end
 local function test(images, images_q)
     local N = math.ceil(images:size(2) / g_params.batchsize)
     local cost = 0
-    local input = torch.CudaTensor(g_params.batchsize, g_params.edim)
+    local input = torch.CudaTensor(g_params.batchsize, g_params.vector_size)
     local target = torch.CudaTensor(g_params.batchsize)
-    local context = torch.CudaTensor(g_params.batchsize, g_params.memsize, g_params.edim)
-    local time = torch.CudaTensor(g_params.batchsize, g_params.memsize, g_params.edim)
+    local context = torch.CudaTensor(g_params.batchsize, g_params.memsize, g_params.vector_size)
+    local time = torch.CudaTensor(g_params.batchsize, g_params.memsize, g_params.vector_size)
     for t = 1, g_params.memsize do
         time:select(2, t):fill(1)
     end
@@ -116,7 +116,7 @@ end
 -- model params:
 local cmd = torch.CmdLine()
 cmd:option('--gpu', 1, 'GPU id to use')
-cmd:option('--edim', 16, 'internal state dimension')
+cmd:option('--edim', 16, 'output state dimension')
 cmd:option('--lindim', 16, 'linear part of the state')
 cmd:option('--init_std', 0.05, 'weight initialization std')
 cmd:option('--init_hid', 0.1, 'initial internal state value')
@@ -125,13 +125,13 @@ cmd:option('--maxgradnorm', 50, 'maximum gradient norm')
 cmd:option('--memsize', 16, 'memory size')
 cmd:option('--nhop', 1, 'number of hops')
 cmd:option('--batchsize', 5)
-cmd:option('--show', false, 'print progress')
+cmd:option('--show', true, 'print progress')
 cmd:option('--load', '', 'model file to load')
 cmd:option('--save', '', 'path to save model')
 cmd:option('--epochs', 100)
 cmd:option('--nrvectors', 16)
-cmd:option('--test', false, 'enable testing')
-cmd:option('--vector_size', 16, 'size of the vectors of the symbols')
+cmd:option('--test', true, 'enable testing')
+cmd:option('--vector_size', 15, 'size of the vectors of the symbols')
 g_params = cmd:parse(arg or {})
 
 print(g_params)
@@ -151,7 +151,7 @@ g_vectors = tds.hash()
 g_img_train, g_img_q_train = g_read_images('data/quant.train.txt', 'data/vectors.txt', g_vocab, g_ivocab, g_vectors)
 g_img_valid, g_img_q_valid = g_read_images('data/quant.valid.txt', 'data/vectors.txt', g_vocab, g_ivocab, g_vectors)
 g_img_test, g_img_q_test = g_read_images('data/quant.test.txt', 'data/vectors.txt', g_vocab, g_ivocab, g_vectors)
-g_params.nwords = #g_vocab
+g_params.nwords = 3
 print('vocabulary size ' .. #g_vocab)
 
 g_model = g_build_model(g_params)

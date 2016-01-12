@@ -35,9 +35,9 @@ local function build_memory(params, input, context)
     local probs3dim = nn.View(1, -1):setNumInputDims(1)(P)
     local MMbout = nn.MM(false, false):cuda()
     local Bout = MMbout({probs3dim, Bin})
---    local C = time
---    local D = nn.CAddTable()({C, Bout})
-    local D = Bout
+    local C = nn.LinearNB(params.vector_size, params.vector_size)(hid[0])
+    local D = nn.CAddTable()({C, Bout})
+--    local D = Bout
     if params.lindim == params.edim then
       hid[1] = D
     elseif params.lindim == 0 then
@@ -55,9 +55,8 @@ function g_build_model(params)
     local input = nn.Identity()()
     local target = nn.Identity()()
     local context = nn.Identity()()
---    local time = nn.Identity()()
     local hid = build_memory(params, input, context)
-    local z = nn.LinearNB(params.edim, params.vector_size)(hid[#hid])
+    local z = nn.LinearNB(params.vector_size, params.nwords)(hid[#hid])
     local pred = nn.LogSoftMax()(z)
     local costl = nn.ClassNLLCriterion()
     costl.sizeAverage = false
