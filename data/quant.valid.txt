@@ -1,0 +1,250 @@
+c d a a
+h d c i
+b a e null
+d f null g
+d	?	some
+i h f g
+a null e f
+h g e j
+i j i h
+i	?	some
+i f null h
+e d d g
+c j a j
+f a j i
+h	?	some
+j a g b
+g h g c
+a j d f
+c i e h
+d	?	some
+b g j j
+h a g a
+f g b h
+null g b i
+c	?	no
+a c j f
+j h i i
+g b j c
+b f j a
+g	?	some
+f i i g
+b a e i
+null f f f
+b h a j
+e	?	some
+d d j i
+j e c h
+null c f c
+null i f c
+i	?	some
+e null f g
+b i b i
+j e c b
+h b d i
+a	?	no
+d b e f
+a i c null
+null c b e
+h j b i
+e	?	some
+g a d c
+d i a e
+h h g i
+e f b d
+c	?	some
+null i i j
+j null i a
+e e i h
+d a d c
+g	?	no
+i null j f
+e a null d
+h g j null
+d f d e
+a	?	some
+g b f null
+h d b b
+f f c f
+j j j i
+c	?	some
+e c i b
+d i a g
+d b f j
+null i d b
+h	?	no
+e d j e
+null b h d
+g e a b
+f null e d
+c	?	no
+a null i j
+i b j f
+null b g j
+i a j c
+h	?	no
+c c f h
+c d null h
+f e h b
+g d f g
+h	?	some
+e b f i
+b null null j
+d j i null
+i a h g
+b	?	some
+c e c b
+h h b b
+d a i i
+i d f null
+j	?	no
+e h j d
+i e h j
+e a e null
+a h f j
+c	?	no
+null d j e
+a g j f
+b i i h
+f a a f
+c	?	no
+c g j d
+b g i e
+b null f j
+b f j i
+b	?	some
+c a c e
+j b g g
+c e b d
+g d a g
+b	?	some
+f b d c
+h b e f
+f j i i
+null null d c
+e	?	some
+c h f null
+c null d e
+j h f g
+c a b i
+f	?	some
+a a null i
+f h i c
+c j a b
+null h a a
+a	?	some
+a a g d
+b i a a
+g g i f
+g e b a
+a	?	some
+i g f null
+h h c j
+j c i a
+i f d null
+g	?	some
+e h d d
+h d f null
+a h c e
+c i g i
+a	?	some
+g e g f
+i g c h
+c h f a
+f b i f
+i	?	some
+j i c g
+e d h c
+i h j h
+h i b h
+e	?	some
+h g i null
+h a h c
+f a e b
+i g e c
+f	?	some
+b e c c
+c d f h
+i null g g
+b j f null
+d	?	some
+g d c f
+i e h g
+e b i c
+f c d d
+i	?	some
+a g a b
+null j j e
+e g c g
+j b b g
+j	?	some
+a c g b
+b null d d
+j j i a
+a a a a
+e	?	no
+e null null b
+b f g c
+h null d a
+j a b null
+i	?	no
+j a f j
+d d h j
+d d j g
+e b g null
+d	?	some
+d c h j
+d j i a
+c null a j
+d c i c
+f	?	no
+f c j f
+c null g c
+i null c null
+a e e b
+a	?	some
+null h g d
+b e f c
+d a null i
+d null a e
+c	?	some
+a b i i
+j h a b
+d e null e
+b e h g
+g	?	some
+a f b a
+c b a f
+g j b f
+a null h h
+g	?	some
+c a g i
+b g f i
+i i b null
+h b c null
+c	?	some
+e g f b
+j b d e
+h g null null
+null j i e
+e	?	some
+e null null null
+g b b null
+i g d i
+j f j d
+j	?	some
+a d j null
+c e i a
+h i a d
+g f a d
+j	?	some
+j a i b
+e j f b
+f null b j
+e c c g
+j	?	some
+a h f f
+f g e d
+e a d g
+null b null null
+d	?	some
