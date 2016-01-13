@@ -1,250 +1,2500 @@
-c d a a
-h d c i
-b a e null
-d f null g
-d	?	some
-i h f g
-a null e f
-h g e j
-i j i h
-i	?	some
-i f null h
-e d d g
-c j a j
-f a j i
-h	?	some
-j a g b
-g h g c
-a j d f
-c i e h
-d	?	some
-b g j j
-h a g a
-f g b h
-null g b i
-c	?	no
-a c j f
-j h i i
-g b j c
-b f j a
-g	?	some
-f i i g
-b a e i
-null f f f
-b h a j
-e	?	some
-d d j i
-j e c h
-null c f c
-null i f c
-i	?	some
-e null f g
-b i b i
-j e c b
-h b d i
+g	e	null	b
+d	j	b	h
+e	null	d	g
+d	f	c	c
 a	?	no
-d b e f
-a i c null
-null c b e
-h j b i
-e	?	some
-g a d c
-d i a e
-h h g i
-e f b d
-c	?	some
-null i i j
-j null i a
-e e i h
-d a d c
-g	?	no
-i null j f
-e a null d
-h g j null
-d f d e
-a	?	some
-g b f null
-h d b b
-f f c f
-j j j i
-c	?	some
-e c i b
-d i a g
-d b f j
-null i d b
-h	?	no
-e d j e
-null b h d
-g e a b
-f null e d
+g	j	d	d
+b	null	b	f
+i	e	b	f
+j	a	e	i
 c	?	no
-a null i j
-i b j f
-null b g j
-i a j c
-h	?	no
-c c f h
-c d null h
-f e h b
-g d f g
-h	?	some
-e b f i
-b null null j
-d j i null
-i a h g
-b	?	some
-c e c b
-h h b b
-d a i i
-i d f null
-j	?	no
-e h j d
-i e h j
-e a e null
-a h f j
-c	?	no
-null d j e
-a g j f
-b i i h
-f a a f
-c	?	no
-c g j d
-b g i e
-b null f j
-b f j i
-b	?	some
-c a c e
-j b g g
-c e b d
-g d a g
-b	?	some
-f b d c
-h b e f
-f j i i
-null null d c
-e	?	some
-c h f null
-c null d e
-j h f g
-c a b i
-f	?	some
-a a null i
-f h i c
-c j a b
-null h a a
-a	?	some
-a a g d
-b i a a
-g g i f
-g e b a
-a	?	some
-i g f null
-h h c j
-j c i a
-i f d null
-g	?	some
-e h d d
-h d f null
-a h c e
-c i g i
-a	?	some
-g e g f
-i g c h
-c h f a
-f b i f
-i	?	some
-j i c g
-e d h c
-i h j h
-h i b h
-e	?	some
-h g i null
-h a h c
-f a e b
-i g e c
-f	?	some
-b e c c
-c d f h
-i null g g
-b j f null
-d	?	some
-g d c f
-i e h g
-e b i c
-f c d d
-i	?	some
-a g a b
-null j j e
-e g c g
-j b b g
-j	?	some
-a c g b
-b null d d
-j j i a
-a a a a
-e	?	no
-e null null b
-b f g c
-h null d a
-j a b null
-i	?	no
-j a f j
-d d h j
-d d j g
-e b g null
-d	?	some
-d c h j
-d j i a
-c null a j
-d c i c
+e	h	a	i
+i	j	j	j
+null	i	c	h
+a	e	b	g
 f	?	no
-f c j f
-c null g c
-i null c null
-a e e b
-a	?	some
-null h g d
-b e f c
-d a null i
-d null a e
-c	?	some
-a b i i
-j h a b
-d e null e
-b e h g
+d	i	e	a
+h	f	null	b
+c	d	d	c
+c	a	i	b
+j	?	no
+j	g	d	c
+b	h	d	f
+e	c	j	g
+d	a	a	i
+f	?	some
+g	a	h	f
+a	g	f	g
+g	b	a	null
+g	i	e	j
 g	?	some
-a f b a
-c b a f
-g j b f
-a null h h
-g	?	some
-c a g i
-b g f i
-i i b null
-h b c null
-c	?	some
-e g f b
-j b d e
-h g null null
-null j i e
-e	?	some
-e null null null
-g b b null
-i g d i
-j f j d
-j	?	some
-a d j null
-c e i a
-h i a d
-g f a d
-j	?	some
-j a i b
-e j f b
-f null b j
-e c c g
-j	?	some
-a h f f
-f g e d
-e a d g
-null b null null
+f	d	d	i
+g	a	e	c
+e	c	h	null
+d	f	c	f
+h	?	some
+h	e	h	c
+f	g	c	d
+d	e	null	d
+c	e	d	null
+a	?	no
+j	i	d	d
+f	h	i	h
+d	null	d	b
+j	g	g	e
+a	?	no
+f	i	d	a
+d	g	b	a
+a	j	a	j
+g	null	null	g
+h	?	no
+null	null	b	null
+null	b	null	null
+null	null	b	b
+b	null	null	null
+b	?	all
+c	i	h	c
+d	g	b	b
+h	f	c	c
+g	i	g	a
+e	?	no
+c	null	c	null
+null	null	null	null
+null	c	c	null
+null	c	c	c
+c	?	all
+f	f	null	null
+f	f	f	f
+null	f	f	null
+f	null	null	f
+f	?	all
+null	j	h	b
+h	a	j	c
+null	a	i	null
+d	null	d	e
 d	?	some
+i	e	j	d
+null	f	null	f
+a	f	c	d
+c	c	c	b
+i	?	some
+i	i	j	e
+c	b	g	null
+j	null	h	a
+e	e	f	e
+i	?	some
+b	e	b	c
+null	a	c	a
+j	null	a	d
+b	c	a	e
+h	?	no
+null	null	e	null
+e	e	e	e
+e	null	e	null
+null	null	null	null
+e	?	all
+b	c	j	h
+a	i	f	d
+j	f	i	f
+d	i	b	g
+e	?	no
+null	null	null	null
+null	h	h	null
+h	null	h	null
+h	h	null	h
+h	?	all
+i	null	i	i
+i	null	null	i
+null	i	i	null
+null	null	i	i
+i	?	all
+h	d	g	d
+b	a	h	h
+b	j	g	c
+d	c	i	i
+f	?	no
+null	j	j	null
+null	j	null	j
+null	j	j	null
+null	j	null	null
+j	?	all
+h	c	null	c
+e	a	f	f
+b	e	c	b
+d	j	null	g
+i	?	no
+i	j	null	null
+a	g	a	b
+a	d	a	h
+a	h	d	i
+f	?	no
+f	null	j	b
+j	e	f	d
+c	i	g	null
+null	null	g	f
+a	?	no
+null	null	e	d
+null	d	j	f
+i	c	j	d
+i	a	a	e
+a	?	some
+a	null	c	h
+i	i	a	h
+j	a	g	a
+null	i	b	i
+e	?	no
+null	e	e	null
+null	e	e	e
+null	e	null	e
+null	null	e	null
+e	?	all
+c	i	i	d
+j	g	d	g
+f	b	d	j
+a	f	e	a
+a	?	some
+f	j	j	null
+c	j	b	c
+d	h	b	c
+null	h	g	f
+h	?	some
+b	null	b	null
+b	b	b	b
+null	null	null	null
+b	b	b	null
+b	?	all
+g	e	g	j
+h	null	i	d
+h	e	a	a
+i	j	a	d
+j	?	some
+d	j	j	h
+i	null	i	b
+j	j	i	c
+i	h	b	e
+j	?	some
+null	f	null	null
+null	null	null	null
+null	f	f	f
+null	null	f	null
+f	?	all
+j	g	f	h
+d	c	null	null
+h	null	a	i
+f	d	g	h
+b	?	no
+c	c	i	g
+null	j	e	b
+i	e	f	f
+g	b	a	j
+b	?	some
+j	c	d	f
+f	h	f	b
+d	f	a	c
+c	h	null	null
+i	?	no
+f	null	null	null
+f	f	null	f
+null	null	f	null
+null	null	null	f
+f	?	all
+h	d	h	i
+c	c	j	c
+j	h	c	c
+b	a	b	a
+g	?	no
+i	null	e	null
+a	b	h	a
+a	b	j	h
+j	null	e	e
+f	?	no
+i	c	b	g
+e	h	e	e
+g	f	b	j
+f	b	d	j
+i	?	some
+a	a	null	a
+a	a	null	null
+null	a	null	null
+a	a	a	null
+a	?	all
+b	f	d	j
+b	b	e	j
+i	d	g	i
+d	d	i	h
+e	?	some
+e	d	j	f
+g	e	a	d
+f	f	a	j
+d	c	j	i
+e	?	some
+null	null	null	h
+h	h	null	null
+null	h	h	h
+null	h	null	null
+h	?	all
+i	b	g	i
+j	i	e	c
+j	d	h	b
+f	j	c	b
+a	?	no
+e	null	null	null
+null	null	null	e
+null	e	e	null
+e	null	null	null
+e	?	all
+g	h	d	j
+b	null	i	j
+d	a	null	null
+e	e	g	g
+j	?	some
+e	null	e	null
+null	e	null	null
+e	null	e	null
+null	e	null	null
+e	?	all
+f	h	h	h
+e	f	i	f
+null	d	a	j
+f	a	c	j
+h	?	some
+e	h	g	j
+b	j	b	c
+null	h	b	b
+i	c	d	h
+f	?	no
+i	b	f	j
+g	d	a	a
+f	h	i	d
+i	h	g	j
+c	?	no
+null	null	j	j
+j	j	null	null
+j	j	null	null
+j	j	null	j
+j	?	all
+i	g	e	h
+c	d	c	c
+e	a	e	j
+e	e	h	b
+e	?	some
+h	f	f	null
+f	i	null	h
+i	d	null	c
+b	f	e	g
+a	?	no
+null	d	d	null
+d	null	d	null
+null	null	d	null
+d	d	d	d
+d	?	all
+c	c	c	null
+c	c	g	c
+d	a	i	a
+i	h	c	b
+c	?	some
+b	h	b	c
+null	j	e	null
+null	g	d	a
+g	d	e	null
+i	?	no
+j	f	j	f
+a	c	f	h
+i	b	c	null
+g	g	null	j
+b	?	some
+g	null	null	null
+null	null	null	null
+null	null	null	null
+null	null	g	g
+g	?	all
+d	c	i	b
+a	f	a	d
+j	j	i	d
+a	b	i	i
+c	?	some
+null	j	j	f
+f	h	g	g
+f	null	a	g
+b	a	b	c
+i	?	no
+g	null	g	g
+null	null	null	null
+null	null	null	g
+null	null	null	g
+g	?	all
+b	g	c	b
+g	d	a	e
+a	a	null	b
+a	null	b	i
+f	?	no
+d	d	null	null
+null	d	d	null
+d	null	null	d
+null	d	d	null
+d	?	all
+null	null	null	null
+h	h	null	null
+null	h	h	null
+null	null	h	h
+h	?	all
+f	null	f	null
+null	null	f	f
+f	null	f	f
+f	null	null	null
+f	?	all
+e	c	g	g
+d	f	h	c
+null	g	null	b
+null	g	b	h
+a	?	no
+d	f	h	d
+f	a	b	c
+g	c	b	null
+g	b	i	e
+a	?	some
+b	c	h	c
+e	e	a	i
+null	j	c	e
+c	f	f	b
+d	?	no
+a	b	b	g
+b	f	b	f
+b	d	h	d
+a	null	f	g
+i	?	no
+h	i	d	i
+i	e	g	null
+f	f	h	h
+f	e	e	i
+b	?	no
+j	a	d	a
+null	c	f	f
+j	j	j	e
+d	g	h	j
+j	?	some
+null	null	null	d
+d	d	null	null
+null	d	null	d
+d	d	d	d
+d	?	all
+null	h	null	h
+h	null	h	h
+null	null	null	h
+null	null	h	null
+h	?	all
+a	a	null	null
+a	a	a	null
+null	a	null	a
+null	a	null	null
+a	?	all
+f	null	null	null
+f	null	f	f
+f	f	null	null
+null	null	null	f
+f	?	all
+g	c	b	d
+a	e	b	j
+a	h	a	c
+h	c	a	null
+f	?	no
+b	j	e	null
+j	h	b	h
+i	b	h	c
+h	j	e	d
+f	?	no
+null	null	h	h
+null	null	null	h
+h	null	null	null
+null	null	null	h
+h	?	all
+e	null	i	d
+h	e	i	e
+g	j	e	d
+d	h	g	f
+a	?	no
+f	null	null	f
+null	f	null	null
+null	f	f	f
+null	null	f	null
+f	?	all
+null	i	i	null
+null	null	i	null
+i	null	null	i
+i	null	i	i
+i	?	all
+a	c	e	b
+g	c	h	h
+null	e	e	e
+f	a	h	c
+j	?	no
+f	f	c	e
+f	null	f	d
+c	a	null	e
+c	null	null	i
+j	?	no
+d	f	f	h
+null	g	b	i
+j	j	d	c
+e	d	g	j
+a	?	no
+j	a	g	f
+b	b	h	j
+null	null	a	h
+f	c	f	d
+d	?	some
+d	j	a	h
+j	j	c	a
+b	b	j	null
+i	j	e	e
+d	?	some
+b	null	b	b
+null	null	null	null
+b	null	null	null
+b	b	null	null
+b	?	all
+f	null	g	b
+c	d	h	null
+f	b	c	f
+d	i	g	null
+a	?	no
+null	null	null	null
+j	null	null	null
+null	null	j	null
+j	null	j	null
+j	?	all
+i	null	f	null
+e	j	e	i
+h	h	h	i
+d	f	f	null
+b	?	no
+j	d	null	c
+d	i	d	b
+g	i	f	e
+g	f	e	b
+a	?	no
+h	g	e	h
+d	f	b	d
+j	c	h	f
+e	j	e	h
+g	?	some
+i	e	i	h
+h	a	b	a
+e	b	e	j
+e	null	f	null
+d	?	no
+b	a	d	d
+e	b	null	null
+j	null	g	d
+j	b	b	null
+c	?	no
+c	g	c	h
+a	e	j	a
+f	b	null	a
+a	a	b	i
+j	?	some
+c	a	i	j
+null	i	i	i
+d	b	null	null
+b	c	c	d
+j	?	some
+e	f	e	i
+d	h	b	d
+f	f	a	d
+d	h	d	null
+a	?	some
+d	a	null	b
+null	g	d	j
+a	null	f	null
+g	g	j	b
+f	?	some
+d	h	g	b
+c	a	i	null
+j	g	a	g
+i	e	h	f
+d	?	some
+f	null	null	null
+null	f	f	f
+null	null	f	null
+f	null	f	null
+f	?	all
+i	c	f	f
+a	i	e	null
+a	g	d	i
+h	e	null	a
+d	?	some
+i	g	c	g
+b	e	j	j
+j	null	h	d
+d	f	c	c
+d	?	some
+j	b	c	f
+i	null	h	h
+a	b	b	i
+f	f	d	null
+h	?	some
+null	g	i	d
+b	f	i	e
+a	null	g	b
+b	a	e	g
+a	?	some
+h	g	i	a
+c	a	e	j
+h	c	c	c
+d	c	j	b
+b	?	some
+h	b	null	c
+null	a	e	b
+i	h	f	d
+b	e	g	g
+a	?	some
+null	d	d	d
+d	null	d	null
+d	null	d	null
+null	d	d	d
+d	?	all
+a	d	null	f
+b	b	b	b
+g	null	a	i
+j	b	i	d
+j	?	some
+null	e	null	null
+e	e	e	null
+null	e	null	null
+null	e	null	null
+e	?	all
+i	i	i	null
+i	null	i	i
+i	null	i	null
+i	i	i	null
+i	?	all
+null	a	null	null
+a	a	null	a
+a	null	a	a
+null	null	a	null
+a	?	all
+null	c	c	null
+i	a	null	h
+d	null	c	j
+f	e	f	e
+b	?	no
+null	null	null	null
+i	i	null	i
+i	null	i	null
+null	null	null	null
+i	?	all
+e	a	null	h
+f	d	c	e
+c	g	c	j
+g	null	f	h
+b	?	no
+null	null	g	null
+null	null	g	null
+null	g	g	null
+null	null	null	g
+g	?	all
+h	null	h	null
+null	h	h	h
+null	null	h	h
+h	h	null	h
+h	?	all
+g	g	null	g
+g	g	null	g
+g	null	g	g
+g	g	g	g
+g	?	all
+h	null	null	h
+h	null	null	h
+null	null	null	h
+h	h	h	h
+h	?	all
+f	f	f	f
+null	null	f	f
+null	null	f	null
+f	f	null	null
+f	?	all
+a	b	e	e
+i	null	j	i
+a	g	e	a
+null	i	i	e
+e	?	some
+i	j	i	j
+g	a	j	d
+a	h	g	null
+j	j	g	j
+e	?	no
+b	i	i	e
+a	g	i	h
+b	e	j	f
+h	e	i	h
+d	?	no
+e	i	c	f
+g	h	d	c
+h	null	a	i
+c	e	f	c
+j	?	no
+b	a	d	c
+h	b	e	b
+j	d	g	g
+f	b	null	f
+c	?	some
+j	f	e	a
+b	b	d	c
+f	c	c	null
+d	e	null	null
+b	?	some
+h	c	c	f
+f	d	a	e
+null	g	d	c
+g	d	a	d
+b	?	no
+null	b	null	b
+b	null	null	null
+null	b	null	null
+null	null	b	null
+b	?	all
+e	a	c	c
+a	c	h	e
+null	j	i	null
+f	e	f	b
+i	?	some
+null	e	e	a
+a	null	j	null
+a	null	e	b
+null	b	c	g
+i	?	no
+d	null	null	null
+null	null	null	null
+d	null	d	null
+d	null	d	d
+d	?	all
+d	d	f	c
+h	d	i	null
+h	g	null	h
+d	c	i	j
+e	?	no
+null	null	f	f
+f	null	f	f
+null	null	null	f
+null	null	f	f
+f	?	all
+null	j	null	null
+j	j	null	null
+j	null	j	null
+j	null	null	null
+j	?	all
+null	null	null	e
+e	null	null	null
+null	null	e	e
+e	e	e	e
+e	?	all
+j	null	null	h
+c	i	j	f
+null	g	i	c
+f	null	d	d
+d	?	some
+null	h	e	d
+c	d	h	j
+null	h	i	i
+c	h	c	i
+a	?	no
+f	f	f	f
+f	f	null	f
+null	f	f	f
+null	null	f	f
+f	?	all
+a	d	i	a
+e	c	c	b
+d	a	h	d
+i	b	g	g
+g	?	some
+h	e	d	e
+f	f	h	i
+a	h	b	e
+c	i	e	e
+h	?	some
+null	null	f	null
+null	null	f	null
+null	null	null	null
+null	null	f	null
+f	?	all
+b	e	null	b
+null	h	i	f
+d	h	d	b
+j	e	h	h
+a	?	no
+null	null	null	d
+d	null	null	null
+null	null	null	d
+null	d	null	d
+d	?	all
+j	b	e	null
+c	c	d	b
+c	j	a	j
+h	h	c	h
+i	?	no
+null	j	null	null
+j	j	j	null
+j	j	null	j
+null	null	j	null
+j	?	all
+null	e	null	e
+null	null	null	e
+e	e	e	null
+null	null	null	null
+e	?	all
+null	null	null	null
+i	i	i	i
+null	i	null	null
+i	i	i	i
+i	?	all
+b	b	i	null
+d	null	i	b
+f	b	f	f
+b	h	null	f
+d	?	some
+g	null	g	g
+null	g	null	null
+null	g	g	g
+null	null	g	g
+g	?	all
+i	null	i	f
+f	h	g	null
+null	b	h	i
+j	f	null	h
+f	?	some
+j	i	i	c
+j	null	g	j
+a	null	f	a
+a	i	a	e
+b	?	no
+f	f	b	i
+j	j	c	null
+e	e	i	d
+e	b	e	j
+a	?	no
+c	c	c	c
+null	c	null	c
+null	c	null	null
+c	null	null	c
+c	?	all
+null	f	d	e
+h	b	i	i
+e	h	f	f
+j	b	h	c
+j	?	some
+null	i	i	i
+null	i	null	null
+i	null	i	i
+i	i	i	i
+i	?	all
+e	c	c	a
+d	i	h	d
+f	a	g	null
+j	f	a	null
+i	?	some
+null	f	null	f
+f	f	f	null
+null	null	f	null
+null	f	null	f
+f	?	all
+null	i	f	i
+f	null	c	g
+null	a	b	c
+h	c	h	h
+f	?	some
+i	null	null	i
+null	null	i	null
+null	null	i	i
+null	null	i	null
+i	?	all
+null	g	d	c
+i	b	c	i
+e	d	g	c
+e	f	b	b
+a	?	no
+h	e	e	null
+j	b	d	j
+f	i	null	g
+d	h	null	e
+c	?	no
+e	h	c	e
+a	j	b	j
+e	f	null	i
+g	a	null	i
+d	?	no
+j	i	c	f
+null	b	j	f
+g	d	d	d
+f	a	a	a
+f	?	some
+null	null	c	c
+c	null	null	c
+c	null	null	c
+c	c	c	c
+c	?	all
+h	h	h	h
+h	null	h	h
+null	h	null	null
+null	null	h	h
+h	?	all
+h	j	h	f
+g	f	f	b
+b	f	d	g
+c	a	null	f
+i	?	no
+i	f	h	i
+j	b	null	i
+b	d	a	g
+c	j	j	null
+c	?	some
+f	null	null	null
+null	f	f	null
+null	null	null	null
+null	f	f	f
+f	?	all
+a	h	f	h
+j	i	j	j
+i	a	c	i
+c	a	j	null
+d	?	no
+null	g	null	a
+a	null	e	c
+c	g	d	c
+a	e	a	a
+i	?	no
+c	c	null	null
+null	null	c	c
+null	null	null	c
+null	c	c	c
+c	?	all
+null	h	null	null
+null	h	null	null
+h	h	h	h
+null	null	h	h
+h	?	all
+null	i	e	b
+g	c	g	a
+a	h	d	d
+c	b	h	e
+d	?	some
+null	d	null	null
+null	null	d	d
+d	null	null	d
+d	null	d	null
+d	?	all
+h	b	h	c
+g	h	f	null
+f	j	g	i
+c	j	c	i
+c	?	some
+e	i	i	d
+f	d	f	c
+b	i	d	c
+d	d	e	h
+i	?	some
+c	h	a	g
+null	j	j	g
+c	a	j	e
+h	h	h	null
+i	?	no
+a	a	null	a
+null	a	null	a
+a	null	null	a
+null	null	null	null
+a	?	all
+e	c	null	f
+b	null	f	b
+i	g	a	null
+d	h	j	g
+i	?	some
+a	b	h	d
+i	i	f	b
+d	d	a	e
+null	h	j	null
+c	?	no
+j	i	null	null
+e	null	b	d
+f	j	f	f
+g	null	h	a
+d	?	some
+a	h	c	h
+i	d	j	null
+null	b	e	c
+f	h	null	j
+c	?	some
+null	g	null	null
+null	null	null	g
+null	g	null	g
+null	null	g	null
+g	?	all
+null	e	e	null
+null	null	null	null
+e	e	e	null
+e	null	e	e
+e	?	all
+j	null	i	j
+a	e	d	a
+a	d	b	null
+h	c	e	a
+g	?	no
+null	f	f	null
+f	null	null	null
+f	f	null	f
+null	f	null	f
+f	?	all
+a	a	f	g
+e	e	g	j
+c	i	g	c
+f	a	null	g
+h	?	no
+i	null	c	a
+f	i	b	j
+j	i	b	i
+a	c	d	a
+h	?	no
+f	i	i	h
+h	i	f	h
+f	b	i	b
+c	null	g	f
+e	?	no
+null	g	g	null
+null	g	g	g
+g	g	g	g
+null	null	null	g
+g	?	all
+h	null	null	h
+null	null	h	null
+null	h	null	h
+null	h	null	null
+h	?	all
+i	e	j	null
+a	null	e	null
+a	g	e	i
+d	d	d	b
+j	?	some
+null	d	h	f
+i	b	i	g
+i	null	b	i
+a	e	h	h
+h	?	some
+b	c	g	g
+b	c	d	e
+i	null	c	g
+j	i	b	null
+f	?	no
+f	f	a	g
+i	f	h	b
+d	c	j	j
+f	g	c	g
+g	?	some
+j	i	h	null
+e	j	g	f
+f	f	b	f
+j	c	a	null
+g	?	some
+null	g	c	a
+null	e	g	null
+d	g	c	h
+a	a	a	c
+e	?	some
+h	i	null	b
+null	j	j	c
+j	i	f	h
+d	null	f	h
+g	?	no
+d	h	i	null
+a	null	d	g
+d	null	g	i
+null	b	h	e
+h	?	some
+null	null	null	null
+null	null	null	null
+null	b	b	b
+b	b	b	null
+b	?	all
+f	null	f	null
+null	f	null	null
+f	null	null	null
+f	null	null	null
+f	?	all
+g	c	e	c
+c	a	c	f
+c	d	d	d
+f	f	null	e
+b	?	no
+e	i	g	d
+h	c	g	h
+e	null	f	e
+g	null	g	d
+h	?	some
+j	h	h	g
+null	null	f	f
+d	c	e	f
+g	null	a	a
+a	?	some
+i	null	i	null
+null	i	null	i
+null	null	null	null
+i	null	i	i
+i	?	all
+f	f	null	f
+null	f	null	f
+f	f	null	f
+f	f	f	f
+f	?	all
+c	null	e	d
+c	g	b	g
+j	null	j	g
+f	j	j	e
+i	?	no
+e	d	b	j
+f	j	a	i
+e	i	null	e
+d	f	i	d
+h	?	no
+e	h	d	null
+d	d	d	f
+f	c	c	h
+e	null	null	a
+i	?	no
+null	null	d	null
+null	null	d	null
+null	d	d	null
+null	null	null	null
+d	?	all
+null	null	i	i
+null	i	null	i
+null	null	null	i
+i	i	i	i
+i	?	all
+d	null	null	null
+d	null	d	d
+d	d	null	null
+null	d	null	null
+d	?	all
+i	c	e	i
+i	i	i	a
+j	a	j	f
+j	b	h	g
+b	?	some
+h	d	b	null
+b	a	d	d
+h	a	g	b
+a	c	c	g
+c	?	some
+a	c	b	null
+f	h	e	e
+d	null	e	i
+e	a	c	h
+j	?	no
+h	null	h	h
+h	h	null	null
+null	null	null	h
+h	null	h	null
+h	?	all
+null	null	null	null
+null	g	g	null
+g	null	null	null
+null	null	null	g
+g	?	all
+e	j	e	j
+i	h	i	b
+null	h	g	d
+g	b	j	d
+h	?	some
+null	j	j	null
+j	j	j	j
+null	null	j	null
+null	null	null	j
+j	?	all
+null	e	null	e
+e	e	e	e
+e	e	null	e
+null	e	e	null
+e	?	all
+i	a	i	a
+g	b	c	g
+h	j	j	d
+g	i	b	e
+g	?	some
+h	f	a	i
+h	c	c	j
+f	h	b	e
+j	d	h	f
+g	?	no
+i	null	a	g
+g	g	g	f
+i	i	j	d
+d	b	g	c
+i	?	some
+null	null	e	e
+null	e	e	null
+null	null	null	null
+null	e	e	e
+e	?	all
+null	null	a	a
+null	null	a	null
+a	null	null	null
+a	a	a	null
+a	?	all
+c	h	j	g
+f	d	j	null
+f	e	a	i
+c	f	i	j
+c	?	some
+c	a	a	h
+d	f	e	g
+i	h	f	f
+i	d	f	f
+b	?	no
+e	e	e	e
+null	null	null	e
+e	null	null	e
+e	e	e	null
+e	?	all
+f	h	d	d
+f	c	i	f
+c	null	h	g
+g	null	e	e
+b	?	no
+h	d	h	j
+i	d	h	d
+g	d	f	a
+d	d	j	null
+b	?	no
+null	null	b	null
+null	b	null	b
+null	b	null	b
+b	null	b	b
+b	?	all
+e	e	e	null
+e	e	e	e
+e	null	e	e
+null	e	e	null
+e	?	all
+a	j	b	d
+b	g	g	f
+a	null	a	e
+j	h	g	j
+j	?	some
+a	d	f	g
+j	j	null	h
+null	j	i	null
+i	h	j	b
+e	?	no
+c	j	b	d
+g	a	h	b
+g	a	h	a
+h	c	j	null
+i	?	no
+c	f	d	h
+null	h	a	c
+j	f	d	a
+f	h	i	e
+g	?	no
+a	b	i	f
+e	g	null	a
+g	e	d	f
+d	b	i	d
+h	?	no
+null	h	h	h
+null	null	h	h
+h	h	null	null
+h	h	h	h
+h	?	all
+h	b	d	g
+c	null	h	h
+f	i	c	j
+d	null	e	b
+a	?	no
+f	e	d	null
+j	null	a	g
+h	b	g	h
+i	i	a	null
+i	?	some
+i	i	null	null
+null	null	null	null
+i	i	null	i
+i	null	i	i
+i	?	all
+f	b	b	g
+j	b	e	g
+a	f	d	b
+f	a	h	g
+i	?	no
+f	e	e	b
+h	e	c	e
+b	a	a	d
+b	j	c	b
+i	?	no
+b	f	d	f
+i	null	c	j
+a	g	null	f
+g	d	c	null
+b	?	some
+j	null	null	null
+null	j	j	null
+null	null	null	null
+j	j	null	null
+j	?	all
+d	null	j	null
+b	b	e	a
+j	c	f	g
+a	null	d	null
+h	?	no
+a	i	g	e
+g	c	f	f
+h	i	e	b
+null	c	f	f
+j	?	no
+d	d	null	d
+null	d	d	d
+null	d	d	null
+null	d	null	null
+d	?	all
+j	g	c	e
+c	c	d	c
+g	null	h	g
+d	g	f	c
+i	?	no
+c	h	a	c
+f	f	c	d
+d	g	a	null
+c	f	d	b
+a	?	some
+null	null	d	null
+d	d	null	null
+null	null	d	d
+d	null	d	d
+d	?	all
+null	null	i	i
+null	i	null	null
+null	i	null	null
+i	null	i	i
+i	?	all
+i	null	null	i
+null	i	i	null
+null	null	null	null
+null	null	null	null
+i	?	all
+j	null	null	null
+null	null	null	j
+null	j	j	null
+j	null	j	j
+j	?	all
+h	h	h	null
+h	h	null	null
+h	null	null	h
+null	null	null	h
+h	?	all
+a	a	j	j
+d	e	g	a
+a	b	j	c
+c	e	h	g
+d	?	some
+c	f	i	g
+h	h	b	null
+a	c	j	null
+null	h	g	a
+f	?	some
+null	null	null	j
+null	null	null	null
+null	null	null	j
+j	null	j	j
+j	?	all
+e	j	g	d
+j	null	d	a
+g	h	a	g
+g	e	h	f
+b	?	no
+e	j	j	null
+b	d	i	e
+null	a	a	a
+h	null	j	null
+g	?	no
+a	c	null	null
+i	j	i	d
+c	j	b	i
+a	g	b	i
+e	?	no
+h	a	null	f
+b	b	a	g
+a	a	c	f
+f	c	c	d
+d	?	some
+h	i	b	a
+c	f	d	c
+b	e	b	i
+i	d	j	h
+d	?	some
+a	c	null	i
+b	b	g	j
+b	e	null	h
+b	b	null	e
+h	?	some
+j	null	b	null
+a	null	d	null
+f	a	c	a
+f	e	a	a
+c	?	some
+null	f	null	f
+f	f	f	null
+f	null	f	f
+null	null	f	null
+f	?	all
+null	a	null	a
+null	null	null	a
+a	a	null	a
+null	null	null	null
+a	?	all
+g	a	g	d
+d	d	h	j
+null	f	h	c
+i	d	g	h
+h	?	some
+h	e	c	b
+j	j	i	i
+b	b	i	b
+f	c	null	b
+c	?	some
+d	null	null	d
+d	d	null	null
+null	null	d	null
+null	null	null	d
+d	?	all
+a	null	a	null
+null	a	a	null
+a	a	a	a
+null	null	a	a
+a	?	all
+null	null	null	null
+f	f	f	f
+f	f	null	f
+f	null	null	f
+f	?	all
+f	h	h	i
+e	f	b	e
+j	f	g	a
+j	a	a	j
+d	?	no
+g	h	a	c
+i	e	g	g
+null	i	h	g
+d	null	d	h
+b	?	no
+c	e	a	e
+d	e	g	e
+h	e	c	null
+h	g	h	j
+b	?	no
+null	null	null	null
+null	null	null	d
+d	null	d	d
+null	null	null	d
+d	?	all
+a	f	h	a
+d	h	d	f
+d	g	f	h
+c	null	d	e
+j	?	no
+c	f	e	e
+a	a	i	i
+c	a	c	j
+f	d	a	e
+b	?	no
+null	i	j	d
+g	null	h	c
+c	e	null	d
+c	f	h	j
+f	?	some
+null	a	a	a
+a	null	a	a
+null	null	a	null
+null	null	a	a
+a	?	all
+d	j	h	c
+g	e	b	d
+d	c	g	h
+i	a	h	null
+j	?	some
+j	null	f	g
+j	i	j	i
+e	null	b	g
+b	b	null	j
+g	?	some
+null	f	null	f
+null	null	null	null
+null	f	f	null
+f	null	null	f
+f	?	all
+i	null	f	h
+j	h	null	null
+e	f	g	g
+b	i	h	g
+c	?	no
+i	null	i	null
+null	null	null	i
+null	null	i	null
+null	null	i	null
+i	?	all
+b	h	b	f
+f	null	c	j
+g	a	f	j
+j	e	null	null
+d	?	no
+c	c	null	c
+c	c	c	c
+c	c	null	null
+null	c	c	c
+c	?	all
+null	c	d	g
+d	f	i	null
+d	g	f	h
+d	f	d	b
+h	?	some
+f	b	a	e
+c	a	d	f
+a	d	null	a
+j	g	b	f
+h	?	no
+c	a	f	j
+d	d	b	c
+f	g	b	null
+null	d	f	b
+e	?	no
+e	h	c	b
+i	null	c	a
+g	j	i	d
+a	i	f	j
+a	?	some
+e	j	d	b
+a	g	i	b
+d	d	a	f
+d	j	h	g
+b	?	some
+i	b	f	j
+a	b	a	null
+g	i	d	null
+e	f	h	a
+j	?	some
+f	e	c	b
+null	a	i	null
+g	g	b	h
+a	f	j	null
+d	?	no
+h	g	null	j
+f	b	d	b
+a	g	g	a
+a	c	c	f
+g	?	some
+null	null	null	b
+null	null	null	b
+b	null	null	b
+null	null	b	b
+b	?	all
+c	d	c	c
+j	j	c	d
+b	b	i	f
+h	j	i	a
+c	?	some
+e	null	e	null
+e	e	null	e
+null	e	e	e
+e	e	null	null
+e	?	all
+f	j	h	null
+h	g	g	f
+e	h	g	e
+c	a	i	e
+d	?	no
+j	b	i	b
+h	d	h	j
+f	c	f	b
+h	a	j	b
+d	?	some
+f	null	f	f
+a	j	j	i
+b	i	b	null
+j	h	e	c
+g	?	no
+g	j	f	a
+e	j	e	null
+i	j	e	j
+d	g	f	i
+c	?	no
+e	e	f	j
+f	b	c	d
+c	j	f	d
+f	g	g	a
+g	?	some
+j	j	null	f
+a	null	h	a
+d	b	g	b
+b	null	d	f
+c	?	no
+null	j	null	j
+j	j	null	j
+j	j	null	j
+null	j	j	null
+j	?	all
+null	null	null	null
+g	null	null	g
+g	null	g	g
+g	null	g	g
+g	?	all
+a	a	a	a
+null	a	null	null
+a	null	a	null
+null	a	a	null
+a	?	all
+e	h	null	j
+h	g	i	b
+j	e	b	a
+b	j	i	g
+f	?	no
+f	e	i	h
+b	f	h	d
+a	j	d	g
+d	g	c	j
+i	?	some
+null	null	null	j
+null	j	j	j
+j	j	null	j
+null	j	j	j
+j	?	all
+d	f	c	g
+i	d	g	i
+g	f	a	b
+h	b	a	null
+c	?	some
+d	d	null	d
+null	d	d	d
+null	d	null	null
+null	d	d	d
+d	?	all
+null	null	e	null
+e	null	null	e
+e	null	null	e
+null	null	e	null
+e	?	all
+null	c	c	null
+c	null	null	c
+null	c	null	c
+c	null	null	null
+c	?	all
+null	f	null	null
+f	f	f	null
+f	f	f	f
+null	null	f	f
+f	?	all
+null	null	null	null
+null	i	null	null
+i	i	i	null
+null	i	i	null
+i	?	all
+j	h	d	c
+g	b	j	j
+null	f	a	f
+c	b	h	b
+i	?	no
+f	null	f	f
+null	null	null	f
+null	f	f	f
+null	f	f	f
+f	?	all
+c	d	null	j
+b	e	g	d
+h	j	d	e
+f	b	c	f
+a	?	no
+null	i	i	null
+i	null	i	null
+null	null	null	i
+i	i	i	i
+i	?	all
+a	d	g	null
+f	a	d	d
+j	h	h	null
+g	d	i	h
+b	?	no
+d	f	a	a
+h	f	g	null
+h	j	c	g
+e	b	a	h
+g	?	some
+e	e	e	null
+null	null	e	null
+null	null	e	e
+null	null	e	e
+e	?	all
+d	c	g	g
+a	d	a	a
+j	i	h	e
+g	c	e	j
+i	?	some
+null	c	i	h
+b	j	a	j
+c	c	h	c
+a	b	a	c
+g	?	no
+null	a	null	a
+null	a	a	null
+null	null	null	a
+null	a	null	a
+a	?	all
+a	a	i	b
+h	i	a	f
+a	a	h	e
+g	c	b	a
+b	?	some
+b	h	c	j
+j	b	d	c
+b	g	b	g
+g	null	f	d
+d	?	some
+null	a	null	a
+a	a	null	null
+null	null	null	null
+null	null	a	null
+a	?	all
+a	c	d	null
+a	b	null	b
+a	h	i	b
+i	a	c	j
+g	?	no
+a	a	e	g
+d	g	e	d
+a	d	j	f
+f	i	f	h
+c	?	no
+h	d	a	c
+h	i	f	h
+f	null	g	j
+e	c	h	i
+d	?	some
+a	j	h	h
+i	e	f	g
+c	c	d	j
+j	c	c	j
+c	?	some
+f	null	f	g
+c	b	a	i
+d	g	e	a
+a	a	a	f
+e	?	some
+g	a	j	c
+a	i	null	d
+h	f	f	h
+g	j	b	g
+a	?	some
+h	e	a	i
+i	i	e	f
+b	f	g	d
+c	null	c	d
+e	?	some
+c	a	b	h
+b	e	h	a
+f	c	h	a
+j	d	j	h
+i	?	no
+null	null	c	c
+null	c	c	null
+null	c	c	null
+null	null	null	null
+c	?	all
+d	d	null	d
+d	null	d	null
+d	null	null	d
+d	d	d	d
+d	?	all
+a	d	j	i
+b	d	i	null
+f	f	i	f
+e	f	null	d
+c	?	no
+null	null	null	h
+null	null	h	h
+h	h	null	null
+h	null	h	h
+h	?	all
+c	c	c	null
+c	c	null	c
+c	c	c	c
+c	c	null	c
+c	?	all
+b	d	null	e
+a	b	d	g
+d	c	h	a
+e	a	i	d
+d	?	some
+null	null	j	null
+null	j	null	null
+j	null	j	null
+j	j	null	null
+j	?	all
+d	b	j	a
+g	b	j	d
+g	e	a	null
+b	i	h	null
+f	?	no
+j	b	e	null
+b	c	d	null
+c	g	null	e
+g	h	f	j
+f	?	some
+g	e	f	g
+g	d	null	null
+j	b	a	b
+f	c	h	i
+c	?	some
+a	d	null	e
+j	g	i	c
+e	d	i	null
+g	g	i	f
+j	?	some
+c	a	d	d
+h	e	d	a
+i	b	d	d
+b	f	f	h
+j	?	no
+null	null	null	c
+c	null	c	c
+c	c	c	c
+c	null	null	c
+c	?	all
+e	j	e	j
+d	c	h	i
+c	g	f	d
+e	g	d	b
+f	?	some
+c	null	null	c
+c	c	c	c
+c	null	c	null
+c	null	c	c
+c	?	all
+f	i	d	b
+g	d	h	f
+f	i	f	c
+h	e	j	null
+a	?	no
+e	d	e	c
+b	b	e	c
+b	null	b	c
+a	d	null	e
+d	?	some
+j	null	null	j
+null	j	j	j
+null	null	j	null
+null	j	null	null
+j	?	all
+i	i	null	null
+i	null	i	null
+null	null	i	null
+null	i	null	null
+i	?	all
+g	g	null	null
+null	null	g	g
+null	null	g	null
+g	g	null	null
+g	?	all
+f	f	e	g
+null	g	f	g
+e	d	null	d
+j	e	f	d
+a	?	no
+d	d	null	null
+d	d	d	null
+null	null	d	d
+d	null	null	d
+d	?	all
+b	f	i	d
+b	g	d	i
+c	d	j	g
+h	d	b	f
+f	?	some
+null	i	i	null
+i	null	null	null
+null	null	i	null
+i	null	i	null
+i	?	all
+d	b	e	e
+f	j	e	f
+h	g	f	j
+i	null	c	d
+a	?	no
+a	c	d	null
+b	j	null	a
+g	d	h	c
+f	null	a	e
+h	?	some
+f	j	null	b
+i	null	f	e
+f	a	f	d
+j	e	d	b
+e	?	some
+i	null	i	i
+i	null	null	null
+i	i	i	i
+null	null	null	i
+i	?	all
+h	b	h	null
+e	b	h	f
+i	f	null	j
+c	i	b	b
+a	?	no
+null	b	null	null
+b	b	b	b
+b	null	null	null
+b	b	null	null
+b	?	all
+f	f	g	d
+j	i	j	j
+c	e	d	j
+f	c	null	j
+a	?	no
+i	b	j	j
+e	g	c	i
+a	c	f	null
+a	b	a	h
+g	?	some
+b	f	c	null
+f	d	j	d
+null	d	a	g
+i	g	h	i
+c	?	some
+i	d	f	null
+b	a	i	i
+d	i	c	b
+a	j	f	i
+f	?	some
+i	e	g	c
+g	h	f	d
+g	h	d	d
+d	f	null	e
+d	?	some
+null	null	f	f
+null	f	null	f
+f	null	f	null
+null	f	f	f
+f	?	all
+e	null	e	null
+e	e	e	e
+null	e	null	null
+e	null	e	e
+e	?	all
+b	e	c	a
+e	b	i	c
+c	e	g	f
+f	null	f	f
+a	?	some
+a	g	c	null
+g	a	a	c
+f	a	f	e
+null	j	c	a
+h	?	no
+null	g	g	null
+null	null	null	null
+null	g	g	g
+null	g	null	g
+g	?	all
+j	c	null	a
+d	e	c	a
+f	f	null	null
+i	j	j	b
+a	?	some
+g	d	d	j
+h	f	e	d
+h	g	j	i
+null	g	b	e
+f	?	some
+f	g	i	d
+e	a	j	i
+d	null	g	c
+a	c	j	h
+h	?	some
+f	i	h	j
+b	f	h	j
+f	h	d	c
+b	null	j	b
+j	?	some
+null	null	c	c
+c	c	null	c
+null	c	c	c
+null	c	null	c
+c	?	all
+g	i	b	e
+f	c	h	c
+b	d	e	c
+null	i	d	i
+f	?	some
+e	d	e	c
+g	g	e	a
+j	f	f	g
+d	c	e	d
+i	?	no
+j	e	i	d
+f	h	e	c
+h	i	d	h
+a	i	c	j
+h	?	some
+null	null	null	null
+a	null	null	null
+a	null	null	a
+null	a	null	null
+a	?	all
+i	j	h	d
+f	null	h	null
+f	a	f	null
+d	c	c	b
+b	?	some
+c	j	h	b
+c	d	f	null
+e	a	e	h
+j	b	b	e
+j	?	some
+i	i	i	i
+i	null	i	null
+null	null	null	i
+null	i	null	null
+i	?	all
+i	d	f	g
+a	j	d	b
+d	h	h	d
+b	null	b	b
+g	?	some
+i	i	null	null
+null	i	null	null
+i	null	i	i
+i	i	i	null
+i	?	all
+c	b	e	f
+i	h	h	c
+b	f	d	g
+j	g	b	j
+i	?	some
+f	f	null	null
+null	f	null	null
+f	null	null	null
+null	null	f	null
+f	?	all
+null	null	h	h
+null	h	h	h
+h	null	h	h
+h	h	null	null
+h	?	all
+c	c	d	null
+i	i	e	i
+d	b	null	d
+null	h	e	b
+i	?	some
+null	j	null	j
+j	j	j	null
+null	j	null	null
+j	null	null	null
+j	?	all
+i	i	f	g
+a	d	g	a
+e	b	j	g
+j	b	null	f
+i	?	some
+f	f	a	d
+g	f	null	c
+g	null	j	i
+h	h	d	f
+g	?	some
+h	null	null	null
+null	h	null	null
+h	null	null	h
+h	h	h	null
+h	?	all
+d	f	a	a
+i	c	null	b
+h	e	null	i
+e	null	c	h
+a	?	some
+e	g	b	null
+a	null	f	d
+b	a	g	h
+a	j	null	g
+e	?	some
+f	f	b	b
+c	j	b	d
+c	a	g	null
+g	e	null	f
+a	?	some
+f	f	null	null
+null	null	null	f
+null	null	f	null
+null	f	null	f
+f	?	all
+i	null	i	i
+i	null	i	null
+null	i	i	i
+null	null	i	i
+i	?	all
+b	null	null	null
+null	null	b	null
+b	b	b	null
+b	null	b	b
+b	?	all
+d	i	h	b
+d	i	null	f
+c	c	a	g
+d	a	a	b
+j	?	no
+b	null	h	c
+j	g	j	d
+d	i	g	b
+d	e	d	g
+i	?	some
+h	c	j	f
+c	a	e	d
+b	i	i	h
+d	c	a	j
+h	?	some
+b	b	null	b
+b	b	null	b
+null	b	b	null
+null	null	b	b
+b	?	all
+j	f	i	j
+c	d	d	f
+j	a	d	g
+a	a	i	null
+f	?	some
+b	a	b	d
+b	d	b	h
+null	e	j	f
+j	i	e	f
+g	?	no
+f	f	null	f
+null	null	null	f
+f	null	f	null
+null	f	f	null
+f	?	all
+b	b	null	null
+b	null	b	b
+null	null	null	null
+b	b	b	null
+b	?	all
+g	b	j	h
+d	i	a	d
+d	b	c	b
+g	null	g	j
+e	?	no
+c	e	null	c
+b	j	a	g
+g	a	j	i
+a	f	g	null
+d	?	no
+h	h	null	null
+null	h	null	h
+null	null	null	h
+h	h	h	null
+h	?	all
+f	g	null	j
+d	i	h	i
+i	a	b	i
+h	d	i	e
+c	?	no
+h	g	c	f
+a	f	d	g
+d	g	h	a
+a	j	a	b
+c	?	some
+i	i	f	a
+e	j	f	null
+null	g	h	j
+null	g	j	b
+j	?	some
+null	null	e	null
+e	e	e	e
+e	null	e	e
+null	e	null	e
+e	?	all
+null	null	null	f
+null	f	null	f
+f	null	f	f
+null	null	null	f
+f	?	all
+b	j	e	j
+c	c	b	h
+h	a	j	h
+c	a	h	c
+i	?	no
+null	null	f	null
+null	f	null	null
+f	null	null	f
+null	f	null	null
+f	?	all
+f	h	j	h
+a	d	b	b
+g	j	h	b
+i	i	d	d
+j	?	some
+b	d	g	e
+e	j	d	d
+a	j	b	e
+b	e	null	d
+j	?	some
+j	a	null	c
+h	i	null	e
+i	j	null	b
+a	a	a	c
+g	?	no
+i	g	a	e
+g	f	e	j
+h	b	f	g
+e	i	c	d
+a	?	some
+h	c	e	c
+j	null	h	d
+null	j	null	c
+e	c	a	e
+g	?	no
+d	e	c	b
+h	i	i	e
+f	g	f	h
+i	i	b	null
+f	?	some
+h	null	c	h
+c	c	e	e
+g	h	a	h
+f	j	c	a
+e	?	some
+c	e	e	d
+g	null	g	f
+a	g	a	c
+null	e	a	null
+d	?	some
+c	f	e	e
+j	null	null	h
+f	f	null	null
+null	e	b	h
+d	?	no
+e	e	a	f
+a	b	g	a
+null	i	e	null
+g	i	g	d
+h	?	no
+null	h	null	null
+null	null	h	null
+null	h	null	h
+null	h	null	null
+h	?	all
+b	e	e	g
+null	b	null	c
+b	null	i	h
+f	d	null	h
+j	?	no
+a	j	null	b
+f	e	a	g
+f	null	f	j
+h	null	null	d
+d	?	some
+i	h	h	i
+j	null	null	f
+c	b	d	b
+b	h	i	j
+g	?	no
+a	null	a	a
+null	null	null	a
+a	a	null	null
+a	null	null	null
+a	?	all
+h	d	h	j
+e	g	h	i
+f	c	d	null
+null	c	j	e
+h	?	some
+f	j	i	e
+f	c	g	h
+b	a	b	j
+i	e	i	j
+c	?	some
+b	null	null	b
+null	null	null	null
+null	null	null	null
+null	null	b	null
+b	?	all
+d	e	h	a
+h	a	null	j
+g	f	i	i
+j	i	g	i
+f	?	some
+c	j	c	b
+null	a	j	d
+h	f	g	b
+f	c	g	j
+i	?	no
+b	null	h	g
+e	c	d	e
+f	a	c	d
+g	a	a	null
+c	?	some
+g	null	a	c
+null	d	g	null
+d	f	null	b
+null	f	j	j
+g	?	some
+null	null	null	null
+null	null	i	i
+null	i	i	i
+null	i	i	i
+i	?	all
+null	e	e	null
+e	null	null	null
+e	e	e	null
+null	e	null	null
+e	?	all
+null	h	null	null
+h	null	h	h
+null	null	h	h
+h	null	h	h
+h	?	all
+null	f	null	f
+f	f	f	f
+null	f	null	f
+null	f	null	null
+f	?	all
+a	f	i	g
+null	h	d	b
+i	null	g	d
+a	i	h	null
+e	?	no
+f	h	c	j
+i	g	null	e
+j	f	j	d
+f	g	j	null
+b	?	no
+i	null	e	i
+c	g	null	f
+i	a	i	null
+h	a	i	d
+f	?	some
+i	null	null	i
+i	i	null	i
+null	null	null	i
+i	i	null	null
+i	?	all
+b	b	null	b
+b	b	null	null
+b	null	b	b
+b	b	b	b
+b	?	all
+j	a	null	d
+g	c	d	null
+b	e	a	null
+g	a	g	c
+i	?	no
+g	j	b	i
+b	c	f	a
+f	h	b	b
+null	null	c	c
+e	?	no
+e	e	i	e
+c	j	e	g
+g	i	a	a
+i	c	null	b
+a	?	some
+c	i	b	c
+i	g	f	c
+g	a	j	a
+i	f	null	h
+i	?	some
+null	d	d	d
+d	null	d	null
+d	null	d	d
+d	d	d	null
+d	?	all
+e	e	null	e
+e	null	null	e
+null	e	null	null
+e	null	e	e
+e	?	all
+f	c	d	i
+e	b	d	null
+i	null	null	g
+i	g	c	i
+j	?	no
+null	f	null	null
+f	null	null	f
+null	null	null	f
+f	f	f	null
+f	?	all
+null	null	g	null
+null	g	g	g
+null	g	g	g
+g	null	null	g
+g	?	all
+a	g	j	a
+f	d	f	i
+i	h	b	j
+f	b	null	j
+a	?	some
+g	null	g	g
+g	null	null	null
+g	g	g	g
+null	null	g	g
+g	?	all
+a	null	null	a
+null	a	null	a
+a	a	null	null
+a	null	null	a
+a	?	all
+i	a	null	f
+i	f	f	b
+j	null	null	a
+h	g	g	h
+e	?	no
+null	j	null	j
+j	j	null	j
+null	j	j	null
+null	j	null	null
+j	?	all
+i	null	null	null
+i	null	null	i
+i	null	null	i
+i	i	i	i
+i	?	all
+g	j	c	g
+c	f	e	d
+f	e	h	i
+b	j	g	b
+d	?	some
+h	b	j	c
+b	g	null	j
+a	j	d	null
+a	f	a	h
+b	?	some
+d	e	f	d
+a	f	null	g
+c	null	f	e
+i	g	c	a
+b	?	no
+h	d	a	e
+g	e	f	g
+a	e	null	d
+b	null	f	d
+c	?	no
+i	i	j	f
+h	f	c	null
+h	e	h	d
+j	h	a	g
+b	?	no
+a	a	null	a
+null	null	a	null
+null	null	null	a
+a	a	null	null
+a	?	all
+c	f	a	e
+g	j	g	a
+null	g	d	a
+h	c	i	i
+c	?	some
+e	null	null	e
+null	null	null	null
+e	e	e	e
+e	null	e	e
+e	?	all
+null	null	e	e
+e	null	null	e
+null	e	null	e
+e	e	e	e
+e	?	all
+null	b	i	a
+null	g	i	j
+h	e	null	a
+i	h	d	f
+j	?	some
+b	null	null	null
+null	b	null	b
+null	null	b	null
+b	b	null	b
+b	?	all
+i	g	f	i
+i	d	f	null
+null	null	h	d
+f	i	j	a
+e	?	no
+g	null	null	null
+g	g	null	g
+null	g	g	null
+g	null	g	g
+g	?	all
+f	a	d	e
+d	i	c	d
+j	null	null	c
+e	a	b	e
+h	?	no
+null	f	f	null
+f	f	null	null
+null	null	null	null
+f	null	f	null
+f	?	all
+b	h	f	j
+a	c	c	e
+c	null	a	h
+c	null	b	i
+d	?	no
+null	g	h	h
+j	b	f	f
+h	null	h	e
+h	b	g	c
+a	?	no
+j	h	null	null
+d	i	g	b
+j	f	a	a
+null	c	null	f
+i	?	some
+d	f	j	a
+a	d	e	i
+i	a	e	a
+c	j	f	d
+a	?	some
+f	c	null	d
+g	null	b	j
+g	a	h	c
+null	c	h	a
+a	?	some
+f	c	null	j
+e	g	g	f
+null	c	c	null
+d	e	f	h
+i	?	no
+g	null	g	g
+g	g	g	g
+g	null	null	g
+null	null	null	g
+g	?	all
+null	null	null	null
+h	null	h	h
+h	h	null	h
+null	h	h	null
+h	?	all
+f	h	null	e
+e	d	h	j
+d	b	f	g
+null	g	g	j
+i	?	no
+h	h	null	h
+h	null	h	h
+null	h	null	null
+h	h	h	null
+h	?	all
+null	f	j	d
+g	f	j	j
+d	c	g	j
+h	d	d	j
+i	?	no
+i	g	null	d
+b	i	b	a
+b	b	h	b
+g	i	j	i
+g	?	some
+b	j	c	i
+h	f	d	b
+i	c	null	h
+i	j	e	c
+j	?	some

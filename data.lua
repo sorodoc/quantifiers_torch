@@ -17,8 +17,8 @@ function g_read_images(fname, f_vect, vocab, ivocab, v_dict)
     local v_lines = stringx.splitlines(v_data)
     local c = 0
     local image_ind = 1
-    local images = torch.Tensor(400, 16)
-    local images_q = torch.Tensor(400, 2)
+    local images = torch.Tensor(5000, 16)
+    local images_q = torch.Tensor(5000, 2)
     for n = 1,#lines do
         local w = stringx.split(lines[n])
         if w[2] ~= '?' then 

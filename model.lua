@@ -58,7 +58,7 @@ function g_build_model(params)
     local hid = build_memory(params, input, context)
     local z = nn.LinearNB(params.vector_size, params.nwords)(hid[#hid])
     local pred = nn.LogSoftMax()(z)
-    local costl = nn.ClassNLLCriterion()
+    local costl = nn.CrossEntropyCriterion()
     costl.sizeAverage = false
     local cost = costl({pred, target})
     local model = nn.gModule({input, target, context}, {cost})
