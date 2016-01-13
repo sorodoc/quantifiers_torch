@@ -47,8 +47,8 @@ function g_build_model(params)
     local z = nn.LinearNB(params.vector_size, params.nwords)(hid[#hid])
     -- apply SoftMax on the result
     local pred = nn.SoftMax()(z)
-    -- calculate the negative log-likelihood between the class distribution and target index
-    local costl = nn.ClassNLLCriterion()
+    -- calculate the cross entropy between the class distribution and target index
+    local costl = nn.CrossEntropyCriterion()
     costl.sizeAverage = false
     local cost = costl({pred, target})
     local model = nn.gModule({input, target, context}, {cost})

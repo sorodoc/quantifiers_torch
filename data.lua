@@ -11,7 +11,7 @@ local stringx = require('pl.stringx')
 local file = require('pl.file')
 
 -- read the images and the vectors associated with the symbols
-function g_read_images(fname, f_vect, vocab, ivocab, v_dict)
+function g_read_images(fname, f_vect, vocab, ivocab, v_dict, size)
     local data = file.read(fname)
     local lines = stringx.splitlines(data)
     local v_data = file.read(f_vect)
@@ -19,8 +19,8 @@ function g_read_images(fname, f_vect, vocab, ivocab, v_dict)
     local c = 0
     local image_ind = 1
     -- define the size of the dataset(5000)
-    local images = torch.Tensor(5000, 16)
-    local images_q = torch.Tensor(5000, 2)
+    local images = torch.Tensor(size, 16)
+    local images_q = torch.Tensor(size, 2)
     for n = 1,#lines do
         local w = stringx.split(lines[n])
         if w[2] ~= '?' then 

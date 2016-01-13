@@ -13,7 +13,7 @@ paths.dofile('model.lua')
 
 --the train function
 local function train(images, images_q)
-    local N = math.ceil(images:size(2) / g_params.batchsize)
+    local N = math.ceil(images:size(1) / g_params.batchsize)
     local cost = 0
     local y = torch.ones(1)
     --define the tensors for query(input), memory(context), target(quantifier)
@@ -47,7 +47,7 @@ end
 
 --the test function
 local function test(images, images_q)
-    local N = math.ceil(images:size(2) / g_params.batchsize)
+    local N = math.ceil(images:size(1) / g_params.batchsize)
     local cost = 0
     --define the tensors for query(input), memory(context), target(quantifier index (from 1 to 3))
     local input = torch.CudaTensor(g_params.batchsize, g_params.vector_size)
@@ -126,6 +126,9 @@ cmd:option('--save', '', 'path to save model')
 cmd:option('--epochs', 100)
 cmd:option('--test', true, 'enable testing')
 cmd:option('--vector_size', 15, 'size of the vectors of the symbols')
+cmd:option('--train_size', 3500)
+cmd:option('--test_size', 1000)
+cmd:option('--valid_size', 500)
 g_params = cmd:parse(arg or {})
 
 print(g_params)
@@ -142,9 +145,12 @@ g_vocab['no'] = #g_vocab + 1
 g_vectors = tds.hash()
 
 
-g_img_train, g_img_q_train = g_read_images('data/quant.train.txt', 'data/vectors.txt', g_vocab, g_ivocab, g_vectors)
-g_img_valid, g_img_q_valid = g_read_images('data/quant.valid.txt', 'data/vectors.txt', g_vocab, g_ivocab, g_vectors)
-g_img_test, g_img_q_test = g_read_images('data/quant.test.txt', 'data/vectors.txt', g_vocab, g_ivocab, g_vectors)
+g_img_train, g_img_q_train = g_read_images('data/quant.train.txt', 'data/vectors.txt', 
+                            g_vocab, g_ivocab, g_vectors, g_params.train_size)
+g_img_valid, g_img_q_valid = g_read_images('data/quant.valid.txt', 'data/vectors.txt', 
+                            g_vocab, g_ivocab, g_vectors, g_params.valid_size)
+g_img_test, g_img_q_test = g_read_images('data/quant.test.txt', 'data/vectors.txt', 
+                            g_vocab, g_ivocab, g_vectors, g_params.test_size)
 g_params.nwords = 3
 print('vocabulary size ' .. #g_vocab)
 
