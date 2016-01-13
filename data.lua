@@ -10,6 +10,7 @@ require('paths')
 local stringx = require('pl.stringx')
 local file = require('pl.file')
 
+-- read the images and the vectors associated with the symbols
 function g_read_images(fname, f_vect, vocab, ivocab, v_dict)
     local data = file.read(fname)
     local lines = stringx.splitlines(data)
@@ -17,6 +18,7 @@ function g_read_images(fname, f_vect, vocab, ivocab, v_dict)
     local v_lines = stringx.splitlines(v_data)
     local c = 0
     local image_ind = 1
+    -- define the size of the dataset(5000)
     local images = torch.Tensor(5000, 16)
     local images_q = torch.Tensor(5000, 2)
     for n = 1,#lines do
@@ -41,6 +43,7 @@ function g_read_images(fname, f_vect, vocab, ivocab, v_dict)
           c = 0
         end
     end
+    -- read the vectors associated with the symbols
     for n = 1, #v_lines do
       local v_w = stringx.split(v_lines[n])
       v_dict[vocab[v_w[1]]] = torch.Tensor(g_params.vector_size)
@@ -48,6 +51,6 @@ function g_read_images(fname, f_vect, vocab, ivocab, v_dict)
         v_dict[vocab[v_w[1]]][j - 1] = tonumber(v_w[j])
       end
     end
-    print('Read ' .. image_ind .. ' images from ' .. fname)
+    print('Read ' .. image_ind - 1 .. ' images from ' .. fname)
     return images, images_q
 end

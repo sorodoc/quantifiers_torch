@@ -12,42 +12,28 @@ paths.dofile('LinearNB.lua')
 
 local function build_memory(params, input, context)
     local hid = {}
-    hid[0] = input
-    
+    -- instantiate hid[0] with query vector 
+    hid[0] = input  
+    -- instantiate Ain and Bin with the memory(matrix with symbols vectors)
     local Ain = context
---    local Ain_t = nn.LookupTable(params.memsize, params.edim)(time)
---    local Ain = nn.CAddTable()({Ain_c, Ain_t})
---    local Ain = torch.CudaTensor(params.batchsize, params.memsize, params.vector_size)
---    for t = 1, params.batchsize do
---      for s = 1, params.memsize do
---        Ain[t][s] = q_vectors[context[t][s]]
---      end
---    end
---    local Bin_c = nn.LookupTable(params.nwords, params.edim)(context)
---    local Bin_t = nn.LookupTable(params.memsize, params.edim)(time)
---    local Bin = nn.CAddTable()({Bin_c, Bin_t})
     local Bin = context
+    -- hid3dim has 3 dimensions(batch * 1 * vector),hid[0] has 2(batch * vector) 
     local hid3dim = nn.View(1, -1):setNumInputDims(1)(hid[0])
+    -- Aout - matrix product between hid3dim(query) and Ain(memory)
     local MMaout = nn.MM(false, true):cuda()
     local Aout = MMaout({hid3dim, Ain})
     local Aout2dim = nn.View(-1):setNumInputDims(2)(Aout)
+    -- apply softmax on the product of query and memory
     local P = nn.SoftMax()(Aout2dim)
+    -- Bout - product between probability distribution and memory
     local probs3dim = nn.View(1, -1):setNumInputDims(1)(P)
     local MMbout = nn.MM(false, false):cuda()
     local Bout = MMbout({probs3dim, Bin})
+    -- C - apply LinearNB over the query
     local C = nn.LinearNB(params.vector_size, params.vector_size)(hid[0])
+    -- D - sum between C and Bout
     local D = nn.CAddTable()({C, Bout})
---    local D = Bout
-    if params.lindim == params.edim then
-      hid[1] = D
-    elseif params.lindim == 0 then
-      hid[1] = nn.ReLU()(D)
-    else
-      local F = nn.Narrow(2,1,params.lindim)(D)
-      local G = nn.Narrow(2,1+params.lindim,params.edim-params.lindim)(D)
-      local K = nn.ReLU()(G)
-      hid[1] = nn.JoinTable(2)({F,K})
-    end
+    hid[1] = D
     return hid
 end
 
@@ -55,14 +41,17 @@ function g_build_model(params)
     local input = nn.Identity()()
     local target = nn.Identity()()
     local context = nn.Identity()()
+    -- call the memory function
     local hid = build_memory(params, input, context)
+    -- apply LinearNB on the output of the memory function
     local z = nn.LinearNB(params.vector_size, params.nwords)(hid[#hid])
-    local pred = nn.LogSoftMax()(z)
-    local costl = nn.CrossEntropyCriterion()
+    -- apply SoftMax on the result
+    local pred = nn.SoftMax()(z)
+    -- calculate the negative log-likelihood between the class distribution and target index
+    local costl = nn.ClassNLLCriterion()
     costl.sizeAverage = false
     local cost = costl({pred, target})
     local model = nn.gModule({input, target, context}, {cost})
     model:cuda()
-    -- IMPORTANT! do weight sharing after model is in cuda
     return model
 end
