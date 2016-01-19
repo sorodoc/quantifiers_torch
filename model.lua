@@ -51,7 +51,7 @@ function g_build_model(params)
     local costl = nn.CrossEntropyCriterion()
     costl.sizeAverage = false
     local cost = costl({pred, target})
-    local model = nn.gModule({input, target, context}, {cost})
+    local model = nn.gModule({input, target, context}, {cost, pred})
     model:cuda()
     return model
 end

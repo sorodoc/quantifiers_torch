@@ -15,7 +15,9 @@ paths.dofile('model.lua')
 local function train(images, images_q)
     local N = math.ceil(images:size(1) / g_params.batchsize)
     local cost = 0
-    local y = torch.ones(1)
+    local y1 = torch.CudaTensor(1)
+    local y2 = torch.CudaTensor(g_params.batchsize, g_params.nwords)
+    local correct = torch.CudaTensor(g_params.nwords)
     --define the tensors for query(input), memory(context), target(quantifier)
     local input = torch.CudaTensor(g_params.batchsize, g_params.vector_size)
     local target = torch.CudaTensor(g_params.batchsize)
@@ -33,9 +35,9 @@ local function train(images, images_q)
         end
         local x = {input, target, context}
         local out = g_model:forward(x)
-        cost = cost + out[1]
+        cost = cost + out[1][1]
         g_paramdx:zero()
-        g_model:backward(x, y)
+        g_model:backward(x, out)
         local gn = g_paramdx:norm()
         if gn > g_params.maxgradnorm then
             g_paramdx:mul(g_params.maxgradnorm / gn)
@@ -53,6 +55,9 @@ local function test(images, images_q)
     local input = torch.CudaTensor(g_params.batchsize, g_params.vector_size)
     local target = torch.CudaTensor(g_params.batchsize)
     local context = torch.CudaTensor(g_params.batchsize, g_params.memsize, g_params.vector_size)
+    local correct = 0
+    local confusion_matrix = torch.CudaTensor(3, 3)
+    confusion_matrix:fill(0.0)
     -- structure the test dataset in batches and substitute each symbol with its associated vector
     for n = 1, N do
         if g_params.show then xlua.progress(n, N) end
@@ -66,18 +71,33 @@ local function test(images, images_q)
         end
         local x = {input, target, context}
         local out = g_model:forward(x)
-        cost = cost + out[1]
+        cost = cost + out[1][1]
+        local max_els = torch.CudaTensor(g_params.batchsize)
+        local max_ind = torch.CudaTensor(g_params.batchsize)
+        max_els, max_ind = torch.max(out[2], 2)
+        for b = 1, g_params.batchsize do
+            if target[b] == max_ind[b][1] then
+                correct = correct + 1
+            end
+            confusion_matrix[target[b]][max_ind[b][1]] = confusion_matrix[target[b]][max_ind[b][1]] + 1
+        end
     end
-    return cost/N/g_params.batchsize
+    return cost/N/g_params.batchsize, correct, confusion_matrix
 end
 
 --the main function which runs the train, validate and test
 local function run(epochs)
     for i = 1, epochs do
         local c, ct
+        local correct_valid = 0.0
+        local correct_test = 0.0
+        local conf_matrix_valid = torch.CudaTensor(3,3)
+        local conf_matrix_test = torch.CudaTensor(3,3)
+        conf_matrix_test:fill(0.0)
+        conf_matrix_valid:fill(0.0)
         c = train(g_img_train, g_img_q_train)
-        ct = test(g_img_valid, g_img_q_valid)
-
+        ct, correct_valid, conf_matrix_valid = test(g_img_valid, g_img_q_valid)
+        -- perplexity- exponential compared with cost function
         -- Logging
         local m = #g_log_cost+1
         g_log_cost[m] = {m, c, ct}
@@ -85,10 +105,14 @@ local function run(epochs)
         local stat = {perplexity = math.exp(c) , epoch = m,
                 valid_perplexity = math.exp(ct), LR = g_params.dt}
         if g_params.test then
-            local ctt = test(g_img_test, g_img_q_test)
+            local ctt, correct_test, conf_matrix_test = test(g_img_test, g_img_q_test)
             table.insert(g_log_cost[m], ctt)
             table.insert(g_log_perp[m], math.exp(ctt))
             stat['test_perplexity'] = math.exp(ctt)
+            stat['test_precision'] = correct_test / g_params.test_size
+            stat['valid_precision'] = correct_valid / g_params.valid_size
+            stat['confusion_matrix_valid'] = tostring(conf_matrix_valid)
+            stat['confusion_matrix_test'] = tostring(conf_matrix_test)
         end
         print(stat)
 
