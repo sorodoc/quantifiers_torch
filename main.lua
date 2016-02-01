@@ -10,6 +10,28 @@ require('mobdebug').start()
 local tds = require('tds')
 paths.dofile('data.lua')
 paths.dofile('model.lua')
+local file_log = require('pl.file')
+
+local function prepare_output(images_ind, queries_ind, n, preds, max_inds)
+  local start = (n - 1) * g_params.batchsize
+  for b=1, g_params.batchsize do
+    local image_ind = images_ind[start + b]
+    local query_ind = queries_ind[start + b]
+    local max_ind = max_inds[b]
+    local pred = preds[b]
+    local reverse_image = torch.CudaTensor(4,4)
+    for i=1, 4 do
+      for j=1, 4 do
+        reverse_image[i][j] = image_ind[(i - 1) * 4 + j]
+      end
+    end
+    local stat_log = {image = tostring(reverse_image), 
+      query = tostring(query_ind), class_distribution = tostring(pred),
+      prediction = tostring(max_ind)}
+    print(stat_log)
+--    file_log.write('error_analysis.txt', pred)  
+  end
+end
 
 --the train function
 local function train(images, images_q)
@@ -17,6 +39,8 @@ local function train(images, images_q)
     local cost = 0
     local y1 = torch.CudaTensor(1)
     local y2 = torch.CudaTensor(g_params.batchsize, g_params.nwords)
+    y1:fill(1)
+    y2:fill(1)
     local correct = torch.CudaTensor(g_params.nwords)
     --define the tensors for query(input), memory(context), target(quantifier)
     local input = torch.CudaTensor(g_params.batchsize, g_params.vector_size)
@@ -37,7 +61,7 @@ local function train(images, images_q)
         local out = g_model:forward(x)
         cost = cost + out[1][1]
         g_paramdx:zero()
-        g_model:backward(x, out)
+        g_model:backward(x, {y1, y2})
         local gn = g_paramdx:norm()
         if gn > g_params.maxgradnorm then
             g_paramdx:mul(g_params.maxgradnorm / gn)
@@ -75,6 +99,7 @@ local function test(images, images_q)
         local max_els = torch.CudaTensor(g_params.batchsize)
         local max_ind = torch.CudaTensor(g_params.batchsize)
         max_els, max_ind = torch.max(out[2], 2)
+        prepare_output(images, images_q, n, out[2], max_ind)
         for b = 1, g_params.batchsize do
             if target[b] == max_ind[b][1] then
                 correct = correct + 1
@@ -102,19 +127,22 @@ local function run(epochs)
         local m = #g_log_cost+1
         g_log_cost[m] = {m, c, ct}
         g_log_perp[m] = {m, math.exp(c), math.exp(ct)}
-        local stat = {perplexity = math.exp(c) , epoch = m,
-                valid_perplexity = math.exp(ct), LR = g_params.dt}
+        --local stat = {perplexity = math.exp(c) , epoch = m,
+        --        valid_perplexity = math.exp(ct), LR = g_params.dt}
+        local stat = {epoch = m}
         if g_params.test then
             local ctt, correct_test, conf_matrix_test = test(g_img_test, g_img_q_test)
             table.insert(g_log_cost[m], ctt)
             table.insert(g_log_perp[m], math.exp(ctt))
-            stat['test_perplexity'] = math.exp(ctt)
+            --stat['test_perplexity'] = math.exp(ctt)
             stat['test_precision'] = correct_test / g_params.test_size
             stat['valid_precision'] = correct_valid / g_params.valid_size
             stat['confusion_matrix_valid'] = tostring(conf_matrix_valid)
             stat['confusion_matrix_test'] = tostring(conf_matrix_test)
         end
-        print(stat)
+        if m % 10 == 0 or m == 1 then
+          print(stat)
+        end
 
         -- Learning rate annealing
         if m > 1 and g_log_cost[m][3] > g_log_cost[m-1][3] * 0.9999 then
@@ -143,13 +171,13 @@ cmd:option('--sdt', 0.1, 'initial learning rate')
 cmd:option('--maxgradnorm', 50, 'maximum gradient norm')
 cmd:option('--memsize', 16, 'memory size')
 cmd:option('--nhop', 1, 'number of hops')
-cmd:option('--batchsize', 5)
-cmd:option('--show', true, 'print progress')
+cmd:option('--batchsize', 1)
+cmd:option('--show', false, 'print progress')
 cmd:option('--load', '', 'model file to load')
 cmd:option('--save', '', 'path to save model')
 cmd:option('--epochs', 100)
 cmd:option('--test', true, 'enable testing')
-cmd:option('--vector_size', 15, 'size of the vectors of the symbols')
+cmd:option('--vector_size', 20, 'size of the vectors of the symbols')
 cmd:option('--train_size', 3500)
 cmd:option('--test_size', 1000)
 cmd:option('--valid_size', 500)

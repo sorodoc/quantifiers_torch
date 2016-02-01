@@ -8,6 +8,7 @@ require('mobdebug').start()
 require('nn')
 require('cunn')
 require('nngraph')
+paths.dofile('Peek.lua')
 paths.dofile('LinearNB.lua')
 
 local function build_memory(params, input, context)
@@ -26,13 +27,16 @@ local function build_memory(params, input, context)
     -- apply softmax on the product of query and memory
     local P = nn.SoftMax()(Aout2dim)
     -- Bout - product between probability distribution and memory
+    --local probs3dim = nn.View(1, -1):setNumInputDims(1)(nn.Peek()(P))
     local probs3dim = nn.View(1, -1):setNumInputDims(1)(P)
     local MMbout = nn.MM(false, false):cuda()
     local Bout = MMbout({probs3dim, Bin})
     -- C - apply LinearNB over the query
     local C = nn.LinearNB(params.vector_size, params.vector_size)(hid[0])
     -- D - sum between C and Bout
+    --D = nn.View(-1):setNumInputDims(2)(nn.Peek()(Bout))
     local D = nn.CAddTable()({C, Bout})
+    --local D = nn.JoinTable()({hid[0], Bout})
     hid[1] = D
     return hid
 end
