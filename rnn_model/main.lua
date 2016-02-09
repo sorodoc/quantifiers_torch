@@ -1,104 +1,74 @@
--- Copyright (c) 2015-present, Facebook, Inc.
--- All rights reserved.
---
--- This source code is licensed under the BSD-style license found in the
--- LICENSE file in the root directory of this source tree. An additional grant 
--- of patent rights can be found in the PATENTS file in the same directory.
-require('xlua')
-require('paths')
+require('rnn')
+require('nn')
+require('cunn')
+require('nngraph')
 require('mobdebug').start()
 local tds = require('tds')
+paths.dofile('Peek.lua')
 paths.dofile('data.lua')
-paths.dofile('model.lua')
-local file_log = require('pl.file')
 
-local function prepare_output(images_ind, queries_ind, n, preds, max_inds)
-  local start = (n - 1) * g_params.batchsize
-  for b=1, g_params.batchsize do
-    local image_ind = images_ind[start + b]
-    local query_ind = queries_ind[start + b]
-    local max_ind = max_inds[b]
-    local pred = preds[b]
-    local reverse_image = torch.CudaTensor(4,4)
-    for i=1, 4 do
-      for j=1, 4 do
-        reverse_image[i][j] = image_ind[(i - 1) * 4 + j]
-      end
-    end
-    local stat_log = {image = tostring(reverse_image), 
-      query = tostring(query_ind), class_distribution = tostring(pred),
-      prediction = tostring(max_ind)}
-    print(stat_log)
---    file_log.write('error_analysis.txt', pred)  
-  end
-end
 
---the train function
+
+
+-- build simple recurrent neural network
+
+-- build dummy dataset (task is to predict class given rho words)
+-- similar to sentiment analysis datasets
+
+-- training
 local function train(images, images_q)
     local N = math.ceil(images:size(1) / g_params.batchsize)
+    local input = torch.DoubleTensor(g_params.batchsize, g_params.memsize + 1, g_params.vector_size)
+    local target = torch.DoubleTensor(g_params.batchsize)
+    local context = torch.DoubleTensor(g_params.batchsize, g_params.memsize, g_params.vector_size)
     local cost = 0
-    local y1 = torch.CudaTensor(1)
-    local y2 = torch.CudaTensor(g_params.batchsize, g_params.nwords)
-    y1:fill(1)
-    y2:fill(1)
-    local correct = torch.CudaTensor(g_params.nwords)
-    --define the tensors for query(input), memory(context), target(quantifier)
-    local input = torch.CudaTensor(g_params.batchsize, g_params.vector_size)
-    local target = torch.CudaTensor(g_params.batchsize)
-    local context = torch.CudaTensor(g_params.batchsize, g_params.memsize, g_params.vector_size)
-    -- structure the train dataset in batches and substitute each symbol with its associated vector
     for n = 1, N do
         if g_params.show then xlua.progress(n, N) end
         for b = 1, g_params.batchsize do
-            local start = (n - 1) * g_params.batchsize
-            input[b] = g_vectors[images_q[start + b][1]]
-            target[b] = images_q[start + b][2]
-            for i = 1, 16 do --change the parameter
-              context[b][i] = g_vectors[images[start + b][i]]
-            end
+          local start = (n - 1) * g_params.batchsize
+          input[b][1] = g_vectors[images_q[start + b][1]]
+          target[b] = images_q[start + b][2]
+          for i = 1, 16 do --change the parameter
+            input[b][i + 1] = g_vectors[images[start + b][i]]
+          end
         end
-        local x = {input, target, context}
-        local out = g_model:forward(x)
-        cost = cost + out[1][1]
-        g_paramdx:zero()
-        g_model:backward(x, {y1, y2})
-        local gn = g_paramdx:norm()
-        if gn > g_params.maxgradnorm then
-            g_paramdx:mul(g_params.maxgradnorm / gn)
-        end
-        g_paramx:add(g_paramdx:mul(-g_params.dt))
+        rnn:zeroGradParameters() 
+        local output = rnn:forward(input)
+        local err = criterion:forward(output, target)
+        cost = cost + err
+        local gradOutputs = criterion:backward(output, target)
+        local gradInputs = rnn:backward(input, gradOutputs)
+        rnn:updateParameters(g_params.dt)
     end
     return cost/N/g_params.batchsize
 end
 
---the test function
 local function test(images, images_q)
     local N = math.ceil(images:size(1) / g_params.batchsize)
-    local cost = 0
-    --define the tensors for query(input), memory(context), target(quantifier index (from 1 to 3))
-    local input = torch.CudaTensor(g_params.batchsize, g_params.vector_size)
-    local target = torch.CudaTensor(g_params.batchsize)
-    local context = torch.CudaTensor(g_params.batchsize, g_params.memsize, g_params.vector_size)
+    local input = torch.DoubleTensor(g_params.batchsize, g_params.memsize + 1, g_params.vector_size)
+    local target = torch.DoubleTensor(g_params.batchsize)
+    local context = torch.DoubleTensor(g_params.batchsize, g_params.memsize, g_params.vector_size)
     local correct = 0
     local confusion_matrix = torch.CudaTensor(3, 3)
     confusion_matrix:fill(0.0)
-    -- structure the test dataset in batches and substitute each symbol with its associated vector
+    local cost = 0
     for n = 1, N do
         if g_params.show then xlua.progress(n, N) end
         for b = 1, g_params.batchsize do
-            local start = (n - 1) * g_params.batchsize
-            input[b] = g_vectors[images_q[start + b][1]]
-            target[b] = images_q[start + b][2]
-            for i = 1, 16 do --change the parameter
-              context[b][i] = g_vectors[images[start + b][i]]
-            end
+          local start = (n - 1) * g_params.batchsize
+          input[b][1] = g_vectors[images_q[start + b][1]]
+          target[b] = images_q[start + b][2]
+          for i = 1, 16 do --change the parameter
+            input[b][i + 1] = g_vectors[images[start + b][i]]
+          end
         end
-        local x = {input, target, context}
-        local out = g_model:forward(x)
-        cost = cost + out[1][1]
+        rnn:zeroGradParameters() 
+        local output = rnn:forward(input)
+        local err = criterion:forward(output, target)
+        cost = cost + err
         local max_els = torch.CudaTensor(g_params.batchsize)
         local max_ind = torch.CudaTensor(g_params.batchsize)
-        max_els, max_ind = torch.max(out[2], 2)
+        max_els, max_ind = torch.max(output, 2)
         --prepare_output(images, images_q, n, out[2], max_ind)
         for b = 1, g_params.batchsize do
             if target[b] == max_ind[b][1] then
@@ -110,7 +80,6 @@ local function test(images, images_q)
     return cost/N/g_params.batchsize, correct, confusion_matrix
 end
 
---the main function which runs the train, validate and test
 local function run(epochs)
     for i = 1, epochs do
         local c, ct
@@ -149,16 +118,6 @@ local function run(epochs)
         end
     end
 end
-
-local function save(path)
-    local d = {}
-    d.params = g_params
-    d.paramx = g_paramx:float()
-    d.log_cost = g_log_cost
-    d.log_perp = g_log_perp
-    torch.save(path, d)
-end
-
 --------------------------------------------------------------------
 --------------------------------------------------------------------
 -- model params:
@@ -175,11 +134,11 @@ cmd:option('--load', '', 'model file to load')
 cmd:option('--save', '', 'path to save model')
 cmd:option('--epochs', 100)
 cmd:option('--test', true, 'enable testing')
-cmd:option('--vector_size', 10, 'size of the vectors of the symbols')
+cmd:option('--vector_size', 20, 'size of the vectors of the symbols')
 cmd:option('--train_size', 3500)
 cmd:option('--test_size', 1000)
 cmd:option('--valid_size', 500)
-cmd:option('--vector_file', 'data/vectors-10-threshold-055.txt')
+cmd:option('--vector_file', 'data/vectors-20-threshold-055.txt')
 g_params = cmd:parse(arg or {})
 
 print(g_params)
@@ -203,21 +162,34 @@ g_img_valid, g_img_q_valid = g_read_images('data/quant.valid.txt', g_params.vect
 g_img_test, g_img_q_test = g_read_images('data/quant.test.txt', g_params.vector_file, 
                             g_vocab, g_ivocab, g_vectors, g_params.test_size)
 g_params.nwords = 3
-print('vocabulary size ' .. #g_vocab)
 
-g_model = g_build_model(g_params)
-g_paramx, g_paramdx = g_model:getParameters()
-g_paramx:normal(0, g_params.init_std)
-if g_params.load ~= '' then
-    local f = torch.load(g_params.load)
-    g_paramx:copy(f.paramx)
-end
+print('vocabulary size ' .. #g_vocab)
+print('starting to run....')
 
 g_log_cost = {}
 g_log_perp = {}
 g_params.dt = g_params.sdt
 
-print('starting to run....')
+r = nn.Recurrent(
+   g_params.vector_size, nn.Identity(), 
+   nn.Linear(g_params.vector_size, g_params.vector_size), nn.Sigmoid(), 
+   g_params.memsize
+)
+
+rnn = nn.Sequential()
+   :add(nn.Identity())
+   :add(nn.SplitTable(1,2))
+   :add(nn.Sequencer(r))
+   :add(nn.SelectTable(-1)) -- this selects the last time-step of the rnn output sequence
+   :add(nn.Linear(g_params.vector_size, g_params.nwords))
+   :add(nn.SoftMax())
+
+-- build criterion
+
+criterion = nn.CrossEntropyCriterion()
+
+g_params.dt = g_params.sdt
+
 run(g_params.epochs)
 
 if g_params.save ~= '' then

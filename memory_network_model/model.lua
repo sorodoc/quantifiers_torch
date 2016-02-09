@@ -32,11 +32,11 @@ local function build_memory(params, input, context)
     local MMbout = nn.MM(false, false):cuda()
     local Bout = MMbout({probs3dim, Bin})
     -- C - apply LinearNB over the query
-    local C = nn.LinearNB(params.vector_size, params.vector_size)(hid[0])
+    --local C = nn.LinearNB(params.vector_size, params.vector_size)(hid[0])
     -- D - sum between C and Bout
     --local D = nn.CAddTable()({C, Bout}) -- for sum
     Bout2 = nn.View(-1):setNumInputDims(2)(Bout) -- for concatenation
-    local D = nn.JoinTable(2)({C, Bout2}) -- for concatenation
+    local D = nn.JoinTable(2)({hid[0], Bout2}) -- for concatenation
     hid[1] = D
     return hid
 end

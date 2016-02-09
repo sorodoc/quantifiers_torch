@@ -39,22 +39,24 @@ local function train(images, images_q)
     local cost = 0
     local y1 = torch.CudaTensor(1)
     local y2 = torch.CudaTensor(g_params.batchsize, g_params.nwords)
-    y1:fill(1)
-    y2:fill(1)
+    y1:fill(1.0)
+    y2:fill(1.0)
     local correct = torch.CudaTensor(g_params.nwords)
     --define the tensors for query(input), memory(context), target(quantifier)
-    local input = torch.CudaTensor(g_params.batchsize, g_params.vector_size)
+    local input = torch.CudaTensor(g_params.batchsize, #g_vocab - 3)
     local target = torch.CudaTensor(g_params.batchsize)
-    local context = torch.CudaTensor(g_params.batchsize, g_params.memsize, g_params.vector_size)
+    local context = torch.CudaTensor(g_params.batchsize, #g_vocab - 3)
     -- structure the train dataset in batches and substitute each symbol with its associated vector
     for n = 1, N do
         if g_params.show then xlua.progress(n, N) end
         for b = 1, g_params.batchsize do
             local start = (n - 1) * g_params.batchsize
-            input[b] = g_vectors[images_q[start + b][1]]
+            input[b]:fill(0.0)
+            input[b][images_q[start + b][1] - 3] = 1.0
+            context[b]:fill(0.0)
             target[b] = images_q[start + b][2]
             for i = 1, 16 do --change the parameter
-              context[b][i] = g_vectors[images[start + b][i]]
+              context[b][images[start + b][i] - 3] = context[b][images[start + b][i] -3] + 1.0
             end
         end
         local x = {input, target, context}
@@ -76,9 +78,9 @@ local function test(images, images_q)
     local N = math.ceil(images:size(1) / g_params.batchsize)
     local cost = 0
     --define the tensors for query(input), memory(context), target(quantifier index (from 1 to 3))
-    local input = torch.CudaTensor(g_params.batchsize, g_params.vector_size)
+    local input = torch.CudaTensor(g_params.batchsize, #g_vocab - 3)
     local target = torch.CudaTensor(g_params.batchsize)
-    local context = torch.CudaTensor(g_params.batchsize, g_params.memsize, g_params.vector_size)
+    local context = torch.CudaTensor(g_params.batchsize, #g_vocab - 3)
     local correct = 0
     local confusion_matrix = torch.CudaTensor(3, 3)
     confusion_matrix:fill(0.0)
@@ -87,10 +89,12 @@ local function test(images, images_q)
         if g_params.show then xlua.progress(n, N) end
         for b = 1, g_params.batchsize do
             local start = (n - 1) * g_params.batchsize
-            input[b] = g_vectors[images_q[start + b][1]]
+            input[b]:fill(0.0)
+            input[b][images_q[start + b][1] - 3] = 1.0
+            context[b]:fill(0.0)
             target[b] = images_q[start + b][2]
             for i = 1, 16 do --change the parameter
-              context[b][i] = g_vectors[images[start + b][i]]
+              context[b][images[start + b][i] - 3] = context[b][images[start + b][i] -3] + 1.0
             end
         end
         local x = {input, target, context}
@@ -175,11 +179,12 @@ cmd:option('--load', '', 'model file to load')
 cmd:option('--save', '', 'path to save model')
 cmd:option('--epochs', 100)
 cmd:option('--test', true, 'enable testing')
-cmd:option('--vector_size', 10, 'size of the vectors of the symbols')
+cmd:option('--vector_size', 20, 'size of the vectors of the symbols')
+cmd:option('--hidden_size', 10, 'size of the hidden state')
 cmd:option('--train_size', 3500)
 cmd:option('--test_size', 1000)
 cmd:option('--valid_size', 500)
-cmd:option('--vector_file', 'data/vectors-10-threshold-055.txt')
+cmd:option('--vector_file', 'data/vectors-20-threshold-055.txt')
 g_params = cmd:parse(arg or {})
 
 print(g_params)
@@ -196,15 +201,15 @@ g_vocab['no'] = #g_vocab + 1
 g_vectors = tds.hash()
 
 
-g_img_train, g_img_q_train = g_read_images('data/quant.train.txt', g_params.vector_file, 
-                            g_vocab, g_ivocab, g_vectors, g_params.train_size)
-g_img_valid, g_img_q_valid = g_read_images('data/quant.valid.txt', g_params.vector_file, 
-                            g_vocab, g_ivocab, g_vectors, g_params.valid_size)
-g_img_test, g_img_q_test = g_read_images('data/quant.test.txt', g_params.vector_file, 
-                            g_vocab, g_ivocab, g_vectors, g_params.test_size)
+g_img_train, g_img_q_train = g_read_images('data/quant.train.txt', 
+                            g_vocab, g_ivocab, g_params.train_size)
+g_img_valid, g_img_q_valid = g_read_images('data/quant.valid.txt', 
+                            g_vocab, g_ivocab, g_params.valid_size)
+g_img_test, g_img_q_test = g_read_images('data/quant.test.txt', 
+                            g_vocab, g_ivocab, g_params.test_size)
 g_params.nwords = 3
 print('vocabulary size ' .. #g_vocab)
-
+g_params.vocab_size = #g_vocab - 3
 g_model = g_build_model(g_params)
 g_paramx, g_paramdx = g_model:getParameters()
 g_paramx:normal(0, g_params.init_std)
