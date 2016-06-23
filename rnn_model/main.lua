@@ -12,9 +12,6 @@ paths.dofile('data.lua')
 
 -- build simple recurrent neural network
 
--- build dummy dataset (task is to predict class given rho words)
--- similar to sentiment analysis datasets
-
 -- training
 local function train(images, images_q)
     local N = math.ceil(images:size(1) / g_params.batchsize)
@@ -63,7 +60,6 @@ local function test(images, images_q)
           target[b] = images_q[start + b][2]
           for i = 1, 16 do --change the parameter
               for j = 1, g_params.vector_size do
-                --print(torch.normal(1.0, 0.02))
                 input[b][i + 1][j] = g_vectors[images[start + b][i]][j] + torch.normal(0, (std_vector[1][j] * 0.2))
               end
           end
@@ -75,7 +71,6 @@ local function test(images, images_q)
         local max_els = torch.DoubleTensor(g_params.batchsize)
         local max_ind = torch.DoubleTensor(g_params.batchsize)
         max_els, max_ind = torch.max(output, 2)
-        --prepare_output(images, images_q, n, out[2], max_ind)
         for b = 1, g_params.batchsize do
             if target[b] == max_ind[b][1] then
                 correct = correct + 1
@@ -90,8 +85,6 @@ local function run(epochs)
     local vector_dims = torch.DoubleTensor(11, g_params.vector_size)
     for i = 1, 11 do
         for j = 1, g_params.vector_size do
-            --print(g_ivocab[i + 3])
-            --print(g_vectors[i + 3])
             vector_dims[i][j] = g_vectors[i + 3][j]
         end
     end
@@ -106,13 +99,11 @@ local function run(epochs)
         conf_matrix_valid:fill(0.0)
         c = train(g_img_train, g_img_q_train)
         ct, correct_valid, conf_matrix_valid = test(g_img_valid, g_img_q_valid)
-        -- perplexity- exponential compared with cost function
+
         -- Logging
         local m = #g_log_cost+1
         g_log_cost[m] = {m, c, ct}
         g_log_perp[m] = {m, math.exp(c), math.exp(ct)}
-        --local stat = {perplexity = math.exp(c) , epoch = m,
-        --        valid_perplexity = math.exp(ct), LR = g_params.dt}
         local stat = {epoch = m}
         if g_params.test then
             local ctt, correct_test, conf_matrix_test = test(g_img_test, g_img_q_test)

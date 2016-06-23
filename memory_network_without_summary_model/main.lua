@@ -1,10 +1,3 @@
--- Copyright (c) 2015-present, Facebook, Inc.
--- All rights reserved.
---
--- This source code is licensed under the BSD-style license found in the
--- LICENSE file in the root directory of this source tree. An additional grant 
--- of patent rights can be found in the PATENTS file in the same directory.
---require('xlua')
 require('paths')
 require('mobdebug').start()
 local tds = require('tds')
@@ -12,26 +5,6 @@ paths.dofile('data.lua')
 paths.dofile('simple_model.lua')
 local file_log = require('pl.file')
 
-local function prepare_output(images_ind, queries_ind, n, preds, max_inds)
-  local start = (n - 1) * g_params.batchsize
-  for b=1, g_params.batchsize do
-    local image_ind = images_ind[start + b]
-    local query_ind = queries_ind[start + b]
-    local max_ind = max_inds[b]
-    local pred = preds[b]
-    local reverse_image = torch.DoubleTensor(4,4)
-    for i=1, 4 do
-      for j=1, 4 do
-        reverse_image[i][j] = image_ind[(i - 1) * 4 + j]
-      end
-    end
-    local stat_log = {image = tostring(reverse_image), 
-      query = tostring(query_ind), class_distribution = tostring(pred),
-      prediction = tostring(max_ind)}
-    print(stat_log)
---    file_log.write('error_analysis.txt', pred)  
-  end
-end
 
 --the train function
 local function train(images, images_q)
