@@ -1,0 +1,5000 @@
+o	m	l	null
+m	null	l	null
+o	o	l	n
+o	o	n	k
+m	?	some
+m	o	l	o
+m	o	null	null
+m	l	n	n
+n	l	n	null
+l	?	some
+l	null	null	l
+k	o	m	l
+m	o	m	l
+n	o	m	l
+n	?	some
+k	m	n	o
+k	k	o	l
+n	l	n	m
+l	null	m	k
+l	?	some
+n	null	n	o
+m	n	n	o
+m	l	k	m
+l	n	k	k
+o	?	some
+k	o	o	m
+k	n	n	o
+o	k	o	null
+l	null	m	l
+o	?	some
+null	l	k	o
+k	null	l	o
+k	o	l	k
+k	o	null	o
+m	?	no
+l	o	null	k
+k	l	m	m
+o	o	null	l
+m	o	l	k
+n	?	no
+null	null	l	l
+l	null	l	l
+l	null	null	l
+null	l	null	null
+l	?	all
+n	n	null	n
+n	n	null	null
+n	null	null	n
+null	null	null	null
+n	?	all
+o	l	k	k
+n	null	null	o
+o	null	l	l
+l	n	n	o
+m	?	no
+k	k	k	k
+m	o	l	o
+l	l	null	m
+m	m	l	l
+m	?	some
+l	l	l	null
+l	l	k	null
+l	k	k	k
+l	l	l	l
+o	?	no
+null	null	null	null
+n	n	n	n
+null	n	n	n
+null	n	null	null
+n	?	all
+m	m	null	m
+m	null	m	m
+m	m	m	null
+m	m	null	m
+m	?	all
+k	k	n	l
+null	n	null	k
+k	m	l	l
+n	n	l	n
+o	?	no
+null	k	null	k
+null	null	null	null
+null	k	null	null
+null	null	null	null
+k	?	all
+k	m	null	k
+o	l	o	m
+m	k	m	o
+null	k	null	l
+n	?	no
+null	null	null	null
+null	l	null	null
+null	null	null	l
+null	null	null	null
+l	?	all
+null	m	null	m
+m	null	m	null
+m	m	m	m
+null	m	m	m
+m	?	all
+null	m	m	m
+m	m	m	null
+null	m	m	m
+null	m	null	null
+m	?	all
+k	o	null	k
+l	l	n	o
+k	l	null	k
+m	n	o	k
+l	?	some
+l	o	l	o
+m	o	l	n
+m	l	k	k
+null	k	l	m
+o	?	some
+m	null	n	m
+o	o	k	k
+n	null	m	n
+o	k	k	null
+l	?	no
+n	n	n	n
+n	n	n	n
+n	n	n	n
+n	null	n	n
+n	?	all
+n	null	n	m
+null	n	k	n
+m	n	null	m
+k	null	n	m
+l	?	no
+k	null	m	l
+m	m	k	null
+l	k	m	l
+k	m	null	null
+n	?	no
+k	null	null	null
+null	null	null	null
+null	null	null	null
+k	null	null	null
+k	?	all
+n	o	n	k
+m	o	l	k
+l	l	o	k
+null	n	l	n
+m	?	some
+n	null	k	o
+null	l	m	n
+l	null	n	k
+null	n	n	n
+m	?	some
+l	o	n	o
+n	k	o	m
+l	k	o	k
+l	k	n	m
+n	?	some
+l	n	k	n
+m	m	m	n
+o	o	n	k
+null	k	k	l
+l	?	some
+m	null	l	o
+n	m	n	k
+l	o	l	k
+k	m	m	o
+o	?	some
+null	n	n	n
+n	n	n	null
+null	null	null	null
+n	null	n	n
+n	?	all
+null	m	m	m
+m	null	null	null
+m	m	m	null
+null	null	m	null
+m	?	all
+null	n	n	null
+n	null	null	null
+null	null	null	null
+null	null	null	null
+n	?	all
+null	m	n	n
+k	l	l	k
+k	l	k	m
+m	k	k	n
+o	?	no
+null	null	m	m
+m	m	null	null
+m	null	m	null
+null	null	null	null
+m	?	all
+n	n	null	l
+l	l	l	n
+l	m	l	k
+l	m	l	k
+o	?	no
+l	l	o	l
+o	l	k	k
+n	k	k	n
+null	null	n	l
+m	?	no
+null	null	o	null
+null	n	null	k
+n	o	n	k
+o	n	n	m
+l	?	no
+l	null	null	null
+null	null	l	null
+null	null	null	l
+l	null	l	null
+l	?	all
+l	n	m	o
+m	m	m	l
+k	k	m	null
+o	l	null	o
+m	?	some
+k	null	null	null
+l	o	n	n
+k	l	k	n
+k	n	null	null
+m	?	no
+n	k	o	null
+o	m	m	k
+m	k	k	m
+n	m	k	null
+l	?	no
+k	k	null	k
+o	o	o	k
+m	k	o	n
+l	l	l	o
+m	?	some
+n	n	n	n
+n	n	n	n
+n	n	n	n
+n	n	n	n
+n	?	all
+m	m	m	null
+m	null	null	null
+m	null	m	m
+m	null	m	null
+m	?	all
+null	n	n	n
+n	n	n	n
+n	null	n	n
+n	n	n	n
+n	?	all
+k	k	o	null
+l	null	m	n
+k	n	null	n
+null	k	l	o
+m	?	some
+m	null	null	m
+null	null	null	m
+null	null	null	null
+null	null	null	m
+m	?	all
+k	null	o	n
+null	n	n	o
+n	k	null	k
+null	n	o	null
+k	?	some
+null	n	k	null
+m	o	k	k
+k	n	n	o
+o	null	m	o
+l	?	no
+k	m	m	k
+null	k	k	l
+null	null	m	n
+n	m	m	n
+o	?	no
+null	o	null	o
+o	o	o	o
+null	o	o	o
+o	o	null	null
+o	?	all
+o	null	null	o
+null	o	null	null
+null	null	o	o
+null	o	null	o
+o	?	all
+k	o	l	o
+o	n	o	n
+m	null	m	l
+m	k	n	k
+n	?	some
+null	k	o	m
+k	n	null	null
+n	n	n	o
+n	k	n	k
+o	?	some
+m	l	null	m
+k	null	m	o
+m	k	l	n
+m	l	k	l
+o	?	some
+n	null	m	o
+null	o	m	l
+o	k	k	l
+k	n	l	o
+o	?	some
+k	m	o	o
+null	m	n	null
+n	k	o	o
+k	k	n	n
+l	?	no
+k	m	l	m
+m	m	o	k
+o	l	m	null
+null	k	null	o
+n	?	no
+o	m	k	null
+m	l	o	m
+k	null	null	l
+l	null	m	null
+n	?	no
+n	null	k	o
+k	k	o	m
+o	l	k	l
+n	m	m	null
+l	?	some
+m	n	k	o
+n	n	l	n
+n	o	k	null
+m	m	n	k
+m	?	some
+k	k	k	k
+k	k	k	k
+k	k	null	k
+k	k	k	k
+k	?	all
+k	k	k	n
+l	m	k	null
+m	k	null	o
+l	k	m	o
+l	?	some
+k	o	l	m
+m	o	o	k
+o	null	m	m
+m	k	null	null
+n	?	no
+k	null	null	k
+null	k	k	k
+k	null	null	null
+null	k	null	k
+k	?	all
+m	l	m	k
+null	l	m	null
+n	k	l	m
+k	null	m	null
+o	?	no
+o	o	o	o
+null	o	o	o
+o	o	o	o
+null	o	o	o
+o	?	all
+m	null	null	null
+null	null	m	null
+m	m	null	null
+null	null	m	m
+m	?	all
+o	l	k	n
+null	k	null	n
+o	o	o	m
+n	l	m	o
+o	?	some
+k	m	l	k
+l	k	n	l
+m	n	l	l
+l	null	k	k
+o	?	no
+null	null	n	n
+null	null	n	n
+n	null	n	n
+null	null	null	n
+n	?	all
+k	o	k	k
+m	o	m	n
+o	n	o	n
+n	null	k	k
+l	?	no
+m	null	m	m
+null	null	null	null
+null	m	m	null
+m	null	m	null
+m	?	all
+l	o	l	null
+n	n	m	m
+l	null	o	l
+m	m	o	m
+k	?	no
+null	null	k	null
+null	k	null	null
+null	k	k	k
+k	k	k	null
+k	?	all
+null	null	m	k
+k	m	null	k
+l	m	n	m
+null	l	k	null
+o	?	no
+null	l	l	null
+null	null	null	null
+null	null	null	null
+null	null	null	null
+l	?	all
+null	o	o	o
+o	o	o	o
+o	o	o	o
+null	null	o	null
+o	?	all
+m	l	o	o
+l	l	null	l
+l	k	null	null
+k	m	n	k
+n	?	some
+o	l	n	null
+k	m	n	m
+k	l	m	m
+m	l	n	m
+l	?	some
+n	n	n	n
+n	null	n	n
+n	n	null	n
+n	n	n	null
+n	?	all
+null	l	l	null
+l	null	null	l
+l	l	l	null
+null	l	l	null
+l	?	all
+l	l	m	k
+o	l	l	null
+n	o	null	o
+n	n	null	n
+n	?	some
+n	o	null	k
+k	m	n	k
+m	m	o	o
+k	k	null	n
+l	?	no
+l	o	l	n
+k	o	l	n
+o	l	l	o
+null	l	k	null
+m	?	no
+null	null	l	null
+null	l	null	l
+l	l	null	l
+null	l	null	null
+l	?	all
+m	null	null	m
+null	null	null	null
+null	null	null	null
+null	null	m	null
+m	?	all
+null	n	l	null
+n	k	m	null
+k	n	m	l
+m	k	n	m
+o	?	no
+l	l	l	null
+l	null	null	l
+l	l	l	l
+l	l	l	l
+l	?	all
+k	l	m	l
+l	null	m	k
+null	n	null	n
+null	null	k	k
+o	?	no
+n	n	null	null
+l	l	o	o
+l	o	o	k
+l	o	null	n
+k	?	some
+m	l	m	m
+n	m	k	k
+null	l	m	l
+m	l	n	m
+o	?	no
+m	k	k	null
+m	k	l	null
+null	n	null	l
+k	k	k	m
+o	?	no
+m	null	m	m
+n	null	n	null
+n	l	l	o
+l	o	m	n
+k	?	no
+null	null	l	null
+null	null	l	l
+null	l	l	l
+l	l	null	l
+l	?	all
+null	l	null	null
+l	null	null	null
+l	null	l	l
+null	null	null	null
+l	?	all
+n	m	n	null
+n	null	l	l
+o	null	l	l
+o	m	n	null
+k	?	no
+o	null	o	null
+m	k	null	k
+n	null	null	m
+m	m	null	k
+l	?	no
+n	m	k	null
+null	null	n	null
+o	k	k	k
+n	n	m	k
+l	?	no
+null	null	n	k
+l	m	o	o
+k	n	l	m
+o	o	o	l
+k	?	some
+null	k	n	null
+null	null	null	l
+m	null	k	l
+n	m	l	n
+o	?	no
+o	null	o	k
+o	o	k	k
+n	l	null	n
+n	l	n	null
+m	?	no
+m	m	null	m
+m	m	m	m
+m	m	null	null
+null	m	m	null
+m	?	all
+k	k	k	k
+k	k	null	null
+k	null	k	k
+k	k	k	null
+k	?	all
+o	o	o	o
+o	o	o	o
+o	o	o	o
+null	o	o	o
+o	?	all
+l	o	o	null
+l	o	o	o
+n	l	o	o
+o	o	m	l
+k	?	no
+k	l	o	l
+o	k	l	n
+n	l	n	null
+l	k	l	null
+m	?	no
+o	n	m	n
+n	n	k	m
+m	k	o	o
+m	k	k	k
+l	?	no
+null	k	l	k
+l	null	n	k
+l	m	null	l
+k	o	l	null
+n	?	some
+null	o	o	null
+null	null	null	null
+o	null	null	null
+null	null	o	null
+o	?	all
+n	null	null	null
+null	n	null	null
+null	null	n	n
+null	null	n	n
+n	?	all
+null	null	k	null
+null	null	null	null
+null	null	null	null
+k	null	null	null
+k	?	all
+k	null	k	k
+null	k	k	k
+k	k	k	k
+k	k	null	k
+k	?	all
+k	k	k	k
+k	k	k	null
+k	k	k	k
+k	null	k	k
+k	?	all
+null	null	null	null
+n	null	null	null
+null	null	null	null
+null	null	null	null
+n	?	all
+l	o	n	k
+n	o	l	null
+k	n	o	l
+l	null	n	k
+m	?	no
+n	l	n	k
+o	k	k	m
+n	null	m	m
+n	n	l	m
+m	?	some
+k	k	k	k
+null	k	k	k
+null	null	null	k
+null	k	k	k
+k	?	all
+n	l	l	n
+n	n	m	n
+o	m	m	o
+l	n	m	m
+n	?	some
+k	n	o	o
+null	l	null	k
+l	m	l	m
+l	n	l	m
+m	?	some
+o	m	o	m
+o	o	n	k
+n	k	k	k
+o	m	null	n
+l	?	no
+null	l	m	null
+n	n	l	null
+k	m	o	n
+k	m	k	m
+m	?	some
+k	k	null	n
+n	n	o	n
+o	n	m	null
+n	null	k	m
+l	?	no
+null	null	n	null
+null	null	null	null
+n	n	n	null
+null	null	n	null
+n	?	all
+null	null	k	o
+k	o	k	l
+o	m	l	n
+o	k	l	k
+m	?	some
+null	m	null	n
+n	null	m	m
+null	k	k	k
+m	k	m	k
+o	?	no
+k	k	null	k
+k	k	k	k
+k	k	null	null
+k	k	k	null
+k	?	all
+null	n	n	n
+null	null	null	n
+n	n	n	null
+null	null	n	n
+n	?	all
+n	o	o	m
+k	l	n	null
+m	k	m	null
+k	k	l	l
+k	?	some
+null	m	m	null
+m	m	null	m
+null	m	null	null
+m	m	m	m
+m	?	all
+null	m	m	null
+m	null	null	null
+null	m	null	m
+null	m	m	null
+m	?	all
+n	l	o	m
+m	null	m	m
+o	n	o	l
+null	m	m	n
+k	?	no
+l	null	m	l
+o	m	n	o
+m	l	m	m
+o	null	n	o
+k	?	no
+null	l	l	l
+l	l	l	null
+l	null	l	l
+null	l	l	null
+l	?	all
+null	m	m	n
+l	null	n	l
+m	null	k	k
+n	m	m	k
+o	?	no
+null	null	k	k
+k	null	null	k
+null	null	null	k
+k	k	null	k
+k	?	all
+k	k	k	k
+k	k	k	k
+k	k	k	k
+k	null	k	k
+k	?	all
+null	n	l	n
+k	o	null	l
+null	k	null	null
+k	l	k	l
+l	?	some
+null	m	n	m
+o	k	n	n
+k	o	n	n
+m	n	o	m
+o	?	some
+l	k	null	m
+null	k	n	m
+null	k	l	l
+m	m	m	k
+o	?	no
+m	m	null	null
+m	m	null	null
+null	null	null	null
+m	null	m	m
+m	?	all
+l	l	l	l
+l	l	l	l
+l	l	l	l
+l	l	l	null
+l	?	all
+o	o	null	null
+null	null	o	null
+null	o	o	null
+o	null	o	o
+o	?	all
+m	m	null	null
+null	m	null	m
+m	m	null	m
+m	null	null	m
+m	?	all
+m	k	k	m
+o	l	null	m
+k	o	m	k
+o	n	m	k
+l	?	some
+l	l	l	k
+k	k	null	null
+o	null	m	l
+l	k	o	l
+n	?	no
+m	null	m	m
+null	m	m	m
+m	null	null	m
+m	m	m	m
+m	?	all
+null	null	null	null
+null	n	n	null
+null	null	null	n
+null	null	n	n
+n	?	all
+l	l	l	l
+null	null	l	null
+l	l	l	l
+l	l	l	l
+l	?	all
+o	o	o	m
+k	o	o	null
+null	m	n	k
+o	m	o	o
+l	?	no
+null	null	o	null
+null	o	null	o
+o	null	null	null
+o	null	null	o
+o	?	all
+m	null	k	m
+null	n	n	k
+null	null	m	null
+l	m	null	l
+o	?	no
+k	null	k	k
+null	k	k	null
+k	k	k	null
+null	null	k	k
+k	?	all
+null	o	o	o
+o	null	o	null
+o	null	o	null
+o	o	null	o
+o	?	all
+k	l	m	m
+m	n	l	null
+k	o	null	null
+o	l	null	m
+o	?	some
+l	k	k	null
+l	k	o	l
+null	k	l	k
+l	o	l	null
+m	?	no
+null	null	n	null
+null	null	null	null
+n	null	null	null
+null	null	null	null
+n	?	all
+m	null	m	l
+k	n	l	null
+null	o	o	n
+null	l	o	o
+l	?	some
+o	m	k	m
+o	l	k	null
+null	k	l	n
+m	m	null	l
+l	?	some
+n	l	l	null
+n	k	null	m
+null	null	o	m
+k	o	n	k
+o	?	some
+o	l	n	k
+k	m	null	n
+l	l	o	o
+m	o	o	k
+k	?	some
+n	n	n	null
+n	n	n	n
+n	null	n	n
+null	n	n	n
+n	?	all
+l	k	l	o
+o	k	k	n
+o	k	m	k
+k	m	null	m
+o	?	some
+null	m	k	k
+m	null	n	n
+m	m	l	null
+l	m	k	null
+o	?	no
+o	null	null	k
+l	l	n	n
+null	null	k	null
+n	o	k	l
+m	?	no
+l	null	l	null
+l	l	l	l
+l	l	l	null
+l	null	l	l
+l	?	all
+n	l	o	null
+l	null	n	l
+k	l	k	k
+m	o	null	m
+n	?	some
+null	null	null	n
+null	null	n	n
+null	null	null	null
+n	n	null	null
+n	?	all
+n	null	n	n
+null	null	n	null
+null	null	null	null
+null	n	null	null
+n	?	all
+l	null	l	null
+m	m	l	k
+o	o	null	m
+o	k	l	l
+n	?	no
+null	null	m	o
+m	o	m	l
+l	o	o	k
+m	m	l	o
+m	?	some
+m	o	n	null
+m	o	k	l
+l	k	null	k
+m	n	o	o
+m	?	some
+l	o	k	n
+null	k	o	o
+null	o	n	l
+o	k	o	o
+m	?	no
+null	o	null	null
+o	null	null	null
+o	o	o	null
+o	null	o	o
+o	?	all
+null	m	null	null
+null	null	null	null
+null	null	null	null
+null	m	m	null
+m	?	all
+null	l	o	o
+null	k	l	k
+null	m	k	o
+n	null	l	n
+m	?	some
+null	null	null	null
+null	m	null	null
+null	m	null	null
+null	m	null	m
+m	?	all
+n	n	null	n
+n	null	null	null
+n	n	n	n
+null	n	n	n
+n	?	all
+null	l	k	null
+n	m	o	m
+n	k	l	n
+n	m	l	n
+k	?	some
+null	k	k	k
+k	k	null	k
+k	k	k	k
+k	k	k	k
+k	?	all
+n	null	null	null
+null	null	null	null
+null	null	null	null
+null	null	null	null
+n	?	all
+null	k	o	n
+o	k	m	o
+l	k	m	o
+o	m	l	o
+m	?	some
+l	l	null	l
+null	l	l	null
+null	l	null	l
+l	l	l	l
+l	?	all
+m	m	null	l
+m	k	m	null
+null	l	k	o
+o	l	l	l
+n	?	no
+l	m	n	k
+null	o	k	o
+o	m	o	l
+k	null	l	l
+m	?	some
+k	k	k	null
+k	k	k	k
+k	k	k	k
+k	k	k	k
+k	?	all
+k	l	n	k
+o	null	o	null
+m	k	m	m
+k	o	o	o
+m	?	some
+o	null	n	o
+n	n	o	l
+n	m	m	null
+n	m	m	o
+k	?	no
+null	o	o	l
+l	m	m	k
+o	k	null	m
+l	null	k	m
+n	?	no
+l	n	n	m
+m	n	null	o
+k	n	m	k
+m	o	o	k
+n	?	some
+k	k	n	m
+n	l	null	m
+n	k	m	null
+k	m	n	n
+l	?	some
+null	o	null	l
+m	m	l	o
+null	m	n	l
+m	n	l	n
+l	?	some
+k	k	k	null
+k	k	k	null
+k	k	null	k
+null	null	k	null
+k	?	all
+null	k	k	k
+null	k	k	null
+k	k	k	k
+k	k	k	k
+k	?	all
+l	n	n	l
+k	null	n	k
+m	o	l	o
+o	l	o	n
+k	?	some
+null	n	l	n
+null	l	n	m
+n	m	null	o
+m	o	n	m
+k	?	no
+null	o	o	o
+o	null	o	o
+o	o	null	o
+null	o	o	o
+o	?	all
+o	o	o	o
+o	o	o	o
+o	o	null	null
+o	o	o	o
+o	?	all
+o	n	null	null
+null	o	o	k
+l	n	n	null
+k	n	null	o
+m	?	no
+null	null	null	m
+null	null	null	null
+null	null	null	null
+m	null	null	null
+m	?	all
+m	null	m	n
+null	n	null	n
+k	null	k	k
+l	k	l	null
+o	?	no
+k	o	k	n
+o	k	l	k
+k	k	n	n
+k	k	o	null
+k	?	some
+k	l	null	l
+k	k	o	o
+null	null	o	k
+k	k	k	n
+m	?	no
+l	m	k	null
+n	o	k	l
+n	n	n	n
+n	l	n	k
+m	?	some
+n	l	o	l
+l	o	null	null
+m	o	l	n
+m	l	k	null
+n	?	some
+null	o	null	null
+null	null	o	null
+null	null	null	null
+null	o	null	o
+o	?	all
+n	null	n	null
+l	m	null	n
+o	m	m	l
+n	o	m	m
+k	?	no
+null	n	k	m
+m	null	l	l
+null	m	null	l
+m	o	o	m
+k	?	some
+m	null	k	n
+n	k	n	k
+l	null	m	k
+m	null	l	null
+k	?	some
+k	k	k	null
+null	k	k	k
+k	null	k	k
+k	k	k	k
+k	?	all
+k	k	k	null
+null	k	k	k
+k	k	k	k
+k	k	null	k
+k	?	all
+null	o	o	o
+null	o	o	null
+null	null	null	null
+o	null	o	o
+o	?	all
+m	m	null	m
+null	null	null	null
+null	m	m	null
+m	null	null	m
+m	?	all
+n	n	m	m
+o	o	n	o
+n	l	null	null
+k	n	o	k
+o	?	some
+null	null	null	null
+m	n	null	k
+n	k	o	null
+null	null	o	null
+l	?	no
+l	o	m	l
+m	m	n	null
+null	null	l	n
+l	l	l	null
+k	?	no
+l	l	null	k
+l	o	null	n
+null	k	n	n
+k	o	o	null
+o	?	some
+l	m	l	m
+n	m	null	null
+n	o	n	m
+o	n	o	o
+k	?	no
+null	k	k	k
+null	null	k	null
+null	k	null	k
+k	null	null	null
+k	?	all
+m	m	o	l
+n	k	l	n
+k	m	n	null
+null	null	l	m
+m	?	some
+n	n	l	k
+o	o	o	k
+m	m	o	n
+null	n	l	m
+n	?	some
+n	null	l	n
+o	k	n	l
+l	l	null	m
+o	m	null	o
+o	?	some
+k	null	null	null
+null	null	k	null
+null	null	null	null
+null	k	null	k
+k	?	all
+null	o	o	null
+l	m	l	m
+n	n	m	l
+o	m	o	null
+k	?	no
+null	n	n	null
+o	l	k	n
+o	n	o	k
+l	m	o	m
+o	?	some
+k	l	null	m
+m	null	k	n
+null	l	o	l
+m	m	o	n
+l	?	some
+k	l	m	l
+null	o	l	m
+o	m	null	k
+o	o	l	o
+n	?	no
+n	n	n	n
+n	n	n	n
+n	n	n	n
+n	n	null	n
+n	?	all
+k	m	n	null
+null	m	l	m
+k	l	k	m
+m	o	null	o
+m	?	some
+null	o	null	o
+o	null	o	null
+o	o	o	o
+o	o	o	o
+o	?	all
+o	null	n	k
+l	m	null	null
+l	null	m	k
+l	m	null	m
+m	?	some
+k	k	k	null
+null	k	k	null
+k	k	k	k
+k	k	null	k
+k	?	all
+l	null	o	o
+null	m	n	n
+null	m	null	l
+n	null	m	o
+k	?	no
+k	k	k	k
+l	o	o	null
+k	null	null	l
+k	o	l	k
+n	?	no
+l	m	k	m
+o	null	o	l
+k	o	o	m
+m	m	o	l
+n	?	no
+null	k	null	k
+k	null	null	null
+null	null	null	k
+k	null	null	null
+k	?	all
+null	null	null	null
+null	null	null	null
+m	null	null	null
+null	null	null	null
+m	?	all
+o	n	m	null
+null	m	m	m
+m	k	k	null
+o	o	k	n
+l	?	no
+o	l	null	o
+n	m	n	n
+m	m	l	l
+n	k	n	l
+m	?	some
+k	o	null	null
+k	n	l	m
+m	null	o	k
+n	null	n	m
+n	?	some
+n	null	l	n
+k	o	l	l
+n	n	l	k
+l	n	k	l
+m	?	no
+n	m	null	n
+m	l	n	l
+l	null	m	m
+m	k	n	m
+o	?	no
+n	null	null	n
+n	n	n	n
+null	null	null	null
+n	null	n	n
+n	?	all
+n	null	null	null
+n	null	null	null
+null	null	n	n
+null	null	n	null
+n	?	all
+l	l	null	null
+l	l	null	null
+null	null	null	null
+null	null	null	l
+l	?	all
+null	m	n	o
+k	n	null	k
+m	k	l	o
+o	o	null	n
+l	?	some
+null	m	null	null
+null	null	null	m
+m	null	null	m
+null	null	m	null
+m	?	all
+null	n	n	n
+n	n	n	null
+n	null	n	null
+n	n	n	null
+n	?	all
+null	n	m	l
+l	o	l	k
+null	l	m	m
+n	null	o	n
+k	?	some
+m	o	m	k
+null	o	m	m
+m	m	m	null
+null	o	n	null
+l	?	no
+null	null	null	null
+m	null	m	null
+null	null	m	m
+m	null	m	m
+m	?	all
+m	o	null	null
+null	null	o	o
+n	null	n	n
+l	null	l	l
+k	?	no
+k	m	m	null
+n	n	l	m
+n	n	l	o
+m	o	null	n
+n	?	some
+l	l	l	l
+l	l	l	l
+l	l	l	l
+l	l	l	l
+l	?	all
+o	k	m	l
+o	m	l	m
+o	o	m	o
+o	m	k	null
+n	?	no
+null	null	null	l
+null	null	l	null
+null	l	l	null
+l	null	null	null
+l	?	all
+k	o	o	k
+null	k	l	l
+o	k	k	m
+k	null	null	l
+n	?	no
+o	o	o	o
+o	o	o	o
+null	o	o	o
+null	null	o	o
+o	?	all
+l	l	l	null
+l	l	l	l
+l	l	l	l
+l	null	l	l
+l	?	all
+null	m	m	m
+m	m	null	m
+null	m	m	m
+null	m	m	m
+m	?	all
+m	null	null	null
+m	null	null	m
+null	null	m	m
+m	m	null	m
+m	?	all
+l	null	null	l
+null	l	null	null
+l	null	null	null
+null	null	l	null
+l	?	all
+n	l	m	n
+m	k	l	null
+k	l	m	n
+o	k	k	m
+n	?	some
+m	n	l	l
+n	l	m	null
+n	m	k	k
+o	o	null	k
+n	?	some
+null	null	m	m
+m	k	l	k
+m	l	m	o
+null	l	l	k
+k	?	some
+k	k	m	null
+null	k	o	l
+m	n	l	null
+null	k	k	n
+n	?	some
+null	null	null	o
+null	null	o	o
+null	o	null	null
+o	null	null	o
+o	?	all
+o	k	null	m
+k	n	k	o
+l	n	k	n
+null	null	m	n
+o	?	some
+l	null	l	null
+l	n	o	m
+k	o	l	null
+k	n	n	k
+k	?	some
+l	l	l	l
+l	l	l	l
+l	l	l	l
+null	l	null	null
+l	?	all
+m	null	l	l
+m	null	m	n
+o	n	o	null
+l	n	l	l
+m	?	some
+null	null	k	k
+k	null	k	k
+k	k	k	k
+k	null	null	null
+k	?	all
+m	m	m	m
+m	m	m	null
+m	m	m	m
+m	m	m	m
+m	?	all
+m	m	null	m
+null	n	k	k
+m	null	k	o
+null	m	null	l
+k	?	some
+null	null	null	null
+null	k	null	k
+null	null	null	null
+null	null	null	null
+k	?	all
+null	m	null	m
+m	m	m	null
+null	m	m	null
+m	m	null	null
+m	?	all
+o	k	l	k
+o	m	o	m
+o	null	k	null
+l	k	o	m
+o	?	some
+null	null	m	m
+n	n	o	m
+m	k	null	null
+null	k	l	null
+l	?	some
+l	null	m	null
+null	null	n	m
+o	null	l	n
+k	null	k	k
+k	?	some
+o	m	null	l
+o	m	m	n
+m	m	o	l
+l	n	n	n
+k	?	no
+null	l	null	null
+null	null	null	null
+l	null	l	l
+l	null	null	null
+l	?	all
+l	k	null	o
+o	l	k	n
+k	m	m	n
+o	k	n	o
+l	?	some
+null	null	null	null
+null	null	null	null
+null	null	null	null
+n	null	null	null
+n	?	all
+k	k	o	null
+n	k	o	k
+k	o	n	l
+null	m	null	null
+k	?	some
+k	null	k	null
+null	null	null	null
+null	null	null	k
+null	null	null	null
+k	?	all
+m	m	m	m
+m	m	m	m
+m	m	null	null
+m	m	m	m
+m	?	all
+l	l	l	l
+l	l	l	l
+l	l	l	l
+null	l	l	l
+l	?	all
+l	null	l	l
+null	null	null	l
+l	l	null	l
+null	null	l	l
+l	?	all
+null	o	n	m
+l	n	m	o
+l	null	n	null
+l	null	o	n
+k	?	no
+k	k	m	null
+n	n	o	k
+k	l	l	n
+o	o	o	o
+l	?	some
+n	m	null	k
+null	null	k	m
+m	n	null	null
+k	m	k	n
+l	?	no
+null	null	m	n
+null	l	m	n
+m	n	o	null
+null	null	null	null
+k	?	no
+null	null	l	k
+k	m	n	null
+n	m	m	m
+null	m	null	null
+o	?	no
+o	o	o	null
+o	o	o	o
+o	o	o	o
+o	null	o	o
+o	?	all
+null	null	null	null
+o	null	null	o
+null	null	null	o
+null	null	null	null
+o	?	all
+k	k	o	o
+null	l	n	l
+l	o	null	n
+n	o	k	k
+m	?	no
+null	n	n	null
+n	n	n	n
+n	n	n	n
+n	null	null	n
+n	?	all
+null	k	k	l
+n	l	k	o
+l	null	null	k
+null	o	k	n
+m	?	no
+o	o	o	o
+o	o	null	o
+o	o	o	o
+o	o	o	o
+o	?	all
+null	n	k	null
+l	n	o	k
+n	o	n	l
+k	k	k	o
+m	?	no
+o	o	o	o
+o	null	o	o
+o	o	o	o
+o	o	o	o
+o	?	all
+o	k	l	o
+n	o	k	null
+l	null	m	m
+null	m	k	null
+n	?	some
+o	null	k	o
+l	null	l	k
+l	k	null	l
+o	null	o	null
+n	?	no
+k	n	l	null
+o	null	n	o
+o	k	k	null
+l	o	l	n
+m	?	no
+k	o	k	m
+o	o	m	o
+k	m	k	null
+null	null	k	k
+k	?	some
+null	k	k	null
+null	null	null	null
+null	null	null	k
+null	null	k	null
+k	?	all
+k	k	l	null
+null	l	m	null
+m	l	null	null
+k	o	k	null
+n	?	no
+l	o	n	n
+m	k	n	n
+l	null	l	o
+m	m	n	m
+n	?	some
+null	l	o	null
+null	null	k	l
+n	o	null	l
+null	k	k	n
+k	?	some
+null	m	null	null
+null	null	null	null
+null	m	null	null
+null	null	m	m
+m	?	all
+n	k	k	k
+null	m	null	k
+l	m	n	m
+null	null	k	null
+m	?	some
+m	m	null	o
+o	l	l	m
+null	l	m	null
+k	l	null	null
+n	?	no
+k	o	k	o
+o	o	k	n
+n	l	n	k
+l	k	o	k
+m	?	no
+n	l	k	null
+n	n	null	n
+n	l	o	n
+null	n	null	l
+l	?	some
+k	l	l	null
+m	k	k	n
+m	null	l	k
+n	n	m	k
+m	?	some
+n	l	m	l
+l	l	n	n
+n	m	l	l
+o	n	m	l
+k	?	no
+m	l	l	o
+n	l	l	m
+m	l	m	m
+n	m	m	o
+k	?	no
+n	null	null	null
+n	null	n	null
+null	n	null	null
+null	n	null	null
+n	?	all
+n	n	l	o
+m	m	l	l
+m	n	null	o
+n	m	o	n
+k	?	no
+null	o	n	o
+null	null	o	n
+l	null	o	null
+k	l	m	m
+k	?	some
+null	m	o	k
+o	null	l	o
+k	m	l	n
+k	o	o	k
+k	?	some
+null	n	l	k
+o	null	m	m
+o	n	o	m
+n	l	n	o
+k	?	some
+null	k	l	null
+o	n	l	k
+l	n	k	n
+n	n	null	k
+m	?	no
+m	o	m	l
+m	l	o	l
+o	null	l	m
+m	k	null	l
+n	?	no
+o	null	m	k
+o	l	o	o
+m	m	n	o
+n	l	o	l
+m	?	some
+l	n	m	n
+m	n	o	o
+k	m	n	n
+null	o	m	m
+n	?	some
+l	n	o	null
+o	m	o	n
+l	m	n	null
+l	l	o	null
+k	?	no
+n	m	null	o
+m	null	null	null
+m	null	m	o
+null	null	m	m
+l	?	no
+m	m	null	null
+null	null	m	null
+null	null	null	null
+null	null	null	null
+m	?	all
+m	k	o	k
+o	n	l	m
+k	null	n	l
+m	null	n	null
+n	?	some
+n	n	null	n
+n	n	n	n
+n	n	n	n
+n	n	n	n
+n	?	all
+l	l	m	n
+l	null	null	o
+m	n	m	l
+n	l	n	k
+k	?	some
+n	null	l	n
+n	m	m	o
+n	l	n	null
+l	null	l	l
+k	?	no
+o	o	m	null
+l	m	l	n
+null	l	o	o
+n	null	n	n
+k	?	no
+n	n	k	m
+o	o	k	n
+null	m	k	n
+null	o	k	n
+l	?	no
+k	o	m	l
+null	k	o	n
+k	o	o	null
+k	l	o	k
+n	?	some
+o	n	m	o
+n	o	k	null
+null	k	n	n
+m	k	o	o
+l	?	no
+null	n	o	l
+n	m	o	o
+n	m	n	n
+l	n	l	null
+k	?	no
+k	o	n	l
+o	l	l	k
+null	n	o	null
+o	o	n	k
+m	?	no
+k	m	o	o
+l	o	null	o
+k	null	m	l
+o	l	o	l
+n	?	no
+o	null	m	m
+m	m	o	o
+o	k	o	k
+m	o	k	k
+n	?	no
+m	n	null	k
+n	k	m	null
+o	k	k	o
+null	m	o	k
+l	?	no
+null	null	o	null
+o	null	o	null
+o	null	null	null
+null	null	o	null
+o	?	all
+o	null	null	o
+o	null	null	o
+null	o	o	null
+null	null	null	null
+o	?	all
+l	o	null	null
+l	o	l	null
+l	o	null	m
+l	m	m	m
+n	?	no
+null	k	m	k
+n	k	m	n
+null	null	m	k
+m	n	m	null
+o	?	no
+null	k	null	k
+null	k	null	k
+k	null	k	k
+k	null	k	k
+k	?	all
+k	o	k	o
+m	o	m	o
+k	null	null	k
+o	m	m	m
+n	?	no
+null	null	null	l
+l	l	l	null
+l	null	l	null
+l	null	null	null
+l	?	all
+o	null	n	k
+m	n	k	k
+m	o	n	m
+n	n	l	m
+k	?	some
+l	null	l	n
+null	n	l	n
+null	m	n	o
+null	m	o	n
+k	?	no
+k	k	k	null
+k	k	null	k
+null	null	null	null
+null	null	k	k
+k	?	all
+null	l	m	n
+k	null	null	l
+null	k	n	k
+k	m	m	m
+o	?	no
+n	n	n	null
+null	n	n	n
+n	null	n	n
+n	n	n	n
+n	?	all
+l	n	null	o
+l	o	m	o
+m	o	null	l
+o	m	m	null
+k	?	no
+k	l	k	null
+n	m	m	n
+l	l	m	null
+null	null	n	l
+o	?	no
+n	k	o	o
+n	n	n	null
+null	null	l	n
+null	n	k	null
+m	?	no
+l	null	l	l
+l	l	l	l
+l	l	l	l
+l	l	l	l
+l	?	all
+o	o	k	null
+k	m	null	null
+n	null	l	k
+n	m	o	k
+l	?	some
+o	k	k	l
+null	o	m	null
+o	null	l	o
+l	k	m	l
+n	?	no
+n	l	l	null
+l	null	o	m
+k	l	null	m
+k	k	k	null
+l	?	some
+null	null	k	k
+null	k	null	null
+null	null	k	null
+null	null	null	k
+k	?	all
+n	n	null	null
+null	n	null	n
+null	null	null	null
+n	null	n	n
+n	?	all
+null	m	l	m
+n	m	o	o
+m	l	o	null
+n	n	n	null
+k	?	no
+m	m	m	m
+m	m	m	m
+m	m	m	m
+m	m	m	m
+m	?	all
+null	m	m	m
+m	m	m	m
+m	m	m	m
+m	m	m	m
+m	?	all
+n	m	m	o
+o	null	m	o
+l	n	n	k
+m	o	k	o
+l	?	some
+null	n	m	l
+k	n	m	null
+l	n	n	m
+k	null	o	k
+l	?	some
+o	o	null	l
+m	m	null	n
+m	o	l	l
+m	o	null	null
+k	?	no
+m	n	m	m
+m	n	o	m
+null	l	n	l
+m	n	l	o
+n	?	some
+n	o	null	null
+null	n	o	l
+n	l	l	n
+m	k	m	m
+k	?	some
+o	m	n	null
+n	k	m	k
+m	n	m	n
+m	null	m	null
+k	?	some
+n	n	n	n
+n	n	n	n
+n	null	n	n
+n	null	n	null
+n	?	all
+null	null	null	null
+null	o	null	null
+null	o	o	o
+o	null	null	o
+o	?	all
+m	m	null	null
+null	l	o	k
+l	l	m	k
+m	null	k	k
+n	?	no
+k	l	o	null
+o	o	o	o
+null	null	l	o
+n	null	l	n
+m	?	no
+n	m	null	null
+n	k	k	null
+l	n	l	m
+null	null	m	k
+o	?	no
+o	l	k	null
+o	o	o	l
+o	o	m	m
+m	m	l	l
+n	?	no
+n	null	o	null
+n	o	l	m
+o	l	m	null
+k	k	m	l
+o	?	some
+m	m	m	m
+null	m	null	null
+null	m	m	null
+null	null	null	m
+m	?	all
+k	null	o	m
+n	k	k	k
+o	n	null	o
+null	m	null	n
+l	?	no
+l	l	m	k
+m	m	n	null
+m	k	m	k
+null	k	n	l
+o	?	no
+k	o	o	k
+n	null	null	l
+null	null	o	o
+null	n	k	l
+l	?	some
+n	null	null	n
+null	null	n	n
+null	null	null	null
+null	n	n	null
+n	?	all
+null	k	k	k
+n	n	o	n
+m	null	k	k
+m	k	o	n
+l	?	no
+l	l	l	null
+null	l	null	l
+l	l	null	null
+l	l	l	null
+l	?	all
+k	n	n	m
+k	n	null	k
+l	null	l	k
+n	m	n	k
+o	?	no
+null	null	l	k
+o	k	m	l
+l	l	m	null
+k	k	k	o
+n	?	no
+null	l	n	n
+l	null	n	m
+null	m	null	l
+o	o	l	o
+k	?	no
+o	k	k	null
+null	m	null	n
+n	null	k	o
+null	null	o	m
+l	?	no
+null	null	null	null
+n	n	n	null
+null	null	null	null
+n	null	null	null
+n	?	all
+null	m	m	m
+m	l	k	null
+k	null	k	k
+l	k	o	l
+n	?	no
+k	k	k	k
+k	k	k	k
+k	null	k	k
+k	k	k	k
+k	?	all
+m	k	null	k
+null	m	null	l
+l	m	m	null
+o	null	o	k
+n	?	no
+k	k	k	k
+k	k	k	null
+k	null	null	k
+k	k	null	k
+k	?	all
+m	null	o	m
+o	null	n	k
+k	null	o	null
+k	null	k	n
+l	?	no
+null	null	m	m
+null	m	null	null
+m	null	null	null
+null	null	null	null
+m	?	all
+n	n	null	null
+n	null	n	n
+n	n	null	n
+null	n	n	n
+n	?	all
+n	m	null	m
+o	o	k	k
+m	k	m	k
+o	null	m	o
+l	?	no
+null	n	n	k
+n	n	l	null
+o	null	o	l
+k	null	o	k
+o	?	some
+l	l	o	k
+k	k	null	o
+l	m	null	m
+null	o	null	l
+n	?	no
+null	m	n	m
+m	o	null	n
+k	n	o	m
+k	null	null	null
+k	?	some
+null	null	null	null
+null	null	null	null
+n	null	n	n
+null	n	null	n
+n	?	all
+null	null	null	null
+null	null	k	null
+null	k	null	null
+null	null	null	null
+k	?	all
+o	m	l	null
+o	o	o	k
+null	m	null	k
+l	o	l	m
+n	?	no
+n	null	null	m
+o	o	l	null
+m	n	m	k
+null	k	m	k
+l	?	some
+l	null	m	l
+n	null	null	n
+null	k	m	l
+k	m	m	k
+k	?	some
+l	l	l	l
+l	l	l	l
+l	l	l	null
+l	l	l	l
+l	?	all
+null	null	o	m
+null	null	k	l
+k	n	null	m
+o	n	null	null
+l	?	some
+null	null	l	l
+null	n	l	null
+l	l	l	l
+k	m	o	k
+l	?	some
+m	m	null	null
+null	m	m	m
+m	null	null	null
+null	m	null	m
+m	?	all
+n	l	n	n
+o	null	o	n
+o	k	null	o
+l	m	null	k
+l	?	some
+m	m	k	l
+n	l	l	k
+n	l	null	n
+n	l	m	n
+o	?	no
+null	null	null	null
+null	null	null	null
+null	l	null	null
+null	null	null	null
+l	?	all
+m	o	m	null
+l	m	o	null
+k	m	m	m
+k	null	o	null
+n	?	no
+m	null	m	o
+m	o	o	l
+o	null	n	l
+null	n	l	o
+k	?	no
+l	k	o	k
+n	n	k	n
+n	l	n	k
+o	n	o	n
+m	?	no
+k	n	null	null
+k	n	m	m
+n	m	k	null
+m	k	null	l
+o	?	no
+n	null	null	k
+m	m	n	o
+m	n	k	o
+o	k	m	k
+m	?	some
+null	null	m	n
+o	null	m	l
+m	m	k	l
+null	null	l	l
+k	?	some
+o	n	m	m
+n	m	null	null
+k	o	k	m
+n	null	m	null
+l	?	no
+n	n	n	n
+n	n	n	n
+n	n	n	n
+n	null	n	null
+n	?	all
+null	null	null	null
+m	null	null	null
+null	null	null	null
+null	m	null	null
+m	?	all
+m	m	null	n
+m	k	m	n
+null	o	m	m
+l	n	m	n
+k	?	some
+k	n	null	l
+null	n	o	o
+k	n	l	l
+l	n	null	k
+m	?	no
+null	k	o	l
+l	null	o	o
+m	l	null	m
+o	k	m	k
+n	?	no
+m	l	null	o
+n	l	m	l
+l	l	l	m
+l	m	l	null
+k	?	no
+o	null	o	null
+null	null	null	null
+null	null	null	null
+null	o	null	o
+o	?	all
+l	null	null	k
+m	null	n	null
+m	m	m	k
+k	n	o	k
+o	?	some
+l	null	null	null
+null	m	l	k
+l	l	k	null
+l	n	m	k
+o	?	no
+n	n	null	o
+n	n	l	l
+n	m	m	l
+l	m	l	null
+k	?	no
+m	o	o	k
+n	n	o	l
+n	n	l	m
+m	m	n	null
+o	?	some
+l	m	null	k
+m	null	n	l
+m	m	l	n
+o	null	l	m
+k	?	some
+m	null	o	l
+null	null	m	n
+m	o	k	o
+n	o	o	n
+k	?	some
+n	l	o	n
+null	o	l	o
+n	null	n	m
+m	m	m	m
+k	?	no
+null	o	null	null
+null	o	null	null
+null	null	null	null
+null	null	null	null
+o	?	all
+l	k	k	null
+m	m	k	k
+o	o	l	null
+m	l	k	k
+n	?	no
+k	null	null	null
+null	k	null	null
+k	k	null	null
+null	null	null	null
+k	?	all
+l	n	k	m
+o	l	l	n
+n	null	n	k
+null	n	k	n
+o	?	some
+k	n	null	n
+l	n	n	o
+k	null	n	n
+k	n	o	k
+m	?	no
+m	null	k	null
+null	n	k	l
+null	null	m	l
+k	o	o	l
+o	?	some
+m	l	n	k
+o	null	null	k
+k	k	l	m
+n	o	k	n
+l	?	some
+m	null	null	null
+null	null	null	null
+null	null	null	null
+null	null	null	null
+m	?	all
+null	null	k	k
+k	null	k	null
+null	null	k	k
+null	k	k	null
+k	?	all
+m	null	null	null
+o	k	k	o
+null	null	k	k
+o	null	k	l
+n	?	no
+o	n	k	k
+o	null	k	o
+null	null	k	null
+m	n	null	o
+l	?	no
+null	n	n	l
+l	l	k	null
+n	m	null	l
+l	n	m	k
+o	?	no
+n	m	l	m
+m	n	k	null
+l	null	k	l
+l	null	null	n
+l	?	some
+l	n	l	m
+m	null	l	null
+n	o	k	o
+k	k	m	l
+o	?	some
+null	null	n	n
+null	null	null	n
+n	null	null	n
+null	n	null	null
+n	?	all
+null	null	null	null
+null	l	null	null
+l	null	null	null
+null	null	null	null
+l	?	all
+l	m	k	m
+k	n	null	n
+l	m	m	l
+l	null	n	null
+o	?	no
+k	k	k	k
+k	k	k	k
+k	k	k	null
+k	k	k	k
+k	?	all
+m	k	n	k
+null	m	m	null
+n	m	n	null
+k	k	k	n
+o	?	no
+n	l	l	m
+l	m	l	m
+l	n	n	o
+l	m	o	m
+k	?	no
+null	o	o	o
+m	k	k	o
+o	l	o	l
+m	o	o	o
+n	?	no
+l	o	l	k
+null	m	k	o
+o	o	null	o
+n	n	null	null
+o	?	some
+l	m	n	k
+k	m	l	n
+l	m	null	m
+l	n	m	l
+k	?	some
+null	l	n	null
+k	o	k	k
+k	l	l	n
+l	n	null	l
+m	?	no
+null	k	null	null
+m	l	m	l
+k	m	n	o
+o	n	k	null
+n	?	some
+null	l	m	o
+l	m	o	k
+o	m	m	m
+o	n	o	m
+l	?	some
+k	null	l	null
+k	null	m	m
+n	m	m	k
+l	k	k	k
+o	?	no
+n	null	o	k
+l	o	n	m
+n	null	k	l
+null	l	null	n
+o	?	some
+o	k	k	k
+l	l	m	k
+m	o	o	k
+null	k	l	k
+n	?	no
+n	null	n	n
+null	null	null	n
+null	null	null	n
+null	null	null	null
+n	?	all
+l	k	o	null
+m	o	k	k
+null	o	null	l
+k	null	k	k
+n	?	no
+m	o	l	n
+null	m	null	l
+m	m	null	m
+l	l	null	o
+k	?	no
+null	m	m	m
+m	m	null	null
+null	m	m	m
+null	m	m	m
+m	?	all
+m	null	o	k
+n	k	null	l
+k	null	null	o
+l	n	null	null
+m	?	some
+m	o	n	null
+n	m	o	m
+o	null	null	o
+l	o	m	m
+k	?	no
+null	n	n	n
+null	null	null	null
+n	n	null	n
+null	n	null	null
+n	?	all
+o	n	m	l
+null	null	n	l
+o	o	null	m
+m	m	m	m
+k	?	no
+l	l	o	n
+n	l	k	o
+l	k	m	n
+o	null	l	o
+m	?	some
+null	null	null	null
+null	null	null	o
+null	null	o	null
+null	null	null	null
+o	?	all
+l	l	l	l
+null	l	l	l
+l	l	l	l
+l	l	l	l
+l	?	all
+k	n	k	null
+null	null	null	n
+m	l	m	null
+m	null	o	l
+n	?	some
+null	o	l	n
+l	null	null	null
+l	o	o	m
+m	o	l	null
+n	?	some
+o	o	o	o
+o	o	o	o
+o	o	o	o
+o	o	o	o
+o	?	all
+m	o	n	null
+m	null	l	m
+o	n	l	n
+n	l	o	null
+k	?	no
+null	n	m	null
+null	n	o	m
+null	m	o	n
+n	m	o	m
+l	?	no
+n	n	n	n
+n	null	n	n
+null	n	n	n
+n	n	null	n
+n	?	all
+k	o	k	l
+n	o	null	n
+k	o	o	k
+o	l	l	l
+o	?	some
+m	l	k	m
+m	null	m	k
+o	k	l	null
+o	null	o	o
+k	?	some
+k	null	m	k
+m	l	k	l
+l	n	l	o
+l	null	k	l
+o	?	some
+k	o	o	null
+m	k	null	n
+o	n	k	n
+null	null	m	null
+l	?	no
+l	l	l	o
+l	l	n	null
+null	null	o	k
+null	n	l	o
+m	?	no
+l	l	null	l
+null	o	o	m
+n	l	o	k
+null	m	k	k
+o	?	some
+n	l	o	k
+l	k	k	l
+l	l	o	null
+n	o	k	m
+k	?	some
+k	k	null	k
+k	k	null	k
+k	null	k	null
+null	k	null	k
+k	?	all
+null	n	m	n
+l	m	null	n
+o	n	o	n
+n	m	n	n
+m	?	some
+m	m	m	m
+m	m	m	m
+m	m	null	m
+m	m	null	m
+m	?	all
+null	k	m	n
+o	o	m	n
+o	k	k	n
+k	n	n	o
+l	?	no
+n	m	o	n
+null	k	null	o
+n	n	m	o
+m	null	o	k
+l	?	no
+null	l	o	o
+l	null	o	o
+o	k	null	m
+m	l	o	m
+n	?	no
+m	m	null	null
+null	null	m	m
+null	m	m	m
+null	m	m	null
+m	?	all
+l	l	l	null
+null	l	l	l
+null	l	l	l
+null	l	l	null
+l	?	all
+l	l	null	null
+l	l	l	l
+null	l	null	null
+null	null	null	null
+l	?	all
+k	null	null	null
+null	null	null	null
+null	k	null	null
+null	null	null	null
+k	?	all
+null	null	null	m
+null	null	null	null
+null	null	null	null
+null	null	null	null
+m	?	all
+null	null	n	null
+n	null	null	null
+null	n	n	n
+null	n	null	null
+n	?	all
+null	null	null	null
+null	null	null	null
+null	l	null	null
+null	null	null	l
+l	?	all
+n	null	l	l
+n	o	n	o
+null	m	l	l
+m	l	null	m
+k	?	no
+m	n	o	m
+m	k	m	k
+k	null	n	m
+o	n	o	l
+n	?	some
+l	o	k	l
+null	o	m	l
+o	k	m	n
+k	n	k	n
+o	?	some
+null	null	n	null
+n	n	n	n
+n	n	n	n
+null	n	n	n
+n	?	all
+null	null	null	null
+null	null	null	null
+null	m	m	null
+null	null	null	null
+m	?	all
+null	o	null	null
+null	null	null	o
+null	null	null	null
+null	o	o	null
+o	?	all
+n	n	n	n
+n	n	n	n
+n	null	n	n
+n	null	n	n
+n	?	all
+k	m	m	m
+n	m	l	null
+null	null	n	m
+l	n	n	k
+o	?	no
+null	m	null	null
+null	null	m	m
+m	m	null	m
+m	m	m	null
+m	?	all
+m	n	n	n
+k	m	k	m
+null	m	o	o
+null	o	n	n
+l	?	no
+l	l	m	o
+l	o	o	l
+n	n	null	null
+l	n	m	m
+k	?	no
+l	o	k	n
+n	n	k	n
+k	o	n	k
+o	m	o	m
+o	?	some
+k	l	o	null
+m	n	l	o
+o	l	m	m
+n	null	o	o
+o	?	some
+null	null	o	k
+n	null	k	o
+null	null	null	m
+o	o	o	n
+k	?	some
+null	k	null	null
+k	k	null	null
+null	null	k	null
+null	k	null	k
+k	?	all
+l	k	null	m
+null	n	null	k
+null	o	o	l
+l	l	null	o
+o	?	some
+k	k	k	null
+k	k	k	k
+k	k	null	k
+null	k	k	null
+k	?	all
+m	n	n	null
+m	n	null	n
+n	null	null	n
+m	m	l	null
+k	?	no
+n	null	l	m
+m	k	n	k
+m	o	null	m
+n	n	k	k
+k	?	some
+null	l	n	null
+m	n	null	o
+m	l	l	o
+l	o	l	m
+k	?	no
+null	n	null	n
+n	null	n	null
+null	n	n	null
+n	n	null	n
+n	?	all
+null	k	k	k
+k	k	k	k
+k	k	null	k
+k	k	null	k
+k	?	all
+k	l	null	n
+o	o	n	k
+n	null	k	l
+o	k	n	n
+m	?	no
+n	k	n	null
+n	l	m	null
+null	m	k	l
+l	k	l	k
+o	?	no
+null	n	n	n
+n	o	l	o
+o	n	null	l
+o	k	m	n
+o	?	some
+o	null	o	n
+null	o	o	l
+null	o	null	null
+n	null	k	l
+m	?	no
+k	o	o	k
+k	m	m	l
+null	l	null	null
+l	l	o	k
+n	?	no
+l	k	n	l
+m	k	k	l
+l	l	l	k
+k	m	n	n
+o	?	no
+o	o	n	m
+n	null	o	k
+l	l	null	m
+m	l	k	l
+m	?	some
+o	null	o	o
+o	o	null	o
+null	o	o	o
+null	o	null	o
+o	?	all
+l	null	o	l
+l	o	o	null
+k	m	null	n
+n	n	o	null
+m	?	some
+null	null	null	l
+l	null	null	null
+null	null	null	l
+null	null	null	null
+l	?	all
+n	l	null	null
+m	n	null	k
+m	m	n	m
+m	l	l	null
+n	?	some
+k	k	m	n
+k	n	n	k
+k	n	k	m
+null	null	k	m
+o	?	no
+n	m	n	null
+l	n	o	o
+n	o	null	l
+m	m	o	o
+k	?	no
+l	l	n	k
+k	m	null	k
+m	k	k	m
+k	null	m	m
+o	?	no
+o	m	n	m
+k	null	null	null
+o	o	o	o
+m	k	null	n
+o	?	some
+m	null	m	m
+null	m	m	m
+null	m	m	null
+m	m	m	null
+m	?	all
+m	null	null	null
+m	null	null	null
+null	null	null	null
+null	null	null	null
+m	?	all
+null	m	n	null
+l	l	o	o
+null	null	n	l
+l	n	null	l
+k	?	no
+o	k	m	o
+m	n	k	l
+o	m	n	k
+k	null	l	k
+k	?	some
+k	null	k	null
+k	null	null	k
+null	null	null	null
+null	k	null	null
+k	?	all
+m	null	k	l
+l	o	m	m
+n	n	o	null
+l	o	m	n
+o	?	some
+o	l	null	n
+l	m	l	n
+o	l	l	l
+m	m	n	o
+k	?	no
+null	n	o	n
+n	m	n	l
+m	m	null	m
+null	n	null	m
+k	?	no
+l	l	m	m
+o	null	m	l
+null	o	l	m
+n	n	null	l
+m	?	some
+null	null	l	k
+n	n	n	o
+null	k	n	null
+l	k	o	null
+m	?	no
+m	m	null	null
+m	m	null	m
+null	m	m	m
+null	m	m	null
+m	?	all
+m	m	m	m
+m	m	m	m
+m	m	m	m
+m	m	null	m
+m	?	all
+null	null	null	null
+null	null	null	null
+null	null	null	o
+null	null	null	o
+o	?	all
+null	null	o	k
+n	n	k	n
+null	m	k	k
+k	m	o	m
+l	?	no
+l	null	null	n
+l	k	m	n
+o	m	null	k
+null	m	o	m
+k	?	some
+null	l	k	o
+null	l	null	null
+m	l	null	n
+l	m	o	o
+k	?	some
+n	n	n	n
+n	null	n	n
+n	n	n	n
+n	n	n	n
+n	?	all
+o	o	null	m
+o	l	null	n
+l	n	k	l
+n	o	l	m
+k	?	some
+m	m	n	o
+null	m	n	o
+m	null	o	n
+m	m	m	o
+k	?	no
+null	null	null	null
+null	null	null	null
+null	null	o	null
+null	null	null	null
+o	?	all
+m	m	m	m
+m	m	m	m
+m	m	null	m
+m	m	m	m
+m	?	all
+l	null	m	m
+null	k	null	l
+m	n	n	k
+l	o	l	null
+m	?	some
+o	null	o	m
+null	k	o	null
+m	k	n	n
+n	null	n	null
+o	?	some
+o	n	null	o
+l	l	l	k
+n	l	n	m
+l	n	null	k
+l	?	some
+o	o	n	o
+null	l	m	o
+n	m	m	null
+n	null	n	m
+k	?	no
+l	null	null	k
+n	k	n	n
+m	m	m	m
+l	m	m	k
+o	?	no
+n	null	n	null
+null	k	k	null
+l	l	k	l
+m	m	l	m
+o	?	no
+null	null	null	o
+o	o	o	null
+o	null	null	o
+null	null	o	o
+o	?	all
+null	null	l	l
+null	null	l	null
+l	null	l	null
+null	null	null	null
+l	?	all
+m	l	m	null
+m	m	n	o
+n	n	m	l
+k	l	o	null
+k	?	some
+k	n	n	n
+null	null	l	l
+n	l	null	null
+l	null	l	k
+m	?	no
+m	n	l	null
+l	null	k	m
+null	null	n	n
+l	o	null	k
+l	?	some
+o	null	null	o
+null	o	null	o
+o	o	o	null
+null	o	null	null
+o	?	all
+null	l	n	null
+n	null	null	k
+k	null	o	l
+l	n	null	n
+m	?	no
+k	m	null	n
+l	o	n	k
+k	o	k	m
+m	n	o	o
+m	?	some
+k	k	m	o
+l	l	null	k
+l	k	o	null
+k	k	l	o
+n	?	no
+null	null	null	null
+o	o	null	o
+null	null	null	o
+null	null	o	null
+o	?	all
+m	null	m	l
+null	null	n	l
+l	null	o	m
+o	m	null	null
+k	?	no
+o	null	n	null
+null	k	k	k
+null	o	m	m
+n	l	m	k
+l	?	some
+n	k	n	null
+o	n	null	m
+o	k	m	m
+k	m	k	l
+o	?	some
+o	k	l	k
+k	o	n	l
+m	l	n	o
+l	n	null	l
+o	?	some
+m	null	m	null
+null	null	null	null
+null	null	null	null
+null	null	null	null
+m	?	all
+o	l	l	o
+o	n	null	n
+n	n	null	k
+o	m	null	l
+n	?	some
+l	l	k	l
+m	null	null	m
+l	n	l	k
+m	n	l	n
+o	?	no
+l	o	k	m
+k	n	o	o
+m	m	o	m
+null	n	k	n
+m	?	some
+o	k	k	k
+n	k	n	o
+null	o	k	null
+k	k	n	l
+m	?	no
+l	null	null	l
+null	l	l	l
+l	l	l	null
+l	l	l	l
+l	?	all
+n	o	null	m
+null	o	null	n
+n	null	l	l
+k	null	o	k
+o	?	some
+n	k	n	k
+o	o	n	n
+k	m	o	k
+null	o	o	k
+k	?	some
+k	l	n	k
+n	null	null	m
+n	l	m	k
+k	k	o	m
+l	?	some
+l	o	null	n
+m	n	n	l
+l	m	n	n
+l	n	o	o
+k	?	no
+o	o	o	null
+o	null	o	o
+o	null	null	null
+o	o	null	null
+o	?	all
+null	k	null	l
+m	k	n	l
+n	o	n	o
+o	null	o	o
+n	?	some
+m	null	null	m
+null	null	m	null
+null	null	m	null
+null	null	null	null
+m	?	all
+k	null	n	null
+n	n	null	null
+o	m	null	o
+k	n	o	k
+l	?	no
+null	l	l	null
+null	l	null	null
+l	l	null	l
+l	l	null	null
+l	?	all
+l	l	l	l
+l	null	l	l
+l	l	l	l
+l	l	l	l
+l	?	all
+m	l	k	null
+n	n	l	o
+l	o	k	l
+o	k	k	null
+o	?	some
+null	k	null	null
+null	k	k	null
+k	k	null	k
+k	k	null	k
+k	?	all
+o	o	o	o
+o	null	o	o
+o	o	o	o
+o	o	o	null
+o	?	all
+o	null	k	null
+o	null	k	o
+null	n	l	n
+o	k	k	o
+m	?	no
+o	n	k	l
+n	l	null	o
+m	k	null	k
+n	k	l	n
+o	?	some
+k	null	null	null
+null	null	null	k
+k	k	null	k
+null	null	k	null
+k	?	all
+m	k	m	null
+l	l	m	n
+null	m	n	m
+null	m	m	k
+o	?	no
+k	o	k	null
+n	null	m	m
+null	m	null	m
+null	m	k	m
+l	?	no
+null	k	null	null
+l	null	n	l
+k	null	k	k
+n	k	null	l
+m	?	no
+m	n	m	o
+k	m	null	m
+null	null	m	k
+m	n	o	k
+l	?	no
+n	o	n	k
+null	m	null	null
+o	o	null	m
+m	n	m	null
+l	?	no
+o	l	o	m
+null	l	m	m
+n	l	n	o
+n	o	n	n
+k	?	no
+l	null	n	k
+m	l	o	n
+null	o	l	k
+o	k	m	null
+n	?	some
+o	null	null	null
+o	o	null	null
+null	o	null	o
+null	null	null	o
+o	?	all
+n	n	k	o
+m	null	null	n
+o	o	k	o
+n	o	o	m
+l	?	no
+null	null	null	l
+null	l	n	null
+l	n	n	o
+l	null	null	o
+k	?	no
+n	k	k	l
+null	n	m	k
+k	l	n	n
+m	n	m	null
+k	?	some
+m	m	l	k
+n	n	l	n
+m	m	k	null
+null	m	l	k
+o	?	no
+null	m	m	m
+null	null	null	null
+null	null	m	null
+null	null	null	null
+m	?	all
+m	n	null	null
+m	n	m	null
+n	m	o	o
+n	null	l	n
+k	?	no
+null	n	m	n
+n	m	l	k
+m	k	k	n
+l	null	k	o
+k	?	some
+n	null	null	n
+o	l	n	k
+null	null	n	o
+n	n	k	o
+k	?	some
+m	o	l	m
+null	o	o	o
+m	k	m	n
+o	k	k	l
+m	?	some
+l	null	null	l
+null	l	null	null
+l	null	null	l
+l	l	l	l
+l	?	all
+null	o	n	l
+m	m	m	m
+n	null	o	m
+null	null	n	n
+k	?	no
+n	n	n	n
+n	n	n	n
+n	null	n	n
+n	n	n	null
+n	?	all
+o	null	l	l
+m	l	k	o
+o	m	n	k
+n	null	l	o
+o	?	some
+o	o	m	null
+o	n	m	null
+m	l	o	l
+o	n	o	o
+k	?	no
+n	n	k	n
+o	l	l	k
+n	o	n	m
+null	n	k	m
+n	?	some
+null	k	null	k
+k	k	k	null
+null	null	k	null
+null	null	null	k
+k	?	all
+o	n	m	k
+o	o	m	m
+k	n	k	o
+o	null	null	k
+o	?	some
+n	null	null	null
+n	k	null	null
+o	m	null	l
+m	n	null	m
+l	?	some
+null	k	k	k
+k	k	null	null
+k	k	k	null
+k	k	k	k
+k	?	all
+n	l	m	m
+o	l	l	l
+m	m	null	n
+m	l	o	n
+m	?	some
+n	k	null	o
+null	l	n	o
+null	n	null	l
+m	l	n	n
+o	?	some
+n	l	n	l
+k	l	n	m
+m	l	k	n
+l	m	l	k
+o	?	no
+o	null	l	l
+l	o	m	k
+null	n	l	k
+l	l	m	n
+k	?	some
+null	o	m	k
+m	n	n	k
+m	l	n	o
+o	m	m	m
+k	?	some
+null	k	null	null
+null	null	null	null
+null	null	null	null
+null	k	k	null
+k	?	all
+null	k	k	null
+k	null	k	k
+k	null	k	k
+null	k	k	k
+k	?	all
+null	null	null	null
+null	null	null	null
+null	null	null	n
+null	null	null	n
+n	?	all
+l	l	null	null
+null	null	l	null
+l	l	null	null
+null	l	l	null
+l	?	all
+null	null	null	k
+o	n	l	k
+null	o	null	o
+o	o	m	null
+l	?	some
+n	null	n	n
+null	null	null	null
+n	n	n	n
+null	n	n	n
+n	?	all
+n	n	n	o
+l	n	l	m
+null	k	m	k
+n	k	l	m
+n	?	some
+l	null	o	null
+k	l	k	k
+l	o	l	n
+l	o	o	l
+l	?	some
+o	null	null	null
+o	null	null	null
+null	null	null	null
+o	null	o	o
+o	?	all
+n	n	m	null
+o	k	n	k
+n	m	null	null
+k	null	o	m
+l	?	no
+o	o	o	null
+o	o	o	o
+o	o	null	o
+null	null	o	o
+o	?	all
+null	n	null	null
+null	null	null	n
+null	null	n	null
+n	null	null	null
+n	?	all
+k	null	null	null
+null	k	null	null
+null	k	null	null
+null	null	null	null
+k	?	all
+m	null	null	l
+k	l	l	n
+m	n	k	null
+null	n	k	l
+o	?	no
+m	null	l	n
+k	n	n	l
+m	n	m	l
+k	l	m	k
+o	?	no
+l	o	k	o
+o	n	n	l
+k	k	null	n
+k	null	null	k
+m	?	no
+null	k	k	null
+null	null	null	k
+null	null	k	null
+null	k	k	null
+k	?	all
+n	n	k	n
+l	m	m	null
+n	k	n	n
+l	k	null	m
+o	?	no
+null	null	n	o
+null	o	o	null
+null	o	null	null
+l	null	o	o
+o	?	some
+null	null	n	n
+n	n	null	null
+null	null	null	n
+n	n	null	n
+n	?	all
+null	k	k	o
+k	l	o	k
+o	k	null	o
+o	l	n	k
+n	?	some
+k	k	k	k
+null	k	k	k
+k	k	k	null
+k	k	k	k
+k	?	all
+null	o	null	o
+null	null	null	null
+o	null	null	null
+null	null	o	null
+o	?	all
+l	l	l	l
+l	l	l	l
+l	l	l	l
+l	null	l	l
+l	?	all
+l	null	n	n
+m	o	n	o
+o	null	null	m
+m	n	null	null
+k	?	no
+o	l	n	o
+l	m	m	m
+n	l	o	o
+l	l	n	o
+m	?	some
+null	null	o	l
+null	l	k	null
+o	n	null	o
+o	o	n	l
+m	?	no
+k	k	null	k
+null	k	k	null
+k	null	null	k
+k	k	k	null
+k	?	all
+o	m	o	k
+o	n	l	o
+n	n	null	k
+null	null	null	l
+n	?	some
+null	null	null	null
+null	null	null	null
+null	null	m	null
+null	null	null	m
+m	?	all
+null	null	null	null
+null	k	k	k
+null	k	k	k
+null	null	null	null
+k	?	all
+n	k	l	null
+k	n	l	o
+n	o	o	null
+n	m	k	n
+k	?	some
+l	l	l	l
+l	l	l	l
+null	l	l	l
+l	l	l	l
+l	?	all
+m	k	null	k
+m	k	m	k
+o	m	null	o
+n	n	m	n
+l	?	no
+k	k	k	null
+l	l	m	null
+l	k	m	n
+m	k	k	o
+o	?	some
+k	l	null	l
+n	null	n	l
+n	o	n	n
+m	m	null	n
+m	?	some
+m	null	k	k
+l	m	null	n
+n	k	l	n
+l	n	k	o
+k	?	some
+null	o	m	o
+null	l	m	null
+l	null	null	m
+o	o	m	n
+k	?	no
+k	k	k	k
+k	k	k	k
+null	k	k	k
+k	k	k	k
+k	?	all
+n	m	n	m
+m	null	l	null
+n	m	null	m
+k	null	null	l
+o	?	no
+n	m	n	m
+null	n	null	o
+n	null	k	m
+k	null	o	l
+l	?	some
+null	null	null	null
+null	null	null	null
+o	o	null	null
+null	null	o	o
+o	?	all
+m	m	o	l
+k	l	l	m
+o	k	l	n
+null	o	o	l
+m	?	some
+o	null	l	o
+o	null	o	m
+n	l	n	o
+o	m	k	l
+n	?	some
+k	null	null	null
+null	null	k	null
+null	null	null	null
+k	null	null	null
+k	?	all
+m	k	k	l
+m	n	l	l
+n	null	m	k
+m	n	o	m
+l	?	some
+null	null	null	null
+n	null	null	null
+null	null	null	null
+null	n	null	null
+n	?	all
+null	m	m	n
+k	o	m	k
+n	n	null	k
+o	n	o	null
+l	?	no
+n	n	l	n
+n	o	k	l
+o	n	o	l
+m	o	o	o
+k	?	some
+o	o	k	n
+m	k	n	k
+l	null	m	null
+null	o	k	n
+o	?	some
+o	m	null	o
+k	n	o	m
+o	o	n	l
+n	k	k	null
+l	?	some
+o	null	null	n
+null	m	null	o
+n	k	n	l
+null	l	o	l
+m	?	some
+o	l	m	k
+l	k	k	o
+k	null	o	null
+null	o	o	l
+o	?	some
+n	l	o	null
+null	n	o	k
+n	l	o	null
+l	null	k	o
+m	?	no
+null	null	null	k
+k	o	k	o
+n	k	n	k
+n	null	l	null
+m	?	no
+m	m	m	null
+m	m	m	m
+m	null	m	m
+m	m	null	m
+m	?	all
+l	l	l	l
+l	l	l	l
+l	l	null	l
+l	l	l	l
+l	?	all
+null	n	null	null
+null	null	null	null
+null	null	null	null
+null	n	null	n
+n	?	all
+o	o	null	null
+null	o	o	null
+null	null	null	o
+null	null	null	o
+o	?	all
+n	n	n	n
+n	n	n	n
+n	n	null	n
+n	n	n	n
+n	?	all
+o	null	m	null
+k	o	m	m
+o	m	n	o
+o	n	o	m
+o	?	some
+l	null	l	null
+l	l	l	l
+l	l	l	null
+null	l	l	l
+l	?	all
+m	n	k	null
+o	n	null	o
+m	null	k	o
+o	o	null	n
+l	?	no
+o	o	o	k
+l	o	n	n
+n	o	k	l
+null	o	o	m
+n	?	some
+null	k	null	null
+null	null	k	k
+null	k	k	k
+null	null	k	k
+k	?	all
+o	k	k	k
+m	m	null	o
+k	m	k	k
+null	n	o	k
+k	?	some
+l	o	null	null
+k	null	o	l
+l	o	k	null
+null	null	k	l
+n	?	no
+null	null	null	l
+null	null	null	null
+null	null	null	null
+null	null	l	null
+l	?	all
+null	k	k	null
+k	null	k	k
+k	null	null	null
+null	k	k	null
+k	?	all
+m	null	o	n
+null	o	o	o
+k	m	k	null
+m	null	n	n
+l	?	no
+o	l	null	n
+k	o	n	m
+n	l	l	null
+k	null	l	o
+m	?	some
+null	null	null	null
+null	null	null	null
+null	null	null	null
+null	n	null	null
+n	?	all
+o	k	n	k
+o	k	l	m
+m	n	l	o
+l	n	null	n
+l	?	some
+null	n	m	o
+k	k	o	o
+k	null	n	m
+o	o	k	n
+o	?	some
+n	k	null	n
+n	o	l	m
+m	o	n	k
+o	null	l	l
+m	?	some
+l	null	m	n
+l	n	m	o
+m	n	l	o
+n	l	n	l
+k	?	no
+o	null	null	o
+o	o	o	o
+o	null	o	o
+o	o	o	o
+o	?	all
+m	n	n	n
+null	l	n	l
+o	o	null	null
+n	k	m	o
+n	?	some
+n	l	o	m
+l	l	m	o
+m	m	m	n
+l	m	m	m
+k	?	no
+k	m	o	n
+l	n	n	m
+null	n	l	o
+k	k	l	k
+m	?	some
+o	n	n	m
+n	k	n	k
+null	o	l	null
+k	o	n	null
+k	?	some
+l	m	n	n
+null	k	k	o
+k	n	k	m
+l	m	n	k
+n	?	some
+l	null	k	null
+o	m	n	o
+m	n	o	o
+k	k	o	k
+m	?	some
+o	o	m	n
+n	null	n	n
+null	null	n	null
+l	null	o	l
+k	?	no
+null	m	o	m
+m	o	null	m
+m	l	l	m
+null	null	m	n
+k	?	no
+null	null	m	k
+n	k	l	k
+n	m	null	k
+l	l	m	m
+o	?	no
+k	k	null	o
+o	o	m	k
+m	n	o	n
+l	n	n	m
+k	?	some
+n	n	n	n
+n	n	n	n
+n	n	n	null
+n	n	n	n
+n	?	all
+n	n	k	m
+n	l	o	o
+k	k	o	o
+m	null	o	k
+k	?	some
+null	null	m	null
+null	null	null	null
+m	m	m	m
+null	null	m	null
+m	?	all
+n	k	m	o
+l	n	null	l
+l	n	o	null
+k	o	l	m
+k	?	some
+null	null	null	null
+null	null	null	null
+null	null	null	null
+null	null	m	m
+m	?	all
+null	null	null	null
+null	null	k	null
+null	null	null	null
+null	null	null	null
+k	?	all
+m	null	null	k
+m	n	l	null
+m	k	k	n
+k	n	o	m
+o	?	some
+n	n	o	o
+n	l	l	null
+n	l	o	n
+k	null	o	k
+o	?	some
+l	null	l	null
+l	l	l	l
+null	l	l	l
+l	l	null	l
+l	?	all
+m	k	o	m
+o	null	l	l
+l	null	null	null
+k	l	k	k
+n	?	no
+k	m	n	m
+l	m	l	n
+k	k	null	n
+null	null	n	k
+m	?	some
+l	m	m	m
+null	l	m	m
+n	null	m	null
+o	m	m	o
+k	?	no
+null	o	null	null
+null	null	o	null
+o	null	o	o
+null	null	null	o
+o	?	all
+null	null	o	k
+o	n	n	k
+null	k	n	l
+n	null	null	null
+o	?	some
+null	null	null	m
+o	m	l	o
+n	l	null	null
+n	null	m	null
+k	?	no
+null	null	l	null
+null	l	l	null
+null	l	l	l
+l	l	l	null
+l	?	all
+o	m	n	n
+null	o	null	n
+n	m	k	o
+k	o	o	n
+l	?	no
+n	null	n	null
+m	o	k	m
+l	n	n	null
+null	k	null	null
+n	?	some
+l	null	null	null
+l	k	m	n
+null	null	null	null
+null	m	k	l
+m	?	some
+null	o	m	n
+o	m	n	m
+n	n	n	n
+n	l	null	l
+k	?	no
+m	l	o	n
+m	l	null	m
+l	m	n	m
+l	m	l	null
+o	?	some
+k	k	k	n
+k	k	n	k
+l	n	null	l
+l	k	l	n
+o	?	no
+null	n	n	n
+n	n	n	n
+n	n	n	n
+n	n	null	n
+n	?	all
+k	null	k	null
+k	null	null	null
+null	null	null	null
+null	k	null	null
+k	?	all
+n	n	n	n
+n	null	n	n
+n	n	null	n
+n	null	n	n
+n	?	all
+k	k	k	k
+k	k	k	k
+null	null	k	null
+null	k	k	k
+k	?	all
+m	m	null	null
+null	null	null	m
+null	null	null	null
+null	null	null	null
+m	?	all
+k	n	null	k
+null	l	l	n
+n	n	n	null
+k	o	k	k
+o	?	some
+m	m	k	k
+o	o	m	null
+null	l	m	k
+o	o	k	l
+o	?	some
+null	m	o	m
+null	null	o	k
+null	l	o	k
+null	o	k	null
+n	?	no
+m	m	m	o
+k	l	k	l
+o	o	null	m
+null	k	o	l
+n	?	no
+null	m	k	n
+k	null	null	null
+m	l	k	m
+m	o	m	n
+n	?	some
+null	null	l	l
+null	null	l	null
+null	null	null	null
+l	null	null	null
+l	?	all
+n	k	null	n
+o	null	k	k
+null	n	l	null
+k	n	l	k
+m	?	no
+null	null	l	n
+n	l	null	l
+l	k	l	m
+n	null	k	k
+o	?	no
+null	null	k	n
+m	n	o	null
+m	m	n	null
+m	m	n	m
+l	?	no
+null	null	null	n
+n	null	null	null
+null	null	n	null
+null	null	null	n
+n	?	all
+null	k	null	k
+null	null	null	k
+k	k	null	null
+null	k	k	null
+k	?	all
+null	k	m	n
+null	l	n	o
+k	null	null	null
+k	null	n	l
+k	?	some
+k	k	k	k
+k	k	k	k
+k	k	k	k
+k	k	k	k
+k	?	all
+l	l	l	null
+l	null	null	null
+null	l	null	null
+null	null	null	null
+l	?	all
+null	l	null	null
+null	null	null	l
+l	null	null	l
+l	null	null	l
+l	?	all
+o	l	o	null
+o	l	n	null
+m	l	l	l
+m	m	n	l
+k	?	no
+null	null	l	k
+l	l	null	m
+null	l	null	m
+m	l	l	k
+l	?	some
+m	n	null	o
+o	l	o	n
+o	n	k	l
+m	n	n	o
+l	?	some
+o	k	n	k
+k	m	m	l
+o	l	n	o
+null	m	o	o
+m	?	some
+m	k	null	l
+o	n	l	k
+l	o	n	k
+o	null	o	o
+m	?	some
+k	null	k	n
+k	n	k	o
+null	o	m	o
+o	n	o	k
+l	?	no
+n	n	n	n
+n	n	null	n
+null	n	n	n
+null	null	n	null
+n	?	all
+l	m	o	l
+n	o	l	l
+null	o	l	null
+n	m	o	m
+k	?	no
+k	null	o	m
+m	k	k	null
+k	null	m	null
+m	null	m	o
+n	?	no
+m	n	o	m
+m	n	n	k
+o	m	null	null
+m	m	o	n
+l	?	no
+m	n	null	o
+null	k	k	m
+k	k	n	n
+n	k	null	m
+l	?	no
+l	l	null	m
+k	o	k	o
+k	m	k	o
+null	null	m	k
+n	?	no
+k	l	m	o
+k	o	null	l
+m	k	n	o
+k	m	k	l
+m	?	some
+n	null	null	n
+o	o	m	n
+m	m	null	null
+k	o	o	m
+l	?	no
+l	null	l	null
+null	l	l	l
+null	l	l	l
+l	null	l	l
+l	?	all
+k	l	null	null
+o	null	k	l
+o	null	k	null
+o	o	n	k
+o	?	some
+n	m	m	null
+o	n	l	n
+o	k	k	l
+null	null	o	null
+m	?	some
+null	null	null	null
+null	null	m	null
+null	null	null	null
+null	null	null	null
+m	?	all
+n	l	k	m
+m	k	n	null
+m	null	k	null
+m	null	o	null
+k	?	some
+null	m	l	k
+o	o	l	o
+m	k	m	m
+k	k	k	m
+n	?	no
+null	null	null	null
+null	null	null	null
+m	m	m	null
+m	m	null	m
+m	?	all
+n	n	n	n
+n	null	n	null
+null	null	n	n
+n	n	n	null
+n	?	all
+n	n	k	l
+m	null	n	k
+m	m	o	n
+m	o	l	k
+k	?	some
+null	null	null	null
+l	null	null	l
+null	null	null	null
+null	null	null	null
+l	?	all
+o	null	k	m
+n	k	m	o
+o	m	k	o
+null	n	n	m
+l	?	no
+m	m	o	n
+null	m	l	null
+o	m	n	m
+null	l	l	n
+n	?	some
+n	null	l	n
+o	n	m	n
+m	null	o	l
+m	n	m	m
+k	?	no
+k	null	k	n
+null	null	n	null
+l	null	n	null
+k	m	n	k
+o	?	no
+m	null	m	null
+m	m	m	m
+m	m	m	m
+m	null	m	m
+m	?	all
+k	k	l	o
+null	o	o	k
+k	m	n	o
+o	o	null	n
+n	?	some
+n	l	m	null
+null	o	k	n
+k	n	m	n
+n	k	m	m
+l	?	some
+null	null	null	n
+n	n	null	n
+n	n	null	n
+n	n	n	null
+n	?	all
+m	o	n	k
+k	n	m	null
+n	n	null	null
+o	n	k	m
+m	?	some
+m	null	null	null
+null	m	null	null
+null	null	m	null
+null	null	null	null
+m	?	all
+n	k	null	null
+l	k	o	null
+null	n	k	l
+o	null	k	k
+m	?	no
+null	l	l	l
+l	n	o	null
+n	n	n	n
+o	null	null	m
+k	?	no
+null	n	n	null
+n	null	n	n
+n	null	null	null
+n	null	n	null
+n	?	all
+l	o	m	null
+m	o	null	n
+o	n	n	null
+l	o	n	n
+k	?	no
+n	o	null	l
+o	m	o	m
+null	o	n	m
+m	n	l	l
+k	?	no
+null	k	l	l
+m	n	o	n
+null	o	l	m
+m	l	o	n
+o	?	some
+k	n	m	o
+o	m	m	o
+null	n	null	o
+l	l	m	l
+k	?	some
+m	l	l	null
+k	m	m	m
+l	k	o	null
+m	null	o	k
+n	?	no
+l	null	n	m
+n	null	k	n
+k	n	m	o
+k	m	n	null
+l	?	some
+l	k	n	n
+k	m	m	null
+m	l	k	l
+m	k	m	m
+o	?	no
+null	null	n	null
+null	null	n	null
+null	null	n	null
+null	null	n	null
+n	?	all
+l	l	l	k
+o	null	k	o
+l	l	k	null
+n	k	l	null
+m	?	no
+k	m	o	o
+null	null	n	n
+o	l	k	null
+k	o	n	l
+o	?	some
+k	n	l	o
+l	l	m	n
+k	null	m	n
+k	l	o	n
+k	?	some
+null	l	null	n
+null	m	l	m
+null	m	l	m
+o	o	n	l
+k	?	no
+o	m	n	null
+k	k	null	o
+null	o	m	k
+n	m	k	m
+m	?	some
+n	m	o	null
+m	o	m	m
+m	null	o	null
+n	m	n	m
+k	?	no
+m	n	n	k
+l	null	o	o
+o	null	null	n
+k	null	m	n
+o	?	some
+l	n	m	k
+l	o	m	o
+k	n	m	m
+n	o	null	n
+m	?	some
+null	null	null	n
+null	n	n	null
+null	null	null	null
+null	null	null	n
+n	?	all
+l	o	o	l
+k	m	k	o
+k	null	null	l
+null	n	n	l
+n	?	some
+m	null	m	m
+m	null	null	null
+m	null	null	null
+m	m	null	null
+m	?	all
+o	n	n	o
+m	l	n	n
+o	null	o	l
+null	n	m	o
+k	?	no
+k	o	l	null
+null	null	k	l
+k	m	o	l
+l	n	null	o
+o	?	some
+k	m	k	k
+l	k	o	k
+null	o	k	m
+l	k	m	null
+n	?	no
+o	null	o	null
+null	o	null	null
+null	null	o	null
+null	null	o	null
+o	?	all
+l	n	n	n
+l	o	k	m
+m	m	l	k
+null	null	l	null
+o	?	some
+l	l	l	l
+l	l	null	null
+l	null	l	l
+l	l	l	l
+l	?	all
+null	o	o	n
+k	k	null	null
+o	m	o	null
+o	o	k	k
+l	?	no
+null	null	null	o
+o	null	null	null
+o	null	null	o
+null	null	o	null
+o	?	all
+o	n	null	n
+l	n	o	o
+k	null	null	n
+n	o	o	l
+m	?	no
+k	n	o	k
+n	o	n	n
+null	o	l	n
+n	l	null	k
+m	?	no
+o	null	o	o
+o	o	null	o
+null	o	o	null
+null	null	o	o
+o	?	all
+null	l	o	m
+l	k	l	m
+null	m	null	m
+k	o	m	null
+n	?	no
+null	m	n	o
+k	n	o	null
+k	null	k	n
+m	n	m	null
+o	?	some
+l	k	l	o
+k	null	null	o
+l	o	k	k
+k	o	o	m
+n	?	no
+null	k	o	null
+null	m	null	n
+k	k	m	n
+k	m	null	n
+l	?	no
+m	l	m	k
+null	null	null	o
+l	null	n	o
+k	n	o	o
+k	?	some
+null	null	null	n
+n	n	null	null
+n	n	null	null
+n	n	n	n
+n	?	all
+null	k	o	null
+m	null	null	null
+o	n	k	k
+k	n	o	k
+o	?	some
+k	null	n	o
+k	k	k	o
+k	null	o	n
+n	null	null	null
+l	?	no
+m	n	k	l
+null	m	n	m
+k	l	l	null
+l	k	n	m
+k	?	some
+null	k	null	null
+null	null	null	null
+k	null	k	null
+null	null	k	null
+k	?	all
+null	null	o	null
+o	null	null	o
+o	null	o	null
+null	o	null	null
+o	?	all
+k	n	m	null
+l	k	n	o
+m	k	null	o
+null	m	null	null
+k	?	some
+k	n	k	l
+l	null	o	null
+n	n	l	o
+null	n	n	null
+m	?	no
+null	null	null	null
+m	m	null	null
+null	m	m	m
+null	null	m	null
+m	?	all
+n	o	o	o
+l	l	m	null
+k	n	o	o
+k	null	n	n
+n	?	some
+null	m	l	n
+m	null	n	k
+o	o	k	o
+m	k	m	m
+o	?	some
+l	l	l	null
+n	o	n	n
+o	o	o	o
+n	n	n	o
+m	?	no
+l	n	k	l
+n	null	k	null
+m	k	l	n
+l	l	n	n
+o	?	no
+null	null	null	n
+null	null	null	null
+n	null	null	n
+null	null	null	n
+n	?	all
+n	k	null	m
+n	k	n	l
+o	n	m	null
+n	o	o	n
+n	?	some
+o	o	o	l
+l	l	k	null
+k	l	null	null
+l	l	l	k
+n	?	no
+m	m	k	n
+l	m	k	n
+k	l	null	null
+n	n	l	null
+o	?	no
+o	null	o	l
+l	n	n	m
+m	m	l	o
+null	m	l	n
+k	?	no
+o	m	o	k
+l	l	null	l
+o	k	null	o
+null	k	k	null
+n	?	no
+null	l	n	n
+n	k	l	l
+null	k	null	null
+o	null	m	l
+k	?	some
+o	m	null	n
+o	k	k	l
+o	l	o	k
+o	l	n	o
+l	?	some
+l	o	n	m
+o	null	o	l
+null	n	null	null
+m	o	n	n
+k	?	no
+l	l	l	l
+l	l	l	l
+l	null	l	l
+l	l	l	l
+l	?	all
+m	n	null	o
+m	m	m	o
+n	o	n	o
+o	l	k	m
+k	?	some
+o	l	n	n
+o	o	l	o
+n	m	l	o
+null	l	n	o
+k	?	no
+n	null	m	null
+k	l	l	k
+n	k	n	l
+m	m	m	k
+o	?	no
+o	m	o	o
+n	k	n	k
+m	o	o	o
+null	null	null	l
+m	?	some
+m	m	m	m
+null	m	m	null
+m	m	m	m
+m	m	m	m
+m	?	all
+o	o	m	n
+k	null	k	o
+k	k	l	k
+l	o	n	l
+m	?	some
+k	null	null	l
+n	l	k	k
+n	l	k	k
+n	n	null	l
+o	?	no
+m	k	o	k
+null	m	l	m
+null	o	k	m
+l	null	m	k
+n	?	no
+null	null	null	null
+null	null	null	null
+null	m	null	m
+null	null	null	null
+m	?	all
+k	n	l	l
+null	k	m	n
+n	l	n	k
+k	null	k	m
+k	?	some
+o	m	n	null
+o	null	null	n
+n	n	n	k
+null	o	l	n
+l	?	some
+null	null	null	null
+null	null	null	null
+null	m	null	null
+null	null	null	null
+m	?	all
+null	null	null	null
+null	m	null	null
+null	null	null	null
+null	null	null	m
+m	?	all
+null	o	o	o
+null	o	o	null
+null	null	null	null
+o	null	null	o
+o	?	all
+o	null	k	k
+n	m	l	l
+k	m	o	n
+n	null	m	m
+n	?	some
+k	n	o	o
+l	k	k	null
+k	k	l	n
+n	null	n	null
+m	?	no
+k	null	null	o
+m	l	null	null
+l	o	n	null
+l	null	o	k
+m	?	some
+k	n	o	null
+k	o	o	o
+o	k	n	m
+o	o	k	o
+l	?	no
+n	k	null	k
+k	l	null	k
+n	n	n	n
+l	o	o	l
+m	?	no
+k	m	l	m
+o	m	o	l
+null	n	null	null
+k	m	null	k
+n	?	some
+null	null	null	null
+n	null	null	null
+null	n	null	n
+null	null	null	null
+n	?	all
+l	l	null	n
+n	m	m	l
+m	k	m	o
+o	k	null	o
+l	?	some
+m	k	n	k
+k	o	null	o
+null	m	k	m
+n	l	n	o
+n	?	some
+k	null	n	null
+n	m	null	m
+n	n	n	k
+n	n	o	o
+n	?	some
+null	n	m	l
+m	null	n	o
+null	n	m	n
+o	n	l	null
+k	?	no
+null	m	m	m
+null	null	m	null
+m	n	o	m
+n	k	k	n
+m	?	some
+m	null	null	null
+null	m	null	m
+null	null	m	m
+m	null	null	null
+m	?	all
+l	m	k	k
+k	o	k	o
+o	m	null	o
+o	l	o	null
+n	?	no
+l	null	null	null
+null	null	null	null
+null	null	null	null
+l	null	null	null
+l	?	all
+l	m	n	null
+l	n	null	null
+m	l	k	o
+null	n	l	o
+l	?	some
+null	l	m	m
+k	k	k	null
+n	k	m	l
+n	l	l	m
+o	?	no
+n	o	l	m
+l	null	l	m
+n	null	n	m
+o	n	null	l
+k	?	no
+m	null	null	null
+m	null	null	null
+null	null	null	m
+null	null	null	m
+m	?	all
+k	k	n	k
+o	null	k	n
+o	o	o	k
+k	m	m	o
+l	?	no
+m	null	o	n
+k	m	m	o
+m	m	null	o
+o	o	null	m
+l	?	no
+l	null	o	null
+n	o	n	null
+o	k	n	o
+null	l	o	n
+o	?	some
+l	o	l	o
+null	o	k	k
+l	k	n	k
+null	null	n	n
+o	?	some
+null	null	m	m
+null	null	null	m
+null	m	m	m
+null	m	m	null
+m	?	all
+null	null	o	null
+o	null	null	null
+o	null	o	null
+null	null	null	null
+o	?	all
+null	k	n	k
+k	null	n	l
+n	k	m	m
+null	null	n	o
+o	?	some
+o	m	n	m
+k	k	k	n
+k	l	k	o
+m	k	o	n
+n	?	some
+n	n	null	n
+n	n	null	n
+null	n	n	n
+null	n	null	n
+n	?	all
+n	n	null	o
+n	m	o	k
+n	k	l	null
+m	l	null	m
+k	?	some
+l	m	n	k
+k	o	m	k
+n	m	null	n
+n	k	m	o
+k	?	some
+k	k	k	o
+m	m	m	o
+m	m	m	k
+n	k	m	k
+l	?	no
+k	null	k	null
+null	k	k	null
+null	null	null	null
+k	null	null	k
+k	?	all
+null	k	null	null
+k	null	null	k
+null	null	k	null
+k	k	null	k
+k	?	all
+l	o	n	null
+null	l	null	m
+l	n	k	l
+l	n	m	null
+k	?	some
+k	k	n	l
+k	l	l	null
+l	n	k	k
+null	o	null	m
+m	?	some
+m	null	null	null
+m	m	m	null
+null	null	null	null
+m	null	null	m
+m	?	all
+n	n	m	null
+l	l	o	null
+m	o	null	l
+o	m	null	null
+k	?	no
+l	n	o	null
+n	n	o	o
+l	n	n	o
+null	k	n	n
+m	?	no
+null	o	null	null
+null	null	null	null
+null	null	null	null
+null	null	null	o
+o	?	all
+null	k	l	m
+k	k	n	null
+o	k	l	m
+m	n	o	m
+n	?	some
+m	k	k	k
+null	l	k	l
+null	l	null	m
+k	null	l	null
+o	?	no
+o	m	null	m
+o	m	o	n
+null	k	n	n
+null	m	o	null
+k	?	some
+n	k	o	m
+n	null	o	m
+o	o	m	null
+n	o	n	m
+l	?	no
+m	m	o	null
+null	o	n	n
+n	m	n	null
+null	m	null	o
+l	?	no
+m	m	l	m
+n	l	k	l
+o	m	k	m
+m	null	null	n
+k	?	some
+l	k	k	o
+k	null	n	k
+n	n	k	n
+k	l	null	l
+m	?	no
+l	k	null	k
+l	o	o	n
+o	o	m	k
+o	n	n	n
+m	?	some
+l	o	m	l
+o	null	k	o
+o	o	o	k
+null	null	o	null
+k	?	some
+o	o	null	l
+m	n	k	m
+l	null	m	null
+n	o	n	l
+l	?	some
+null	l	null	null
+l	null	l	l
+l	l	l	l
+null	null	l	l
+l	?	all
+k	o	null	k
+o	k	n	m
+k	o	null	k
+null	l	k	l
+o	?	some
+o	k	null	n
+o	k	null	null
+k	null	m	o
+n	null	k	n
+l	?	no
+k	k	null	null
+k	null	k	k
+k	k	k	k
+k	k	null	k
+k	?	all
+null	null	null	null
+null	null	null	null
+null	null	l	null
+null	null	null	null
+l	?	all
+k	l	m	null
+l	n	null	m
+l	k	k	n
+o	o	o	l
+m	?	some
+null	null	null	o
+o	o	o	null
+null	null	o	null
+o	o	null	o
+o	?	all
+n	null	o	null
+n	o	n	l
+m	null	m	n
+null	n	n	l
+k	?	no
+k	n	null	n
+n	l	m	l
+o	m	n	k
+l	m	null	null
+o	?	some
+l	l	k	o
+m	null	l	m
+k	k	l	k
+k	null	l	m
+o	?	some
+k	null	n	m
+n	k	l	n
+null	m	n	k
+m	n	k	l
+o	?	no
+n	o	k	n
+n	k	m	null
+n	m	m	l
+null	null	n	l
+n	?	some
+n	null	null	n
+null	n	n	null
+null	n	null	n
+null	null	null	null
+n	?	all
+k	k	k	null
+k	null	k	k
+k	k	k	null
+k	null	null	k
+k	?	all
+null	null	o	null
+null	null	null	null
+null	null	null	null
+null	null	null	null
+o	?	all
+n	o	null	null
+k	k	k	l
+k	o	null	null
+n	n	null	l
+m	?	no
+m	o	k	k
+o	k	n	k
+o	k	l	o
+o	m	m	null
+n	?	some
+o	l	n	k
+m	null	l	m
+m	l	l	null
+k	l	n	null
+n	?	some
+k	null	m	n
+m	m	l	o
+o	null	l	o
+k	null	o	n
+l	?	some
+n	k	n	o
+null	o	m	null
+m	k	o	l
+k	l	n	l
+o	?	some
+m	n	null	m
+null	m	n	m
+null	m	k	null
+n	null	k	n
+m	?	some
+k	l	o	null
+k	o	n	m
+null	o	l	o
+m	l	k	m
+o	?	some
+null	n	null	n
+n	k	o	k
+o	k	n	null
+m	null	o	k
+n	?	some
+m	m	k	m
+m	null	o	o
+m	null	k	k
+n	k	m	o
+n	?	some
+null	o	o	o
+o	null	null	o
+null	null	null	null
+null	null	null	null
+o	?	all
+k	m	o	o
+null	m	o	n
+l	m	m	o
+m	n	m	m
+o	?	some
+l	l	null	l
+l	l	l	null
+l	l	null	null
+l	l	l	l
+l	?	all
+n	o	o	o
+null	o	null	o
+m	o	o	m
+m	o	o	o
+l	?	no
+n	null	n	n
+null	n	n	n
+null	null	null	n
+n	n	null	n
+n	?	all
+m	n	n	m
+m	m	null	m
+n	o	m	m
+m	n	l	n
+k	?	no
+l	n	m	n
+null	m	k	k
+k	l	l	m
+o	n	o	m
+k	?	some
+null	null	null	null
+null	k	null	null
+k	k	null	null
+null	null	k	null
+k	?	all
+o	o	n	n
+o	null	k	m
+null	m	k	null
+l	n	n	k
+l	?	some
+null	o	l	o
+l	n	o	null
+o	l	o	k
+m	k	m	k
+m	?	some
+l	o	k	m
+k	null	null	l
+null	o	n	k
+n	l	o	n
+o	?	some
+l	null	o	o
+k	k	l	null
+m	o	l	k
+m	null	null	k
+n	?	no
+null	l	m	k
+n	o	k	null
+n	k	l	k
+null	o	null	null
+n	?	some
+null	null	null	null
+null	null	null	null
+n	null	null	null
+null	n	null	null
+n	?	all
+m	k	l	null
+null	m	null	n
+k	null	n	m
+m	k	n	l
+o	?	no
+null	null	null	null
+null	null	null	null
+null	null	null	null
+null	o	null	null
+o	?	all
+o	n	l	null
+m	m	o	n
+n	n	l	l
+o	o	m	m
+k	?	no
+k	k	null	k
+k	k	k	k
+k	k	k	k
+k	k	k	k
+k	?	all
+n	m	l	m
+l	k	l	m
+n	null	m	null
+m	m	k	k
+o	?	no
+k	m	k	null
+o	n	o	o
+m	k	k	l
+o	o	null	k
+m	?	some
+n	n	n	m
+l	null	m	null
+null	l	null	m
+n	null	n	n
+n	?	some
+o	k	m	l
+null	k	k	k
+null	n	n	k
+o	l	o	n
+l	?	some
+m	m	null	m
+o	o	l	l
+null	n	n	l
+o	l	null	o
+k	?	no
+o	m	m	m
+o	null	null	null
+n	m	null	m
+l	o	null	m
+k	?	no
+m	k	k	null
+k	o	l	m
+m	null	k	null
+o	l	null	l
+n	?	no
+o	null	o	o
+o	null	null	o
+o	o	null	o
+o	o	o	null
+o	?	all
+o	null	null	null
+o	null	null	o
+null	null	null	null
+null	null	o	null
+o	?	all
+k	l	o	k
+k	null	k	n
+o	n	k	o
+o	k	n	null
+m	?	no
+n	n	null	null
+n	null	n	n
+n	n	n	null
+null	n	n	n
+n	?	all
+l	m	null	k
+k	n	null	l
+n	m	m	null
+l	n	m	n
+o	?	no
+n	n	n	m
+o	l	o	l
+null	null	m	n
+m	l	o	m
+k	?	no
+l	null	o	null
+null	null	k	o
+m	k	null	k
+n	n	o	k
+l	?	some
+l	o	k	l
+n	k	o	m
+null	n	l	m
+null	k	n	l
+l	?	some
+null	l	l	l
+null	l	l	l
+null	null	null	l
+null	null	l	null
+l	?	all
+l	n	n	m
+null	l	m	l
+null	l	k	n
+n	null	k	n
+o	?	no
+k	null	null	null
+null	null	null	null
+null	null	null	null
+null	k	null	null
+k	?	all
+o	null	o	o
+o	o	o	o
+o	o	o	o
+o	o	o	o
+o	?	all
+null	null	m	n
+k	l	null	n
+null	k	null	n
+n	m	null	m
+o	?	no
+m	o	m	l
+null	null	o	l
+l	n	o	m
+o	l	n	m
+k	?	no
+null	null	null	l
+null	null	null	null
+null	null	null	null
+null	null	null	l
+l	?	all
+l	n	null	n
+m	o	m	l
+n	o	o	n
+n	n	m	o
+l	?	some
+l	o	k	l
+o	l	n	k
+k	o	n	l
+k	n	null	l
+m	?	no
+m	k	null	n
+m	null	null	n
+m	m	n	null
+k	n	o	k
+l	?	no
+null	l	null	null
+l	null	l	null
+l	null	null	l
+l	null	l	null
+l	?	all
+null	o	null	n
+k	n	null	o
+k	n	l	l
+k	l	n	null
+m	?	no
+null	null	o	k
+n	l	null	null
+null	n	k	n
+n	o	l	n
+m	?	no
+m	n	null	n
+n	n	k	k
+o	n	null	o
+m	null	null	n
+l	?	no
+m	null	l	null
+k	k	n	m
+o	null	l	null
+n	n	null	null
+l	?	some
+o	l	m	l
+n	k	m	o
+o	null	null	l
+null	k	l	o
+m	?	some
+o	k	null	o
+n	n	n	l
+null	k	m	o
+m	l	l	m
+k	?	some
+o	l	null	o
+k	null	null	l
+l	m	k	o
+o	l	o	m
+n	?	no
+o	o	n	k
+n	null	null	m
+o	null	k	k
+null	k	null	null
+l	?	no

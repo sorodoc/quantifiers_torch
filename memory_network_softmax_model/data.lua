@@ -49,7 +49,7 @@ function g_read_images(fname, f_vect, vocab, ivocab, v_dict, size)
       if not vocab[v_w[1]] then
             ivocab[#vocab + 1] = v_w[1]
             vocab[v_w[1]] = #vocab + 1
-      end        
+      end      
       v_dict[vocab[v_w[1]]] = torch.Tensor(g_params.vector_size)
       for j = 2, #v_w do
         v_dict[vocab[v_w[1]]][j - 1] = tonumber(v_w[j])
